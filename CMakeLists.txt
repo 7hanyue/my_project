@@ -1,0 +1,70 @@
+cmake_minimum_required(VERSION 3.8)
+
+project (weld)
+#PROJECT_SOURCE_DIR 和project() 配合使用
+message(STATUS "----------------#weld# ")
+message(STATUS "PROJECT_SOURCE_DIR=${PROJECT_SOURCE_DIR}")
+#告诉 CMake 在编译时自动包含当前源文件所在的目录，这样在代码中包含头文件时就不需要写完整的路径。
+set(CMAKE_INCLUDE_CURRENT_DIR ON)
+#set(CMAKE_AUTOUIC ON)
+
+##通过下面这种方式进行find_package
+set(CMAKE_PREFIX_PATH  "C:/Qt/6.5.3/msvc2019_64")
+#需要注意的是，设置了CMAKE_PREFIX_PATH时，CMake会优先在CMAKE_PREFIX_PATH指定的路径下查找。如果没有找到，CMake会进一步在默认查找路径
+#file(TO_CMAKE_PATH ${CMAKE_PREFIX_PATH} QTDIR)
+#message(STATUS "QTDIR=${QTDIR}")
+find_package(Qt6Core REQUIRED)
+find_package(Qt6Network REQUIRED)
+find_package(Qt6SerialPort REQUIRED)
+find_package(Qt6Gui REQUIRED)
+find_package(Qt6Sql REQUIRED)
+find_package(Qt6Widgets REQUIRED)
+find_package(Qt6Xml REQUIRED)
+
+message(STATUS "Qt6SerialPort_INCLUDE_DIRS=${Qt6SerialPort_INCLUDE_DIRS}")
+message(STATUS "Qt6Core_LIBRARIES=${Qt6Core_LIBRARIES}")
+message(STATUS "Qt6Network_INCLUDE_DIRS=${Qt6Network_INCLUDE_DIRS}")
+#Qt5SerialPort_LIBRARIES、Qt5Sql_LIBRARIES等这些变量变量是 CMake 在找到 Qt6 模块后默认提供的.当 find_package 正确找到 Qt6 的 SerialPort 模块后，这些变量就会被赋值
+set(QT_LIBRARIES ${Qt6SerialPort_LIBRARIES} ${Qt6Sql_LIBRARIES} ${Qt6Network_LIBRARIES} ${Qt6Core_LIBRARIES} ${Qt6Gui_LIBRARIES} ${Qt6Widgets_LIBRARIES} ${Qt6Xml_LIBRARIES})
+
+set(QT_INCLUDES ${Qt6SerialPort_INCLUDE_DIRS} ${Qt6Sql_INCLUDE_DIRS} ${Qt6Network_INCLUDE_DIRS} ${Qt6Core_INCLUDE_DIRS} ${Qt6Gui_INCLUDE_DIRS} ${Qt6Widgets_INCLUDE_DIRS} ${Qt6Xml_INCLUDE_DIRS})
+#作用域
+include_directories(${QT_INCLUDES})
+#include_directories 命令添加的目录作用域取决于它在 CMakeLists.txt 文件中的位置。要是在 add_subdirectory 命令之前调用，这些目录会对所有子项目生效；要是在 add_subdirectory 命令之后调用，仅对当前子项目生效。
+
+##通过下面这种方式进行find_package
+set(CMAKE_PREFIX_PATH  "C:/download_3rdparty/sqlite")
+find_package(SQLite3 REQUIRED)
+if(SQLite3_FOUND)
+    message(STATUS "Found SQLite3: ${SQLite3_VERSION}")
+    message(STATUS "SQLite3 Include Dir: ${SQLite3_INCLUDE_DIRS}")
+    message(STATUS "SQLite3 Libraries: ${SQLite3_LIBRARIES}")  
+else()
+    message(FATAL_ERROR "SQLite3 not found")
+endif()
+
+#作用域
+include_directories(${SQLite3_LIBRARIES})
+
+message(STATUS "CMAKE_CURRENT_SOURCE_DIR=${CMAKE_CURRENT_SOURCE_DIR}")  
+# LIBRARY_OUTPUT_DIRECTORY 在 Windows 下对 .dll 无效（但对 Linux/macOS 有效）
+set(CMAKE_LIBRARY_OUTPUT_DIRECTORY_DEBUG ${CMAKE_CURRENT_SOURCE_DIR}/build/bin)
+## 全局设置输出路径（按配置分目录）
+set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}/build/lib)  # 控制 .lib
+#在 Windows 中，.dll 文件必须通过此变量设置路径！
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}/build/bin)
+
+
+#EGMServer_INCLUDE这个变量在里面的CMakeLists中会用到
+set(EGMServer_INCLUDE ${CMAKE_CURRENT_SOURCE_DIR}/EGMServer/include)
+set(EGMServer_LIBRARIES EGMServerSharedLibs)
+
+message(STATUS "----------------#weld#end ")
+# 包含子项目。
+add_subdirectory (EGMServer)
+add_subdirectory (EGMServer/test)
+add_subdirectory (userManager)
+add_subdirectory (utility)
+
+
+

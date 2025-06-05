@@ -1,0 +1,131 @@
+{
+	"BUILD_DIR" : "E:/ceshi2/robot/weld/x64-Debug/build/EGMServer/EGMServerSharedLibs_autogen",
+	"CMAKE_BINARY_DIR" : "E:/ceshi2/robot/weld/x64-Debug/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "E:/ceshi2/robot/weld/x64-Debug/build/EGMServer",
+	"CMAKE_CURRENT_SOURCE_DIR" : "E:/ceshi2/robot/weld/EGMServer",
+	"CMAKE_EXECUTABLE" : "E:/VS2019IDE/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe",
+	"CMAKE_LIST_FILES" : [ "E:/ceshi2/robot/weld/EGMServer/CMakeLists.txt" ],
+	"CMAKE_SOURCE_DIR" : "E:/ceshi2/robot/weld",
+	"DEP_FILE" : "E:/ceshi2/robot/weld/x64-Debug/build/EGMServer/EGMServerSharedLibs_autogen/deps",
+	"DEP_FILE_RULE_NAME" : "EGMServerSharedLibs_autogen/timestamp",
+	"HEADERS" : 
+	[
+		[
+			"E:/ceshi2/robot/weld/EGMServer/include/ABBTcpServer.h",
+			"mU",
+			"",
+			null
+		],
+		[ "E:/ceshi2/robot/weld/EGMServer/include/EGMServer.h", "mU", "", null ],
+		[
+			"E:/ceshi2/robot/weld/EGMServer/include/EGMServerConfig.h",
+			"mU",
+			"",
+			null
+		],
+		[
+			"E:/ceshi2/robot/weld/EGMServer/include/IRobotServer.h",
+			"mU",
+			"",
+			null
+		],
+		[
+			"E:/ceshi2/robot/weld/EGMServer/include/ROTFCommonDefinitions.h",
+			"mU",
+			"",
+			null
+		],
+		[ "E:/ceshi2/robot/weld/EGMServer/include/globalvar.h", "mU", "", null ]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "E:/ceshi2/robot/weld/x64-Debug/build/EGMServer/EGMServerSharedLibs_autogen/include",
+	"MOC_COMPILATION_FILE" : "E:/ceshi2/robot/weld/x64-Debug/build/EGMServer/EGMServerSharedLibs_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : 
+	[
+		"EGMServerSharedLibs_EXPORTS",
+		"EGMServer_Plugin",
+		"QT_CORE_LIB",
+		"QT_GUI_LIB",
+		"QT_NETWORK_LIB",
+		"QT_SERIALPORT_LIB",
+		"QT_SQL_LIB",
+		"QT_WIDGETS_LIB",
+		"QT_XML_LIB",
+		"UNICODE",
+		"WIN32",
+		"WIN64",
+		"_ENABLE_EXTENDED_ALIGNED_STORAGE",
+		"_UNICODE",
+		"_WIN64"
+	],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"E:/ceshi2/robot/weld/x64-Debug/build/EGMServer",
+		"E:/ceshi2/robot/weld/EGMServer",
+		"C:/Qt/6.5.3/msvc2019_64/include/QtZlib",
+		"C:/download_3rdparty/sqlite/sqlite3.lib",
+		"E:/ceshi2/robot/weld/EGMServer/include",
+		"C:/Qt/6.5.3/msvc2019_64/include/QtSerialPort",
+		"C:/Qt/6.5.3/msvc2019_64/include",
+		"C:/Qt/6.5.3/msvc2019_64/include/QtCore",
+		"C:/Qt/6.5.3/msvc2019_64/include/QtSql",
+		"C:/Qt/6.5.3/msvc2019_64/include/QtNetwork",
+		"C:/Qt/6.5.3/msvc2019_64/include/QtGui",
+		"C:/Qt/6.5.3/msvc2019_64/include/QtWidgets",
+		"C:/Qt/6.5.3/msvc2019_64/include/QtXml",
+		"C:/Qt/6.5.3/msvc2019_64/mkspecs/win32-msvc"
+	],
+	"MOC_MACRO_NAMES" : 
+	[
+		"Q_OBJECT",
+		"Q_GADGET",
+		"Q_NAMESPACE",
+		"Q_NAMESPACE_EXPORT",
+		"Q_GADGET_EXPORT"
+	],
+	"MOC_OPTIONS" : [],
+	"MOC_PATH_PREFIX" : false,
+	"MOC_PREDEFS_CMD" : [],
+	"MOC_PREDEFS_FILE" : "",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : 
+	[
+		"E:/ceshi2/robot/weld/EGMServer/include/ABBTcpServer.h",
+		"E:/ceshi2/robot/weld/EGMServer/include/EGMServer.h",
+		"E:/ceshi2/robot/weld/EGMServer/include/EGMServerConfig.h",
+		"E:/ceshi2/robot/weld/EGMServer/include/IRobotServer.h",
+		"E:/ceshi2/robot/weld/EGMServer/include/ROTFCommonDefinitions.h",
+		"E:/ceshi2/robot/weld/EGMServer/include/globalvar.h",
+		"E:/ceshi2/robot/weld/EGMServer/src/ABBTcpServer.cpp",
+		"E:/ceshi2/robot/weld/EGMServer/src/EGMServer.cpp",
+		"E:/ceshi2/robot/weld/EGMServer/src/IRobotServer.cpp",
+		"E:/ceshi2/robot/weld/EGMServer/src/globalvar.cpp"
+	],
+	"MULTI_CONFIG" : false,
+	"PARALLEL" : 4,
+	"PARSE_CACHE_FILE" : "E:/ceshi2/robot/weld/x64-Debug/build/EGMServer/CMakeFiles/EGMServerSharedLibs_autogen.dir/ParseCache.txt",
+	"QT_MOC_EXECUTABLE" : "C:/Qt/6.5.3/msvc2019_64/./bin/moc.exe",
+	"QT_UIC_EXECUTABLE" : "C:/Qt/6.5.3/msvc2019_64/./bin/uic.exe",
+	"QT_VERSION_MAJOR" : 6,
+	"QT_VERSION_MINOR" : 5,
+	"SETTINGS_FILE" : "E:/ceshi2/robot/weld/x64-Debug/build/EGMServer/CMakeFiles/EGMServerSharedLibs_autogen.dir/AutogenUsed.txt",
+	"SOURCES" : 
+	[
+		[ "E:/ceshi2/robot/weld/EGMServer/src/ABBTcpServer.cpp", "mU", null ],
+		[ "E:/ceshi2/robot/weld/EGMServer/src/EGMServer.cpp", "mU", null ],
+		[ "E:/ceshi2/robot/weld/EGMServer/src/IRobotServer.cpp", "mU", null ],
+		[ "E:/ceshi2/robot/weld/EGMServer/src/globalvar.cpp", "mU", null ]
+	],
+	"UIC_OPTIONS" : [],
+	"UIC_SEARCH_PATHS" : [],
+	"UIC_SKIP" : [ "E:/ceshi2/robot/weld/EGMServer/src/EGMServer.ui" ],
+	"UIC_UI_FILES" : [],
+	"VERBOSITY" : 0
+}

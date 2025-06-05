@@ -1,0 +1,2 @@
+#pragma code_page(65001)
+2 /* CREATEPROCESS_MANIFEST_RESOURCE_ID */ 24 /* RT_MANIFEST */ "E:/ceshi2/robot/weld/x64-Debug/build/EGMServer/CMakeFiles/EGMServerSharedLibs.dir/embed.manifest"
