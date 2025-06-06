@@ -11,7 +11,7 @@ file(GLOB_RECURSE ALL_SRCS ./*.cpp)
 message(STATUS "ALL_INCLUDES=${ALL_INCLUDES}")
 message(STATUS "ALL_SRCS=${ALL_SRCS}")
 
-qt6_wrap_cpp(MocFiles ${ALL_INCLUDES} ${ALL_SRCS})
+qt5_wrap_cpp(MocFiles ${ALL_INCLUDES} ${ALL_SRCS})
 source_group("moc" FILES ${MocFiles})
 message("MocFiles" ${MocFiles})
 #message("CMAKE_BINARY_DIR" ${CMAKE_BINARY_DIR})

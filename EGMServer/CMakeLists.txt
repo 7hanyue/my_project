@@ -19,8 +19,8 @@ set(CMAKE_AUTOMOC ON) #若没有这句话，软件界面不支持信号和槽机制
 #UIC 会将 .ui 文件（Qt Designer 设计的界面文件）转换为 C++ 代码
 set(CMAKE_AUTOUIC ON)
 
-qt6_wrap_ui(ui_FILES src/EGMServer.ui)
-qt6_wrap_cpp(Mocfiles ${ALL_INCLUDES} ${ALL_SRCS})
+qt5_wrap_ui(ui_FILES src/EGMServer.ui)
+qt5_wrap_cpp(Mocfiles ${ALL_INCLUDES} ${ALL_SRCS})
 source_group("moc" FILES ${Mocfiles})
 message("Mocfiles" ${Mocfiles})
 message("ui_FILES" ${ui_FILES})

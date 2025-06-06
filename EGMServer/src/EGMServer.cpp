@@ -3,14 +3,14 @@
 #include <QDebug>
 #include <QFileDialog>
 #include <QDateTime>
-//#include <QString>
+#include <QString>
 #include <QSettings>
 
 #include <QCoreApplication>
 #include "ROTFCommonDefinitions.h"
 //#include <QMessageBox>
 #include "ABBTcpServer.h"
-
+//#pragma execution_character_set("utf-8")
 EGMServer::EGMServer(QWidget *parent)
     : QDialog(parent)
     , ui(new Ui::EGMServer)
@@ -121,7 +121,9 @@ void EGMServer::onUpdateStartOrStopListenBtnIconStatus(bool isEnable)
     {
         ui->btnStratOrStopListen->setIcon(QIcon("C:/Users/an/Desktop/blue.png"));
         ui->btnStratOrStopListen->setText(tr("开始监听"));
-    }else {
+    }
+    else 
+    {
         ui->btnStratOrStopListen->setIcon(QIcon("C:/Users/an/Desktop/red.png"));
         ui->btnStratOrStopListen->setText(tr("停止监听"));
     }

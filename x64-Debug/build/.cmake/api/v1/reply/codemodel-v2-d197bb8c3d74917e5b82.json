@@ -1,0 +1,184 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "EGMServer",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "EGMServer",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				},
+				{
+					"build" : "EGMServer/test",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "EGMServer/test",
+					"targetIndexes" : 
+					[
+						3,
+						4,
+						5
+					]
+				},
+				{
+					"build" : "userManager",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "userManager"
+				},
+				{
+					"build" : "utility",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "utility",
+					"targetIndexes" : 
+					[
+						6
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						2,
+						3,
+						4
+					],
+					"name" : "weld",
+					"targetIndexes" : 
+					[
+						3,
+						4,
+						5,
+						6
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "EGMServer",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "EGMServerSharedLibs::@01079093e882336233ee",
+					"jsonFile" : "target-EGMServerSharedLibs-Debug-abfc8304fff3cc97bdcf.json",
+					"name" : "EGMServerSharedLibs",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "EGMServerSharedLibs_autogen::@01079093e882336233ee",
+					"jsonFile" : "target-EGMServerSharedLibs_autogen-Debug-e0bf6710be9d7d4a1cf7.json",
+					"name" : "EGMServerSharedLibs_autogen",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "EGMServerSharedLibs_autogen_timestamp_deps::@01079093e882336233ee",
+					"jsonFile" : "target-EGMServerSharedLibs_autogen_timestamp_deps-Debug-c9f858355abfad21dda0.json",
+					"name" : "EGMServerSharedLibs_autogen_timestamp_deps",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "Test_EGMServer::@b5d8ff9fabe6251cbf83",
+					"jsonFile" : "target-Test_EGMServer-Debug-40737b9b86d9aeff2bfa.json",
+					"name" : "Test_EGMServer",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "Test_EGMServer_autogen::@b5d8ff9fabe6251cbf83",
+					"jsonFile" : "target-Test_EGMServer_autogen-Debug-f88bbbc6d3cb4a4b2421.json",
+					"name" : "Test_EGMServer_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "Test_EGMServer_autogen_timestamp_deps::@b5d8ff9fabe6251cbf83",
+					"jsonFile" : "target-Test_EGMServer_autogen_timestamp_deps-Debug-69400b1b4d965f04f5fc.json",
+					"name" : "Test_EGMServer_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "Utility::@23b027168f11ea0d609c",
+					"jsonFile" : "target-Utility-Debug-2d7c43c693e10b859e1b.json",
+					"name" : "Utility",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "E:/ceshi2/robot/weld/x64-Debug/build",
+		"source" : "E:/ceshi2/robot/weld"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 2
+	}
+}

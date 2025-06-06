@@ -21,12 +21,7 @@
 		"QT_SQL_LIB",
 		"QT_WIDGETS_LIB",
 		"QT_XML_LIB",
-		"UNICODE",
-		"WIN32",
-		"WIN64",
-		"_ENABLE_EXTENDED_ALIGNED_STORAGE",
-		"_UNICODE",
-		"_WIN64"
+		"WIN32"
 	],
 	"MOC_DEPEND_FILTERS" : 
 	[
@@ -39,27 +34,20 @@
 	[
 		"E:/ceshi2/robot/weld/x64-Debug/build/EGMServer/test",
 		"E:/ceshi2/robot/weld/EGMServer/test",
-		"C:/Qt/6.5.3/msvc2019_64/include/QtZlib",
 		"C:/download_3rdparty/sqlite/sqlite3.lib",
 		"E:/ceshi2/robot/weld/EGMServer/include",
-		"C:/Qt/6.5.3/msvc2019_64/include/QtSerialPort",
-		"C:/Qt/6.5.3/msvc2019_64/include",
-		"C:/Qt/6.5.3/msvc2019_64/include/QtCore",
-		"C:/Qt/6.5.3/msvc2019_64/include/QtSql",
-		"C:/Qt/6.5.3/msvc2019_64/include/QtNetwork",
-		"C:/Qt/6.5.3/msvc2019_64/include/QtGui",
-		"C:/Qt/6.5.3/msvc2019_64/include/QtWidgets",
-		"C:/Qt/6.5.3/msvc2019_64/include/QtXml",
-		"C:/Qt/6.5.3/msvc2019_64/mkspecs/win32-msvc"
+		"C:/Qt5/Qt/5.15.2/msvc2019_64/include",
+		"C:/Qt5/Qt/5.15.2/msvc2019_64/include/QtSerialPort",
+		"C:/Qt5/Qt/5.15.2/msvc2019_64/include/QtCore",
+		"C:/Qt5/Qt/5.15.2/msvc2019_64/mkspecs/win32-msvc",
+		"C:/Qt5/Qt/5.15.2/msvc2019_64/include/QtSql",
+		"C:/Qt5/Qt/5.15.2/msvc2019_64/include/QtNetwork",
+		"C:/Qt5/Qt/5.15.2/msvc2019_64/include/QtGui",
+		"C:/Qt5/Qt/5.15.2/msvc2019_64/include/QtANGLE",
+		"C:/Qt5/Qt/5.15.2/msvc2019_64/include/QtWidgets",
+		"C:/Qt5/Qt/5.15.2/msvc2019_64/include/QtXml"
 	],
-	"MOC_MACRO_NAMES" : 
-	[
-		"Q_OBJECT",
-		"Q_GADGET",
-		"Q_NAMESPACE",
-		"Q_NAMESPACE_EXPORT",
-		"Q_GADGET_EXPORT"
-	],
+	"MOC_MACRO_NAMES" : [ "Q_OBJECT", "Q_GADGET", "Q_NAMESPACE", "Q_NAMESPACE_EXPORT" ],
 	"MOC_OPTIONS" : [],
 	"MOC_PATH_PREFIX" : false,
 	"MOC_PREDEFS_CMD" : [],
@@ -69,10 +57,10 @@
 	"MULTI_CONFIG" : false,
 	"PARALLEL" : 4,
 	"PARSE_CACHE_FILE" : "E:/ceshi2/robot/weld/x64-Debug/build/EGMServer/test/CMakeFiles/Test_EGMServer_autogen.dir/ParseCache.txt",
-	"QT_MOC_EXECUTABLE" : "C:/Qt/6.5.3/msvc2019_64/./bin/moc.exe",
+	"QT_MOC_EXECUTABLE" : "C:/Qt5/Qt/5.15.2/msvc2019_64/bin/moc.exe",
 	"QT_UIC_EXECUTABLE" : "",
-	"QT_VERSION_MAJOR" : 6,
-	"QT_VERSION_MINOR" : 5,
+	"QT_VERSION_MAJOR" : 5,
+	"QT_VERSION_MINOR" : 15,
 	"SETTINGS_FILE" : "E:/ceshi2/robot/weld/x64-Debug/build/EGMServer/test/CMakeFiles/Test_EGMServer_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : [],
 	"VERBOSITY" : 0

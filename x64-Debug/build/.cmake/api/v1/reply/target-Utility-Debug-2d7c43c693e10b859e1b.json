@@ -50,19 +50,25 @@
 			{
 				"command" : 2,
 				"file" : 1,
-				"line" : 17,
+				"line" : 12,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 14,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 22,
 				"parent" : 3
 			},
 			{
 				"command" : 3,
 				"file" : 1,
-				"line" : 41,
-				"parent" : 3
-			},
-			{
-				"command" : 3,
-				"file" : 1,
-				"line" : 56,
+				"line" : 61,
 				"parent" : 3
 			},
 			{
@@ -70,6 +76,12 @@
 				"file" : 0,
 				"line" : 34,
 				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 46,
+				"parent" : 3
 			}
 		]
 	},
@@ -83,23 +95,19 @@
 				},
 				{
 					"backtrace" : 4,
+					"fragment" : "/utf-8"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-finput-charset=UTF-8"
+				},
+				{
+					"backtrace" : 6,
 					"fragment" : "/Zc:__cplusplus"
 				},
 				{
-					"backtrace" : 4,
+					"backtrace" : 6,
 					"fragment" : "/permissive-"
-				},
-				{
-					"backtrace" : 2,
-					"fragment" : "-Zc:__cplusplus"
-				},
-				{
-					"backtrace" : 2,
-					"fragment" : "-permissive-"
-				},
-				{
-					"backtrace" : 2,
-					"fragment" : "-utf-8"
 				},
 				{
 					"fragment" : "-std:c++17"
@@ -136,31 +144,7 @@
 					"define" : "QT_XML_LIB"
 				},
 				{
-					"backtrace" : 2,
-					"define" : "UNICODE"
-				},
-				{
 					"define" : "Utility_EXPORTS"
-				},
-				{
-					"backtrace" : 2,
-					"define" : "WIN32"
-				},
-				{
-					"backtrace" : 2,
-					"define" : "WIN64"
-				},
-				{
-					"backtrace" : 2,
-					"define" : "_ENABLE_EXTENDED_ALIGNED_STORAGE"
-				},
-				{
-					"backtrace" : 2,
-					"define" : "_UNICODE"
-				},
-				{
-					"backtrace" : 2,
-					"define" : "_WIN64"
 				}
 			],
 			"includes" : 
@@ -172,65 +156,66 @@
 					"path" : "E:/ceshi2/robot/weld/utility"
 				},
 				{
-					"backtrace" : 5,
-					"path" : "C:/Qt/6.5.3/msvc2019_64/include/QtZlib"
-				},
-				{
-					"backtrace" : 6,
+					"backtrace" : 7,
 					"path" : "C:/download_3rdparty/sqlite/sqlite3.lib"
 				},
 				{
-					"backtrace" : 7,
+					"backtrace" : 8,
 					"path" : "E:/ceshi2/robot/weld/utility/path"
 				},
 				{
-					"backtrace" : 7,
+					"backtrace" : 8,
 					"path" : "E:/ceshi2/robot/weld/utility/json"
 				},
 				{
-					"backtrace" : 5,
+					"backtrace" : 9,
 					"isSystem" : true,
-					"path" : "C:/Qt/6.5.3/msvc2019_64/include/QtSerialPort"
+					"path" : "C:/Qt5/Qt/5.15.2/msvc2019_64/include"
 				},
 				{
-					"backtrace" : 5,
+					"backtrace" : 9,
 					"isSystem" : true,
-					"path" : "C:/Qt/6.5.3/msvc2019_64/include"
+					"path" : "C:/Qt5/Qt/5.15.2/msvc2019_64/include/QtSerialPort"
 				},
 				{
-					"backtrace" : 5,
+					"backtrace" : 9,
 					"isSystem" : true,
-					"path" : "C:/Qt/6.5.3/msvc2019_64/include/QtCore"
+					"path" : "C:/Qt5/Qt/5.15.2/msvc2019_64/include/QtCore"
 				},
 				{
-					"backtrace" : 5,
+					"backtrace" : 9,
 					"isSystem" : true,
-					"path" : "C:/Qt/6.5.3/msvc2019_64/include/QtSql"
+					"path" : "C:/Qt5/Qt/5.15.2/msvc2019_64/./mkspecs/win32-msvc"
 				},
 				{
-					"backtrace" : 5,
+					"backtrace" : 9,
 					"isSystem" : true,
-					"path" : "C:/Qt/6.5.3/msvc2019_64/include/QtNetwork"
+					"path" : "C:/Qt5/Qt/5.15.2/msvc2019_64/include/QtSql"
 				},
 				{
-					"backtrace" : 5,
+					"backtrace" : 9,
 					"isSystem" : true,
-					"path" : "C:/Qt/6.5.3/msvc2019_64/include/QtGui"
+					"path" : "C:/Qt5/Qt/5.15.2/msvc2019_64/include/QtNetwork"
 				},
 				{
-					"backtrace" : 5,
+					"backtrace" : 9,
 					"isSystem" : true,
-					"path" : "C:/Qt/6.5.3/msvc2019_64/include/QtWidgets"
+					"path" : "C:/Qt5/Qt/5.15.2/msvc2019_64/include/QtGui"
 				},
 				{
-					"backtrace" : 5,
+					"backtrace" : 9,
 					"isSystem" : true,
-					"path" : "C:/Qt/6.5.3/msvc2019_64/include/QtXml"
+					"path" : "C:/Qt5/Qt/5.15.2/msvc2019_64/include/QtANGLE"
 				},
 				{
-					"backtrace" : 2,
+					"backtrace" : 9,
 					"isSystem" : true,
-					"path" : "C:/Qt/6.5.3/msvc2019_64/mkspecs/win32-msvc"
+					"path" : "C:/Qt5/Qt/5.15.2/msvc2019_64/include/QtWidgets"
+				},
+				{
+					"backtrace" : 9,
+					"isSystem" : true,
+					"path" : "C:/Qt5/Qt/5.15.2/msvc2019_64/include/QtXml"
 				}
 			],
 			"language" : "CXX",
@@ -238,7 +223,6 @@
 			{
 				"backtraces" : 
 				[
-					2,
 					2
 				],
 				"standard" : "17"
@@ -261,61 +245,37 @@
 			},
 			{
 				"backtrace" : 2,
-				"fragment" : "C:\\Qt\\6.5.3\\msvc2019_64\\lib\\Qt6SerialPortd.lib",
+				"fragment" : "C:\\Qt5\\Qt\\5.15.2\\msvc2019_64\\lib\\Qt5SerialPortd.lib",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 2,
-				"fragment" : "C:\\Qt\\6.5.3\\msvc2019_64\\lib\\Qt6Sqld.lib",
+				"fragment" : "C:\\Qt5\\Qt\\5.15.2\\msvc2019_64\\lib\\Qt5Sqld.lib",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 2,
-				"fragment" : "C:\\Qt\\6.5.3\\msvc2019_64\\lib\\Qt6Networkd.lib",
+				"fragment" : "C:\\Qt5\\Qt\\5.15.2\\msvc2019_64\\lib\\Qt5Networkd.lib",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 2,
-				"fragment" : "C:\\Qt\\6.5.3\\msvc2019_64\\lib\\Qt6Widgetsd.lib",
+				"fragment" : "C:\\Qt5\\Qt\\5.15.2\\msvc2019_64\\lib\\Qt5Widgetsd.lib",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 2,
-				"fragment" : "C:\\Qt\\6.5.3\\msvc2019_64\\lib\\Qt6Xmld.lib",
-				"role" : "libraries"
-			},
-			{
-				"fragment" : "ws2_32.lib",
+				"fragment" : "C:\\Qt5\\Qt\\5.15.2\\msvc2019_64\\lib\\Qt5Xmld.lib",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 2,
-				"fragment" : "C:\\Qt\\6.5.3\\msvc2019_64\\lib\\Qt6Guid.lib",
-				"role" : "libraries"
-			},
-			{
-				"fragment" : "d3d11.lib",
-				"role" : "libraries"
-			},
-			{
-				"fragment" : "dxgi.lib",
-				"role" : "libraries"
-			},
-			{
-				"fragment" : "dxguid.lib",
+				"fragment" : "C:\\Qt5\\Qt\\5.15.2\\msvc2019_64\\lib\\Qt5Guid.lib",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 2,
-				"fragment" : "C:\\Qt\\6.5.3\\msvc2019_64\\lib\\Qt6Cored.lib",
-				"role" : "libraries"
-			},
-			{
-				"fragment" : "mpr.lib",
-				"role" : "libraries"
-			},
-			{
-				"fragment" : "userenv.lib",
+				"fragment" : "C:\\Qt5\\Qt\\5.15.2\\msvc2019_64\\lib\\Qt5Cored.lib",
 				"role" : "libraries"
 			},
 			{

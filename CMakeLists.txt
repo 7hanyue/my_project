@@ -8,6 +8,11 @@ message(STATUS "PROJECT_SOURCE_DIR=${PROJECT_SOURCE_DIR}")
 set(CMAKE_INCLUDE_CURRENT_DIR ON)
 #set(CMAKE_AUTOUIC ON)
 
+# MSVC
+add_compile_options(/utf-8)  
+# GCC/Clang  
+add_compile_options(-finput-charset=UTF-8)  
+
 # 1. 设置 C++ 标准为 C++17（或更高，如 C++20）
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON) # 强制启用，避免回退到旧标准
@@ -18,25 +23,25 @@ if(MSVC)
 endif()
 
 ##通过下面这种方式进行find_package
-set(CMAKE_PREFIX_PATH  "C:/Qt/6.5.3/msvc2019_64")
+set(CMAKE_PREFIX_PATH  "C:/Qt5/Qt/5.15.2/msvc2019_64")
 #需要注意的是，设置了CMAKE_PREFIX_PATH时，CMake会优先在CMAKE_PREFIX_PATH指定的路径下查找。如果没有找到，CMake会进一步在默认查找路径
 #file(TO_CMAKE_PATH ${CMAKE_PREFIX_PATH} QTDIR)
 #message(STATUS "QTDIR=${QTDIR}")
-find_package(Qt6Core REQUIRED)
-find_package(Qt6Network REQUIRED)
-find_package(Qt6SerialPort REQUIRED)
-find_package(Qt6Gui REQUIRED)
-find_package(Qt6Sql REQUIRED)
-find_package(Qt6Widgets REQUIRED)
-find_package(Qt6Xml REQUIRED)
+find_package(Qt5Core REQUIRED)
+find_package(Qt5Network REQUIRED)
+find_package(Qt5SerialPort REQUIRED)
+find_package(Qt5Gui REQUIRED)
+find_package(Qt5Sql REQUIRED)
+find_package(Qt5Widgets REQUIRED)
+find_package(Qt5Xml REQUIRED)
 
-message(STATUS "Qt6SerialPort_INCLUDE_DIRS=${Qt6SerialPort_INCLUDE_DIRS}")
-message(STATUS "Qt6Core_LIBRARIES=${Qt6Core_LIBRARIES}")
-message(STATUS "Qt6Network_INCLUDE_DIRS=${Qt6Network_INCLUDE_DIRS}")
+message(STATUS "Qt6SerialPort_INCLUDE_DIRS=${Qt5SerialPort_INCLUDE_DIRS}")
+message(STATUS "Qt6Core_LIBRARIES=${Qt5Core_LIBRARIES}")
+message(STATUS "Qt6Network_INCLUDE_DIRS=${Qt5Network_INCLUDE_DIRS}")
 #Qt5SerialPort_LIBRARIES、Qt5Sql_LIBRARIES等这些变量变量是 CMake 在找到 Qt6 模块后默认提供的.当 find_package 正确找到 Qt6 的 SerialPort 模块后，这些变量就会被赋值
-set(QT_LIBRARIES ${Qt6SerialPort_LIBRARIES} ${Qt6Sql_LIBRARIES} ${Qt6Network_LIBRARIES} ${Qt6Core_LIBRARIES} ${Qt6Gui_LIBRARIES} ${Qt6Widgets_LIBRARIES} ${Qt6Xml_LIBRARIES})
+set(QT_LIBRARIES ${Qt5SerialPort_LIBRARIES} ${Qt5Sql_LIBRARIES} ${Qt5Network_LIBRARIES} ${Qt5Core_LIBRARIES} ${Qt5Gui_LIBRARIES} ${Qt5Widgets_LIBRARIES} ${Qt5Xml_LIBRARIES})
 
-set(QT_INCLUDES ${Qt6SerialPort_INCLUDE_DIRS} ${Qt6Sql_INCLUDE_DIRS} ${Qt6Network_INCLUDE_DIRS} ${Qt6Core_INCLUDE_DIRS} ${Qt6Gui_INCLUDE_DIRS} ${Qt6Widgets_INCLUDE_DIRS} ${Qt6Xml_INCLUDE_DIRS})
+set(QT_INCLUDES ${Qt5SerialPort_INCLUDE_DIRS} ${Qt5Sql_INCLUDE_DIRS} ${Qt5Network_INCLUDE_DIRS} ${Qt5Core_INCLUDE_DIRS} ${Qt5Gui_INCLUDE_DIRS} ${Qt5Widgets_INCLUDE_DIRS} ${Qt5Xml_INCLUDE_DIRS})
 #作用域
 include_directories(${QT_INCLUDES})
 #include_directories 命令添加的目录作用域取决于它在 CMakeLists.txt 文件中的位置。要是在 add_subdirectory 命令之前调用，这些目录会对所有子项目生效；要是在 add_subdirectory 命令之后调用，仅对当前子项目生效。

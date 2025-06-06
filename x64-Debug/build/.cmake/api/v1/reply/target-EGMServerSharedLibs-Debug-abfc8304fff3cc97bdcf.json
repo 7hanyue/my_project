@@ -50,7 +50,19 @@
 			{
 				"command" : 2,
 				"file" : 1,
-				"line" : 17,
+				"line" : 12,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 14,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 22,
 				"parent" : 3
 			},
 			{
@@ -62,13 +74,7 @@
 			{
 				"command" : 4,
 				"file" : 1,
-				"line" : 41,
-				"parent" : 3
-			},
-			{
-				"command" : 4,
-				"file" : 1,
-				"line" : 56,
+				"line" : 61,
 				"parent" : 3
 			},
 			{
@@ -76,6 +82,12 @@
 				"file" : 0,
 				"line" : 5,
 				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 46,
+				"parent" : 3
 			}
 		]
 	},
@@ -89,23 +101,19 @@
 				},
 				{
 					"backtrace" : 4,
+					"fragment" : "/utf-8"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-finput-charset=UTF-8"
+				},
+				{
+					"backtrace" : 6,
 					"fragment" : "/Zc:__cplusplus"
 				},
 				{
-					"backtrace" : 4,
+					"backtrace" : 6,
 					"fragment" : "/permissive-"
-				},
-				{
-					"backtrace" : 2,
-					"fragment" : "-Zc:__cplusplus"
-				},
-				{
-					"backtrace" : 2,
-					"fragment" : "-permissive-"
-				},
-				{
-					"backtrace" : 2,
-					"fragment" : "-utf-8"
 				},
 				{
 					"fragment" : "-std:c++17"
@@ -117,7 +125,7 @@
 					"define" : "EGMServerSharedLibs_EXPORTS"
 				},
 				{
-					"backtrace" : 5,
+					"backtrace" : 7,
 					"define" : "EGMServer_Plugin"
 				},
 				{
@@ -147,30 +155,6 @@
 				{
 					"backtrace" : 2,
 					"define" : "QT_XML_LIB"
-				},
-				{
-					"backtrace" : 2,
-					"define" : "UNICODE"
-				},
-				{
-					"backtrace" : 2,
-					"define" : "WIN32"
-				},
-				{
-					"backtrace" : 2,
-					"define" : "WIN64"
-				},
-				{
-					"backtrace" : 2,
-					"define" : "_ENABLE_EXTENDED_ALIGNED_STORAGE"
-				},
-				{
-					"backtrace" : 2,
-					"define" : "_UNICODE"
-				},
-				{
-					"backtrace" : 2,
-					"define" : "_WIN64"
 				}
 			],
 			"includes" : 
@@ -186,61 +170,62 @@
 					"path" : "E:/ceshi2/robot/weld/x64-Debug/build/EGMServer/EGMServerSharedLibs_autogen/include"
 				},
 				{
-					"backtrace" : 6,
-					"path" : "C:/Qt/6.5.3/msvc2019_64/include/QtZlib"
-				},
-				{
-					"backtrace" : 7,
+					"backtrace" : 8,
 					"path" : "C:/download_3rdparty/sqlite/sqlite3.lib"
 				},
 				{
-					"backtrace" : 8,
+					"backtrace" : 9,
 					"path" : "E:/ceshi2/robot/weld/EGMServer/include"
 				},
 				{
-					"backtrace" : 6,
+					"backtrace" : 10,
 					"isSystem" : true,
-					"path" : "C:/Qt/6.5.3/msvc2019_64/include/QtSerialPort"
+					"path" : "C:/Qt5/Qt/5.15.2/msvc2019_64/include"
 				},
 				{
-					"backtrace" : 6,
+					"backtrace" : 10,
 					"isSystem" : true,
-					"path" : "C:/Qt/6.5.3/msvc2019_64/include"
+					"path" : "C:/Qt5/Qt/5.15.2/msvc2019_64/include/QtSerialPort"
 				},
 				{
-					"backtrace" : 6,
+					"backtrace" : 10,
 					"isSystem" : true,
-					"path" : "C:/Qt/6.5.3/msvc2019_64/include/QtCore"
+					"path" : "C:/Qt5/Qt/5.15.2/msvc2019_64/include/QtCore"
 				},
 				{
-					"backtrace" : 6,
+					"backtrace" : 10,
 					"isSystem" : true,
-					"path" : "C:/Qt/6.5.3/msvc2019_64/include/QtSql"
+					"path" : "C:/Qt5/Qt/5.15.2/msvc2019_64/./mkspecs/win32-msvc"
 				},
 				{
-					"backtrace" : 6,
+					"backtrace" : 10,
 					"isSystem" : true,
-					"path" : "C:/Qt/6.5.3/msvc2019_64/include/QtNetwork"
+					"path" : "C:/Qt5/Qt/5.15.2/msvc2019_64/include/QtSql"
 				},
 				{
-					"backtrace" : 6,
+					"backtrace" : 10,
 					"isSystem" : true,
-					"path" : "C:/Qt/6.5.3/msvc2019_64/include/QtGui"
+					"path" : "C:/Qt5/Qt/5.15.2/msvc2019_64/include/QtNetwork"
 				},
 				{
-					"backtrace" : 6,
+					"backtrace" : 10,
 					"isSystem" : true,
-					"path" : "C:/Qt/6.5.3/msvc2019_64/include/QtWidgets"
+					"path" : "C:/Qt5/Qt/5.15.2/msvc2019_64/include/QtGui"
 				},
 				{
-					"backtrace" : 6,
+					"backtrace" : 10,
 					"isSystem" : true,
-					"path" : "C:/Qt/6.5.3/msvc2019_64/include/QtXml"
+					"path" : "C:/Qt5/Qt/5.15.2/msvc2019_64/include/QtANGLE"
 				},
 				{
-					"backtrace" : 2,
+					"backtrace" : 10,
 					"isSystem" : true,
-					"path" : "C:/Qt/6.5.3/msvc2019_64/mkspecs/win32-msvc"
+					"path" : "C:/Qt5/Qt/5.15.2/msvc2019_64/include/QtWidgets"
+				},
+				{
+					"backtrace" : 10,
+					"isSystem" : true,
+					"path" : "C:/Qt5/Qt/5.15.2/msvc2019_64/include/QtXml"
 				}
 			],
 			"language" : "CXX",
@@ -248,7 +233,6 @@
 			{
 				"backtraces" : 
 				[
-					2,
 					2
 				],
 				"standard" : "17"
@@ -276,11 +260,11 @@
 	"dependencies" : 
 	[
 		{
-			"backtrace" : 0,
-			"id" : "EGMServerSharedLibs_autogen::@01079093e882336233ee"
+			"id" : "EGMServerSharedLibs_autogen_timestamp_deps::@01079093e882336233ee"
 		},
 		{
-			"id" : "EGMServerSharedLibs_autogen_timestamp_deps::@01079093e882336233ee"
+			"backtrace" : 0,
+			"id" : "EGMServerSharedLibs_autogen::@01079093e882336233ee"
 		}
 	],
 	"id" : "EGMServerSharedLibs::@01079093e882336233ee",
@@ -294,61 +278,37 @@
 			},
 			{
 				"backtrace" : 2,
-				"fragment" : "C:\\Qt\\6.5.3\\msvc2019_64\\lib\\Qt6SerialPortd.lib",
+				"fragment" : "C:\\Qt5\\Qt\\5.15.2\\msvc2019_64\\lib\\Qt5SerialPortd.lib",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 2,
-				"fragment" : "C:\\Qt\\6.5.3\\msvc2019_64\\lib\\Qt6Sqld.lib",
+				"fragment" : "C:\\Qt5\\Qt\\5.15.2\\msvc2019_64\\lib\\Qt5Sqld.lib",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 2,
-				"fragment" : "C:\\Qt\\6.5.3\\msvc2019_64\\lib\\Qt6Networkd.lib",
+				"fragment" : "C:\\Qt5\\Qt\\5.15.2\\msvc2019_64\\lib\\Qt5Networkd.lib",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 2,
-				"fragment" : "C:\\Qt\\6.5.3\\msvc2019_64\\lib\\Qt6Widgetsd.lib",
+				"fragment" : "C:\\Qt5\\Qt\\5.15.2\\msvc2019_64\\lib\\Qt5Widgetsd.lib",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 2,
-				"fragment" : "C:\\Qt\\6.5.3\\msvc2019_64\\lib\\Qt6Xmld.lib",
-				"role" : "libraries"
-			},
-			{
-				"fragment" : "ws2_32.lib",
+				"fragment" : "C:\\Qt5\\Qt\\5.15.2\\msvc2019_64\\lib\\Qt5Xmld.lib",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 2,
-				"fragment" : "C:\\Qt\\6.5.3\\msvc2019_64\\lib\\Qt6Guid.lib",
-				"role" : "libraries"
-			},
-			{
-				"fragment" : "d3d11.lib",
-				"role" : "libraries"
-			},
-			{
-				"fragment" : "dxgi.lib",
-				"role" : "libraries"
-			},
-			{
-				"fragment" : "dxguid.lib",
+				"fragment" : "C:\\Qt5\\Qt\\5.15.2\\msvc2019_64\\lib\\Qt5Guid.lib",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 2,
-				"fragment" : "C:\\Qt\\6.5.3\\msvc2019_64\\lib\\Qt6Cored.lib",
-				"role" : "libraries"
-			},
-			{
-				"fragment" : "mpr.lib",
-				"role" : "libraries"
-			},
-			{
-				"fragment" : "userenv.lib",
+				"fragment" : "C:\\Qt5\\Qt\\5.15.2\\msvc2019_64\\lib\\Qt5Cored.lib",
 				"role" : "libraries"
 			},
 			{
