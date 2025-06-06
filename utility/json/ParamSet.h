@@ -3,6 +3,7 @@
 #include <string>
 #include <map>
 #include <QJsonObject>
+
 class ParamSet
 {
 public:
@@ -15,15 +16,32 @@ public:
 	virtual void GetParam() {};
 
 	void Save();
-	//void Save(QJsonObject& object);
+	void Save(QJsonObject& object);
 	void Load();
 	void Load(QJsonObject& object);
+
+protected:
+	void SaveJson(QJsonObject& object);
+	void GetJson(QJsonObject& object);
+
+	void AddItem(std::string name, std::string value);
+
+	void SetInt(std::string name, int value);
+	void SetDouble(std::string name, double value);
+	void SetBool(std::string name, bool value);
+	void SetString(std::string name, std::string value);
+
+
+	int GetInt(std::string name);
+	double GetDouble(std::string name);
+	bool GetBool(std::string name);
+	std::string GetString(std::string name);
 
 protected:
 	std::string fileName;
 	std::string sectionName;
 	std::string paramDir;
-	map <string, string> paramMap;
+	std::map <std::string, std::string> paramMap;
 private:
 
 

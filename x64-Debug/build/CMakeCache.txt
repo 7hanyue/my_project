@@ -301,6 +301,9 @@ SQLite3_INCLUDE_DIR:PATH=C:/download_3rdparty/sqlite
 //Path to a library.
 SQLite3_LIBRARY:FILEPATH=C:/download_3rdparty/sqlite/sqlite3.lib
 
+//Dependencies for the target
+Utility_LIB_DEPENDS:STATIC=general;Qt6::SerialPort;general;Qt6::Sql;general;Qt6::Network;general;Qt6::Core;general;Qt6::Gui;general;Qt6::Widgets;general;Qt6::Xml;
+
 //Path to a program.
 Vulkan_GLSLC_EXECUTABLE:FILEPATH=Vulkan_GLSLC_EXECUTABLE-NOTFOUND
 

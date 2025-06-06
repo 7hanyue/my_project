@@ -73,7 +73,7 @@ build cmake_object_order_depends_target_EGMServerSharedLibs: phony || EGMServer\
 
 build EGMServer\CMakeFiles\EGMServerSharedLibs.dir\EGMServerSharedLibs_autogen\mocs_compilation.cpp.obj: CXX_COMPILER__EGMServerSharedLibs_Debug EGMServer\EGMServerSharedLibs_autogen\mocs_compilation.cpp || cmake_object_order_depends_target_EGMServerSharedLibs
   DEFINES = -DEGMServerSharedLibs_EXPORTS -DEGMServer_Plugin -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_SERIALPORT_LIB -DQT_SQL_LIB -DQT_WIDGETS_LIB -DQT_XML_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
-  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -Zc:__cplusplus -permissive- -utf-8 -std:c++17
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 /Zc:__cplusplus /permissive- -Zc:__cplusplus -permissive- -utf-8 -std:c++17
   INCLUDES = -IEGMServer -I..\..\EGMServer -IEGMServer\EGMServerSharedLibs_autogen\include -IC:\Qt\6.5.3\msvc2019_64\include\QtZlib -IC:\download_3rdparty\sqlite\sqlite3.lib -I..\..\EGMServer\include -IC:\Qt\6.5.3\msvc2019_64\include\QtSerialPort -IC:\Qt\6.5.3\msvc2019_64\include -IC:\Qt\6.5.3\msvc2019_64\include\QtCore -IC:\Qt\6.5.3\msvc2019_64\include\QtSql -IC:\Qt\6.5.3\msvc2019_64\include\QtNetwork -IC:\Qt\6.5.3\msvc2019_64\include\QtGui -IC:\Qt\6.5.3\msvc2019_64\include\QtWidgets -IC:\Qt\6.5.3\msvc2019_64\include\QtXml -IC:\Qt\6.5.3\msvc2019_64\mkspecs\win32-msvc
   OBJECT_DIR = EGMServer\CMakeFiles\EGMServerSharedLibs.dir
   OBJECT_FILE_DIR = EGMServer\CMakeFiles\EGMServerSharedLibs.dir\EGMServerSharedLibs_autogen
@@ -82,7 +82,7 @@ build EGMServer\CMakeFiles\EGMServerSharedLibs.dir\EGMServerSharedLibs_autogen\m
 
 build EGMServer\CMakeFiles\EGMServerSharedLibs.dir\src\ABBTcpServer.cpp.obj: CXX_COMPILER__EGMServerSharedLibs_Debug ..\..\EGMServer\src\ABBTcpServer.cpp || cmake_object_order_depends_target_EGMServerSharedLibs
   DEFINES = -DEGMServerSharedLibs_EXPORTS -DEGMServer_Plugin -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_SERIALPORT_LIB -DQT_SQL_LIB -DQT_WIDGETS_LIB -DQT_XML_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
-  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -Zc:__cplusplus -permissive- -utf-8 -std:c++17
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 /Zc:__cplusplus /permissive- -Zc:__cplusplus -permissive- -utf-8 -std:c++17
   INCLUDES = -IEGMServer -I..\..\EGMServer -IEGMServer\EGMServerSharedLibs_autogen\include -IC:\Qt\6.5.3\msvc2019_64\include\QtZlib -IC:\download_3rdparty\sqlite\sqlite3.lib -I..\..\EGMServer\include -IC:\Qt\6.5.3\msvc2019_64\include\QtSerialPort -IC:\Qt\6.5.3\msvc2019_64\include -IC:\Qt\6.5.3\msvc2019_64\include\QtCore -IC:\Qt\6.5.3\msvc2019_64\include\QtSql -IC:\Qt\6.5.3\msvc2019_64\include\QtNetwork -IC:\Qt\6.5.3\msvc2019_64\include\QtGui -IC:\Qt\6.5.3\msvc2019_64\include\QtWidgets -IC:\Qt\6.5.3\msvc2019_64\include\QtXml -IC:\Qt\6.5.3\msvc2019_64\mkspecs\win32-msvc
   OBJECT_DIR = EGMServer\CMakeFiles\EGMServerSharedLibs.dir
   OBJECT_FILE_DIR = EGMServer\CMakeFiles\EGMServerSharedLibs.dir\src
@@ -91,7 +91,7 @@ build EGMServer\CMakeFiles\EGMServerSharedLibs.dir\src\ABBTcpServer.cpp.obj: CXX
 
 build EGMServer\CMakeFiles\EGMServerSharedLibs.dir\src\EGMServer.cpp.obj: CXX_COMPILER__EGMServerSharedLibs_Debug ..\..\EGMServer\src\EGMServer.cpp || cmake_object_order_depends_target_EGMServerSharedLibs
   DEFINES = -DEGMServerSharedLibs_EXPORTS -DEGMServer_Plugin -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_SERIALPORT_LIB -DQT_SQL_LIB -DQT_WIDGETS_LIB -DQT_XML_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
-  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -Zc:__cplusplus -permissive- -utf-8 -std:c++17
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 /Zc:__cplusplus /permissive- -Zc:__cplusplus -permissive- -utf-8 -std:c++17
   INCLUDES = -IEGMServer -I..\..\EGMServer -IEGMServer\EGMServerSharedLibs_autogen\include -IC:\Qt\6.5.3\msvc2019_64\include\QtZlib -IC:\download_3rdparty\sqlite\sqlite3.lib -I..\..\EGMServer\include -IC:\Qt\6.5.3\msvc2019_64\include\QtSerialPort -IC:\Qt\6.5.3\msvc2019_64\include -IC:\Qt\6.5.3\msvc2019_64\include\QtCore -IC:\Qt\6.5.3\msvc2019_64\include\QtSql -IC:\Qt\6.5.3\msvc2019_64\include\QtNetwork -IC:\Qt\6.5.3\msvc2019_64\include\QtGui -IC:\Qt\6.5.3\msvc2019_64\include\QtWidgets -IC:\Qt\6.5.3\msvc2019_64\include\QtXml -IC:\Qt\6.5.3\msvc2019_64\mkspecs\win32-msvc
   OBJECT_DIR = EGMServer\CMakeFiles\EGMServerSharedLibs.dir
   OBJECT_FILE_DIR = EGMServer\CMakeFiles\EGMServerSharedLibs.dir\src
@@ -100,7 +100,7 @@ build EGMServer\CMakeFiles\EGMServerSharedLibs.dir\src\EGMServer.cpp.obj: CXX_CO
 
 build EGMServer\CMakeFiles\EGMServerSharedLibs.dir\src\IRobotServer.cpp.obj: CXX_COMPILER__EGMServerSharedLibs_Debug ..\..\EGMServer\src\IRobotServer.cpp || cmake_object_order_depends_target_EGMServerSharedLibs
   DEFINES = -DEGMServerSharedLibs_EXPORTS -DEGMServer_Plugin -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_SERIALPORT_LIB -DQT_SQL_LIB -DQT_WIDGETS_LIB -DQT_XML_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
-  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -Zc:__cplusplus -permissive- -utf-8 -std:c++17
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 /Zc:__cplusplus /permissive- -Zc:__cplusplus -permissive- -utf-8 -std:c++17
   INCLUDES = -IEGMServer -I..\..\EGMServer -IEGMServer\EGMServerSharedLibs_autogen\include -IC:\Qt\6.5.3\msvc2019_64\include\QtZlib -IC:\download_3rdparty\sqlite\sqlite3.lib -I..\..\EGMServer\include -IC:\Qt\6.5.3\msvc2019_64\include\QtSerialPort -IC:\Qt\6.5.3\msvc2019_64\include -IC:\Qt\6.5.3\msvc2019_64\include\QtCore -IC:\Qt\6.5.3\msvc2019_64\include\QtSql -IC:\Qt\6.5.3\msvc2019_64\include\QtNetwork -IC:\Qt\6.5.3\msvc2019_64\include\QtGui -IC:\Qt\6.5.3\msvc2019_64\include\QtWidgets -IC:\Qt\6.5.3\msvc2019_64\include\QtXml -IC:\Qt\6.5.3\msvc2019_64\mkspecs\win32-msvc
   OBJECT_DIR = EGMServer\CMakeFiles\EGMServerSharedLibs.dir
   OBJECT_FILE_DIR = EGMServer\CMakeFiles\EGMServerSharedLibs.dir\src
@@ -109,7 +109,7 @@ build EGMServer\CMakeFiles\EGMServerSharedLibs.dir\src\IRobotServer.cpp.obj: CXX
 
 build EGMServer\CMakeFiles\EGMServerSharedLibs.dir\src\globalvar.cpp.obj: CXX_COMPILER__EGMServerSharedLibs_Debug ..\..\EGMServer\src\globalvar.cpp || cmake_object_order_depends_target_EGMServerSharedLibs
   DEFINES = -DEGMServerSharedLibs_EXPORTS -DEGMServer_Plugin -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_SERIALPORT_LIB -DQT_SQL_LIB -DQT_WIDGETS_LIB -DQT_XML_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
-  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -Zc:__cplusplus -permissive- -utf-8 -std:c++17
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 /Zc:__cplusplus /permissive- -Zc:__cplusplus -permissive- -utf-8 -std:c++17
   INCLUDES = -IEGMServer -I..\..\EGMServer -IEGMServer\EGMServerSharedLibs_autogen\include -IC:\Qt\6.5.3\msvc2019_64\include\QtZlib -IC:\download_3rdparty\sqlite\sqlite3.lib -I..\..\EGMServer\include -IC:\Qt\6.5.3\msvc2019_64\include\QtSerialPort -IC:\Qt\6.5.3\msvc2019_64\include -IC:\Qt\6.5.3\msvc2019_64\include\QtCore -IC:\Qt\6.5.3\msvc2019_64\include\QtSql -IC:\Qt\6.5.3\msvc2019_64\include\QtNetwork -IC:\Qt\6.5.3\msvc2019_64\include\QtGui -IC:\Qt\6.5.3\msvc2019_64\include\QtWidgets -IC:\Qt\6.5.3\msvc2019_64\include\QtXml -IC:\Qt\6.5.3\msvc2019_64\mkspecs\win32-msvc
   OBJECT_DIR = EGMServer\CMakeFiles\EGMServerSharedLibs.dir
   OBJECT_FILE_DIR = EGMServer\CMakeFiles\EGMServerSharedLibs.dir\src
@@ -118,7 +118,7 @@ build EGMServer\CMakeFiles\EGMServerSharedLibs.dir\src\globalvar.cpp.obj: CXX_CO
 
 build EGMServer\CMakeFiles\EGMServerSharedLibs.dir\include\moc_ABBTcpServer.cpp.obj: CXX_COMPILER__EGMServerSharedLibs_Debug EGMServer\include\moc_ABBTcpServer.cpp || cmake_object_order_depends_target_EGMServerSharedLibs
   DEFINES = -DEGMServerSharedLibs_EXPORTS -DEGMServer_Plugin -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_SERIALPORT_LIB -DQT_SQL_LIB -DQT_WIDGETS_LIB -DQT_XML_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
-  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -Zc:__cplusplus -permissive- -utf-8 -std:c++17
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 /Zc:__cplusplus /permissive- -Zc:__cplusplus -permissive- -utf-8 -std:c++17
   INCLUDES = -IEGMServer -I..\..\EGMServer -IEGMServer\EGMServerSharedLibs_autogen\include -IC:\Qt\6.5.3\msvc2019_64\include\QtZlib -IC:\download_3rdparty\sqlite\sqlite3.lib -I..\..\EGMServer\include -IC:\Qt\6.5.3\msvc2019_64\include\QtSerialPort -IC:\Qt\6.5.3\msvc2019_64\include -IC:\Qt\6.5.3\msvc2019_64\include\QtCore -IC:\Qt\6.5.3\msvc2019_64\include\QtSql -IC:\Qt\6.5.3\msvc2019_64\include\QtNetwork -IC:\Qt\6.5.3\msvc2019_64\include\QtGui -IC:\Qt\6.5.3\msvc2019_64\include\QtWidgets -IC:\Qt\6.5.3\msvc2019_64\include\QtXml -IC:\Qt\6.5.3\msvc2019_64\mkspecs\win32-msvc
   OBJECT_DIR = EGMServer\CMakeFiles\EGMServerSharedLibs.dir
   OBJECT_FILE_DIR = EGMServer\CMakeFiles\EGMServerSharedLibs.dir\include
@@ -127,7 +127,7 @@ build EGMServer\CMakeFiles\EGMServerSharedLibs.dir\include\moc_ABBTcpServer.cpp.
 
 build EGMServer\CMakeFiles\EGMServerSharedLibs.dir\include\moc_EGMServer.cpp.obj: CXX_COMPILER__EGMServerSharedLibs_Debug EGMServer\include\moc_EGMServer.cpp || cmake_object_order_depends_target_EGMServerSharedLibs
   DEFINES = -DEGMServerSharedLibs_EXPORTS -DEGMServer_Plugin -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_SERIALPORT_LIB -DQT_SQL_LIB -DQT_WIDGETS_LIB -DQT_XML_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
-  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -Zc:__cplusplus -permissive- -utf-8 -std:c++17
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 /Zc:__cplusplus /permissive- -Zc:__cplusplus -permissive- -utf-8 -std:c++17
   INCLUDES = -IEGMServer -I..\..\EGMServer -IEGMServer\EGMServerSharedLibs_autogen\include -IC:\Qt\6.5.3\msvc2019_64\include\QtZlib -IC:\download_3rdparty\sqlite\sqlite3.lib -I..\..\EGMServer\include -IC:\Qt\6.5.3\msvc2019_64\include\QtSerialPort -IC:\Qt\6.5.3\msvc2019_64\include -IC:\Qt\6.5.3\msvc2019_64\include\QtCore -IC:\Qt\6.5.3\msvc2019_64\include\QtSql -IC:\Qt\6.5.3\msvc2019_64\include\QtNetwork -IC:\Qt\6.5.3\msvc2019_64\include\QtGui -IC:\Qt\6.5.3\msvc2019_64\include\QtWidgets -IC:\Qt\6.5.3\msvc2019_64\include\QtXml -IC:\Qt\6.5.3\msvc2019_64\mkspecs\win32-msvc
   OBJECT_DIR = EGMServer\CMakeFiles\EGMServerSharedLibs.dir
   OBJECT_FILE_DIR = EGMServer\CMakeFiles\EGMServerSharedLibs.dir\include
@@ -136,7 +136,7 @@ build EGMServer\CMakeFiles\EGMServerSharedLibs.dir\include\moc_EGMServer.cpp.obj
 
 build EGMServer\CMakeFiles\EGMServerSharedLibs.dir\include\moc_EGMServerConfig.cpp.obj: CXX_COMPILER__EGMServerSharedLibs_Debug EGMServer\include\moc_EGMServerConfig.cpp || cmake_object_order_depends_target_EGMServerSharedLibs
   DEFINES = -DEGMServerSharedLibs_EXPORTS -DEGMServer_Plugin -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_SERIALPORT_LIB -DQT_SQL_LIB -DQT_WIDGETS_LIB -DQT_XML_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
-  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -Zc:__cplusplus -permissive- -utf-8 -std:c++17
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 /Zc:__cplusplus /permissive- -Zc:__cplusplus -permissive- -utf-8 -std:c++17
   INCLUDES = -IEGMServer -I..\..\EGMServer -IEGMServer\EGMServerSharedLibs_autogen\include -IC:\Qt\6.5.3\msvc2019_64\include\QtZlib -IC:\download_3rdparty\sqlite\sqlite3.lib -I..\..\EGMServer\include -IC:\Qt\6.5.3\msvc2019_64\include\QtSerialPort -IC:\Qt\6.5.3\msvc2019_64\include -IC:\Qt\6.5.3\msvc2019_64\include\QtCore -IC:\Qt\6.5.3\msvc2019_64\include\QtSql -IC:\Qt\6.5.3\msvc2019_64\include\QtNetwork -IC:\Qt\6.5.3\msvc2019_64\include\QtGui -IC:\Qt\6.5.3\msvc2019_64\include\QtWidgets -IC:\Qt\6.5.3\msvc2019_64\include\QtXml -IC:\Qt\6.5.3\msvc2019_64\mkspecs\win32-msvc
   OBJECT_DIR = EGMServer\CMakeFiles\EGMServerSharedLibs.dir
   OBJECT_FILE_DIR = EGMServer\CMakeFiles\EGMServerSharedLibs.dir\include
@@ -145,7 +145,7 @@ build EGMServer\CMakeFiles\EGMServerSharedLibs.dir\include\moc_EGMServerConfig.c
 
 build EGMServer\CMakeFiles\EGMServerSharedLibs.dir\include\moc_IRobotServer.cpp.obj: CXX_COMPILER__EGMServerSharedLibs_Debug EGMServer\include\moc_IRobotServer.cpp || cmake_object_order_depends_target_EGMServerSharedLibs
   DEFINES = -DEGMServerSharedLibs_EXPORTS -DEGMServer_Plugin -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_SERIALPORT_LIB -DQT_SQL_LIB -DQT_WIDGETS_LIB -DQT_XML_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
-  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -Zc:__cplusplus -permissive- -utf-8 -std:c++17
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 /Zc:__cplusplus /permissive- -Zc:__cplusplus -permissive- -utf-8 -std:c++17
   INCLUDES = -IEGMServer -I..\..\EGMServer -IEGMServer\EGMServerSharedLibs_autogen\include -IC:\Qt\6.5.3\msvc2019_64\include\QtZlib -IC:\download_3rdparty\sqlite\sqlite3.lib -I..\..\EGMServer\include -IC:\Qt\6.5.3\msvc2019_64\include\QtSerialPort -IC:\Qt\6.5.3\msvc2019_64\include -IC:\Qt\6.5.3\msvc2019_64\include\QtCore -IC:\Qt\6.5.3\msvc2019_64\include\QtSql -IC:\Qt\6.5.3\msvc2019_64\include\QtNetwork -IC:\Qt\6.5.3\msvc2019_64\include\QtGui -IC:\Qt\6.5.3\msvc2019_64\include\QtWidgets -IC:\Qt\6.5.3\msvc2019_64\include\QtXml -IC:\Qt\6.5.3\msvc2019_64\mkspecs\win32-msvc
   OBJECT_DIR = EGMServer\CMakeFiles\EGMServerSharedLibs.dir
   OBJECT_FILE_DIR = EGMServer\CMakeFiles\EGMServerSharedLibs.dir\include
@@ -154,7 +154,7 @@ build EGMServer\CMakeFiles\EGMServerSharedLibs.dir\include\moc_IRobotServer.cpp.
 
 build EGMServer\CMakeFiles\EGMServerSharedLibs.dir\include\moc_ROTFCommonDefinitions.cpp.obj: CXX_COMPILER__EGMServerSharedLibs_Debug EGMServer\include\moc_ROTFCommonDefinitions.cpp || cmake_object_order_depends_target_EGMServerSharedLibs
   DEFINES = -DEGMServerSharedLibs_EXPORTS -DEGMServer_Plugin -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_SERIALPORT_LIB -DQT_SQL_LIB -DQT_WIDGETS_LIB -DQT_XML_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
-  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -Zc:__cplusplus -permissive- -utf-8 -std:c++17
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 /Zc:__cplusplus /permissive- -Zc:__cplusplus -permissive- -utf-8 -std:c++17
   INCLUDES = -IEGMServer -I..\..\EGMServer -IEGMServer\EGMServerSharedLibs_autogen\include -IC:\Qt\6.5.3\msvc2019_64\include\QtZlib -IC:\download_3rdparty\sqlite\sqlite3.lib -I..\..\EGMServer\include -IC:\Qt\6.5.3\msvc2019_64\include\QtSerialPort -IC:\Qt\6.5.3\msvc2019_64\include -IC:\Qt\6.5.3\msvc2019_64\include\QtCore -IC:\Qt\6.5.3\msvc2019_64\include\QtSql -IC:\Qt\6.5.3\msvc2019_64\include\QtNetwork -IC:\Qt\6.5.3\msvc2019_64\include\QtGui -IC:\Qt\6.5.3\msvc2019_64\include\QtWidgets -IC:\Qt\6.5.3\msvc2019_64\include\QtXml -IC:\Qt\6.5.3\msvc2019_64\mkspecs\win32-msvc
   OBJECT_DIR = EGMServer\CMakeFiles\EGMServerSharedLibs.dir
   OBJECT_FILE_DIR = EGMServer\CMakeFiles\EGMServerSharedLibs.dir\include
@@ -163,7 +163,7 @@ build EGMServer\CMakeFiles\EGMServerSharedLibs.dir\include\moc_ROTFCommonDefinit
 
 build EGMServer\CMakeFiles\EGMServerSharedLibs.dir\include\moc_globalvar.cpp.obj: CXX_COMPILER__EGMServerSharedLibs_Debug EGMServer\include\moc_globalvar.cpp || cmake_object_order_depends_target_EGMServerSharedLibs
   DEFINES = -DEGMServerSharedLibs_EXPORTS -DEGMServer_Plugin -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_SERIALPORT_LIB -DQT_SQL_LIB -DQT_WIDGETS_LIB -DQT_XML_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
-  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -Zc:__cplusplus -permissive- -utf-8 -std:c++17
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 /Zc:__cplusplus /permissive- -Zc:__cplusplus -permissive- -utf-8 -std:c++17
   INCLUDES = -IEGMServer -I..\..\EGMServer -IEGMServer\EGMServerSharedLibs_autogen\include -IC:\Qt\6.5.3\msvc2019_64\include\QtZlib -IC:\download_3rdparty\sqlite\sqlite3.lib -I..\..\EGMServer\include -IC:\Qt\6.5.3\msvc2019_64\include\QtSerialPort -IC:\Qt\6.5.3\msvc2019_64\include -IC:\Qt\6.5.3\msvc2019_64\include\QtCore -IC:\Qt\6.5.3\msvc2019_64\include\QtSql -IC:\Qt\6.5.3\msvc2019_64\include\QtNetwork -IC:\Qt\6.5.3\msvc2019_64\include\QtGui -IC:\Qt\6.5.3\msvc2019_64\include\QtWidgets -IC:\Qt\6.5.3\msvc2019_64\include\QtXml -IC:\Qt\6.5.3\msvc2019_64\mkspecs\win32-msvc
   OBJECT_DIR = EGMServer\CMakeFiles\EGMServerSharedLibs.dir
   OBJECT_FILE_DIR = EGMServer\CMakeFiles\EGMServerSharedLibs.dir\include
@@ -172,7 +172,7 @@ build EGMServer\CMakeFiles\EGMServerSharedLibs.dir\include\moc_globalvar.cpp.obj
 
 build EGMServer\CMakeFiles\EGMServerSharedLibs.dir\src\moc_ABBTcpServer.cpp.obj: CXX_COMPILER__EGMServerSharedLibs_Debug EGMServer\src\moc_ABBTcpServer.cpp || cmake_object_order_depends_target_EGMServerSharedLibs
   DEFINES = -DEGMServerSharedLibs_EXPORTS -DEGMServer_Plugin -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_SERIALPORT_LIB -DQT_SQL_LIB -DQT_WIDGETS_LIB -DQT_XML_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
-  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -Zc:__cplusplus -permissive- -utf-8 -std:c++17
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 /Zc:__cplusplus /permissive- -Zc:__cplusplus -permissive- -utf-8 -std:c++17
   INCLUDES = -IEGMServer -I..\..\EGMServer -IEGMServer\EGMServerSharedLibs_autogen\include -IC:\Qt\6.5.3\msvc2019_64\include\QtZlib -IC:\download_3rdparty\sqlite\sqlite3.lib -I..\..\EGMServer\include -IC:\Qt\6.5.3\msvc2019_64\include\QtSerialPort -IC:\Qt\6.5.3\msvc2019_64\include -IC:\Qt\6.5.3\msvc2019_64\include\QtCore -IC:\Qt\6.5.3\msvc2019_64\include\QtSql -IC:\Qt\6.5.3\msvc2019_64\include\QtNetwork -IC:\Qt\6.5.3\msvc2019_64\include\QtGui -IC:\Qt\6.5.3\msvc2019_64\include\QtWidgets -IC:\Qt\6.5.3\msvc2019_64\include\QtXml -IC:\Qt\6.5.3\msvc2019_64\mkspecs\win32-msvc
   OBJECT_DIR = EGMServer\CMakeFiles\EGMServerSharedLibs.dir
   OBJECT_FILE_DIR = EGMServer\CMakeFiles\EGMServerSharedLibs.dir\src
@@ -181,7 +181,7 @@ build EGMServer\CMakeFiles\EGMServerSharedLibs.dir\src\moc_ABBTcpServer.cpp.obj:
 
 build EGMServer\CMakeFiles\EGMServerSharedLibs.dir\src\moc_EGMServer.cpp.obj: CXX_COMPILER__EGMServerSharedLibs_Debug EGMServer\src\moc_EGMServer.cpp || cmake_object_order_depends_target_EGMServerSharedLibs
   DEFINES = -DEGMServerSharedLibs_EXPORTS -DEGMServer_Plugin -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_SERIALPORT_LIB -DQT_SQL_LIB -DQT_WIDGETS_LIB -DQT_XML_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
-  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -Zc:__cplusplus -permissive- -utf-8 -std:c++17
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 /Zc:__cplusplus /permissive- -Zc:__cplusplus -permissive- -utf-8 -std:c++17
   INCLUDES = -IEGMServer -I..\..\EGMServer -IEGMServer\EGMServerSharedLibs_autogen\include -IC:\Qt\6.5.3\msvc2019_64\include\QtZlib -IC:\download_3rdparty\sqlite\sqlite3.lib -I..\..\EGMServer\include -IC:\Qt\6.5.3\msvc2019_64\include\QtSerialPort -IC:\Qt\6.5.3\msvc2019_64\include -IC:\Qt\6.5.3\msvc2019_64\include\QtCore -IC:\Qt\6.5.3\msvc2019_64\include\QtSql -IC:\Qt\6.5.3\msvc2019_64\include\QtNetwork -IC:\Qt\6.5.3\msvc2019_64\include\QtGui -IC:\Qt\6.5.3\msvc2019_64\include\QtWidgets -IC:\Qt\6.5.3\msvc2019_64\include\QtXml -IC:\Qt\6.5.3\msvc2019_64\mkspecs\win32-msvc
   OBJECT_DIR = EGMServer\CMakeFiles\EGMServerSharedLibs.dir
   OBJECT_FILE_DIR = EGMServer\CMakeFiles\EGMServerSharedLibs.dir\src
@@ -190,7 +190,7 @@ build EGMServer\CMakeFiles\EGMServerSharedLibs.dir\src\moc_EGMServer.cpp.obj: CX
 
 build EGMServer\CMakeFiles\EGMServerSharedLibs.dir\src\moc_IRobotServer.cpp.obj: CXX_COMPILER__EGMServerSharedLibs_Debug EGMServer\src\moc_IRobotServer.cpp || cmake_object_order_depends_target_EGMServerSharedLibs
   DEFINES = -DEGMServerSharedLibs_EXPORTS -DEGMServer_Plugin -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_SERIALPORT_LIB -DQT_SQL_LIB -DQT_WIDGETS_LIB -DQT_XML_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
-  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -Zc:__cplusplus -permissive- -utf-8 -std:c++17
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 /Zc:__cplusplus /permissive- -Zc:__cplusplus -permissive- -utf-8 -std:c++17
   INCLUDES = -IEGMServer -I..\..\EGMServer -IEGMServer\EGMServerSharedLibs_autogen\include -IC:\Qt\6.5.3\msvc2019_64\include\QtZlib -IC:\download_3rdparty\sqlite\sqlite3.lib -I..\..\EGMServer\include -IC:\Qt\6.5.3\msvc2019_64\include\QtSerialPort -IC:\Qt\6.5.3\msvc2019_64\include -IC:\Qt\6.5.3\msvc2019_64\include\QtCore -IC:\Qt\6.5.3\msvc2019_64\include\QtSql -IC:\Qt\6.5.3\msvc2019_64\include\QtNetwork -IC:\Qt\6.5.3\msvc2019_64\include\QtGui -IC:\Qt\6.5.3\msvc2019_64\include\QtWidgets -IC:\Qt\6.5.3\msvc2019_64\include\QtXml -IC:\Qt\6.5.3\msvc2019_64\mkspecs\win32-msvc
   OBJECT_DIR = EGMServer\CMakeFiles\EGMServerSharedLibs.dir
   OBJECT_FILE_DIR = EGMServer\CMakeFiles\EGMServerSharedLibs.dir\src
@@ -199,7 +199,7 @@ build EGMServer\CMakeFiles\EGMServerSharedLibs.dir\src\moc_IRobotServer.cpp.obj:
 
 build EGMServer\CMakeFiles\EGMServerSharedLibs.dir\src\moc_globalvar.cpp.obj: CXX_COMPILER__EGMServerSharedLibs_Debug EGMServer\src\moc_globalvar.cpp || cmake_object_order_depends_target_EGMServerSharedLibs
   DEFINES = -DEGMServerSharedLibs_EXPORTS -DEGMServer_Plugin -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_SERIALPORT_LIB -DQT_SQL_LIB -DQT_WIDGETS_LIB -DQT_XML_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
-  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -Zc:__cplusplus -permissive- -utf-8 -std:c++17
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 /Zc:__cplusplus /permissive- -Zc:__cplusplus -permissive- -utf-8 -std:c++17
   INCLUDES = -IEGMServer -I..\..\EGMServer -IEGMServer\EGMServerSharedLibs_autogen\include -IC:\Qt\6.5.3\msvc2019_64\include\QtZlib -IC:\download_3rdparty\sqlite\sqlite3.lib -I..\..\EGMServer\include -IC:\Qt\6.5.3\msvc2019_64\include\QtSerialPort -IC:\Qt\6.5.3\msvc2019_64\include -IC:\Qt\6.5.3\msvc2019_64\include\QtCore -IC:\Qt\6.5.3\msvc2019_64\include\QtSql -IC:\Qt\6.5.3\msvc2019_64\include\QtNetwork -IC:\Qt\6.5.3\msvc2019_64\include\QtGui -IC:\Qt\6.5.3\msvc2019_64\include\QtWidgets -IC:\Qt\6.5.3\msvc2019_64\include\QtXml -IC:\Qt\6.5.3\msvc2019_64\mkspecs\win32-msvc
   OBJECT_DIR = EGMServer\CMakeFiles\EGMServerSharedLibs.dir
   OBJECT_FILE_DIR = EGMServer\CMakeFiles\EGMServerSharedLibs.dir\src
@@ -375,7 +375,7 @@ build EGMServer\EGMServerSharedLibs_autogen\timestamp: CUSTOM_COMMAND C$:\Qt\6.5
 #############################################
 # Phony custom command for EGMServer\CMakeFiles\EGMServerSharedLibs_autogen_timestamp_deps
 
-build EGMServer\CMakeFiles\EGMServerSharedLibs_autogen_timestamp_deps: phony C$:\Qt\6.5.3\msvc2019_64\.\bin\moc.exe C$:\Qt\6.5.3\msvc2019_64\bin\Qt6Networkd.dll C$:\Qt\6.5.3\msvc2019_64\bin\Qt6SerialPortd.dll C$:\Qt\6.5.3\msvc2019_64\bin\Qt6Guid.dll C$:\Qt\6.5.3\msvc2019_64\bin\Qt6Cored.dll C$:\Qt\6.5.3\msvc2019_64\.\bin\uic.exe C$:\Qt\6.5.3\msvc2019_64\bin\Qt6Widgetsd.dll C$:\Qt\6.5.3\msvc2019_64\bin\Qt6Xmld.dll C$:\Qt\6.5.3\msvc2019_64\bin\Qt6Sqld.dll
+build EGMServer\CMakeFiles\EGMServerSharedLibs_autogen_timestamp_deps: phony C$:\Qt\6.5.3\msvc2019_64\.\bin\moc.exe C$:\Qt\6.5.3\msvc2019_64\bin\Qt6Networkd.dll C$:\Qt\6.5.3\msvc2019_64\bin\Qt6Cored.dll C$:\Qt\6.5.3\msvc2019_64\bin\Qt6SerialPortd.dll C$:\Qt\6.5.3\msvc2019_64\bin\Qt6Guid.dll C$:\Qt\6.5.3\msvc2019_64\bin\Qt6Sqld.dll C$:\Qt\6.5.3\msvc2019_64\bin\Qt6Widgetsd.dll C$:\Qt\6.5.3\msvc2019_64\bin\Qt6Xmld.dll C$:\Qt\6.5.3\msvc2019_64\.\bin\uic.exe
 
 
 #############################################
@@ -399,7 +399,7 @@ build cmake_object_order_depends_target_Test_EGMServer: phony || EGMServer\test\
 
 build EGMServer\test\CMakeFiles\Test_EGMServer.dir\Test_EGMServer_autogen\mocs_compilation.cpp.obj: CXX_COMPILER__Test_EGMServer_Debug EGMServer\test\Test_EGMServer_autogen\mocs_compilation.cpp || cmake_object_order_depends_target_Test_EGMServer
   DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_SERIALPORT_LIB -DQT_SQL_LIB -DQT_WIDGETS_LIB -DQT_XML_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
-  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -Zc:__cplusplus -permissive- -utf-8 -std:c++17
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 /Zc:__cplusplus /permissive- -Zc:__cplusplus -permissive- -utf-8 -std:c++17
   INCLUDES = -IEGMServer\test -I..\..\EGMServer\test -IEGMServer\test\Test_EGMServer_autogen\include -IC:\Qt\6.5.3\msvc2019_64\include\QtZlib -IC:\download_3rdparty\sqlite\sqlite3.lib -I..\..\EGMServer\include -IC:\Qt\6.5.3\msvc2019_64\include\QtSerialPort -IC:\Qt\6.5.3\msvc2019_64\include -IC:\Qt\6.5.3\msvc2019_64\include\QtCore -IC:\Qt\6.5.3\msvc2019_64\include\QtSql -IC:\Qt\6.5.3\msvc2019_64\include\QtNetwork -IC:\Qt\6.5.3\msvc2019_64\include\QtGui -IC:\Qt\6.5.3\msvc2019_64\include\QtWidgets -IC:\Qt\6.5.3\msvc2019_64\include\QtXml -IC:\Qt\6.5.3\msvc2019_64\mkspecs\win32-msvc
   OBJECT_DIR = EGMServer\test\CMakeFiles\Test_EGMServer.dir
   OBJECT_FILE_DIR = EGMServer\test\CMakeFiles\Test_EGMServer.dir\Test_EGMServer_autogen
@@ -408,7 +408,7 @@ build EGMServer\test\CMakeFiles\Test_EGMServer.dir\Test_EGMServer_autogen\mocs_c
 
 build EGMServer\test\CMakeFiles\Test_EGMServer.dir\main.cpp.obj: CXX_COMPILER__Test_EGMServer_Debug ..\..\EGMServer\test\main.cpp || cmake_object_order_depends_target_Test_EGMServer
   DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_SERIALPORT_LIB -DQT_SQL_LIB -DQT_WIDGETS_LIB -DQT_XML_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
-  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -Zc:__cplusplus -permissive- -utf-8 -std:c++17
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 /Zc:__cplusplus /permissive- -Zc:__cplusplus -permissive- -utf-8 -std:c++17
   INCLUDES = -IEGMServer\test -I..\..\EGMServer\test -IEGMServer\test\Test_EGMServer_autogen\include -IC:\Qt\6.5.3\msvc2019_64\include\QtZlib -IC:\download_3rdparty\sqlite\sqlite3.lib -I..\..\EGMServer\include -IC:\Qt\6.5.3\msvc2019_64\include\QtSerialPort -IC:\Qt\6.5.3\msvc2019_64\include -IC:\Qt\6.5.3\msvc2019_64\include\QtCore -IC:\Qt\6.5.3\msvc2019_64\include\QtSql -IC:\Qt\6.5.3\msvc2019_64\include\QtNetwork -IC:\Qt\6.5.3\msvc2019_64\include\QtGui -IC:\Qt\6.5.3\msvc2019_64\include\QtWidgets -IC:\Qt\6.5.3\msvc2019_64\include\QtXml -IC:\Qt\6.5.3\msvc2019_64\mkspecs\win32-msvc
   OBJECT_DIR = EGMServer\test\CMakeFiles\Test_EGMServer.dir
   OBJECT_FILE_DIR = EGMServer\test\CMakeFiles\Test_EGMServer.dir
@@ -417,7 +417,7 @@ build EGMServer\test\CMakeFiles\Test_EGMServer.dir\main.cpp.obj: CXX_COMPILER__T
 
 build EGMServer\test\CMakeFiles\Test_EGMServer.dir\moc_main.cpp.obj: CXX_COMPILER__Test_EGMServer_Debug EGMServer\test\moc_main.cpp || cmake_object_order_depends_target_Test_EGMServer
   DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_SERIALPORT_LIB -DQT_SQL_LIB -DQT_WIDGETS_LIB -DQT_XML_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
-  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -Zc:__cplusplus -permissive- -utf-8 -std:c++17
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 /Zc:__cplusplus /permissive- -Zc:__cplusplus -permissive- -utf-8 -std:c++17
   INCLUDES = -IEGMServer\test -I..\..\EGMServer\test -IEGMServer\test\Test_EGMServer_autogen\include -IC:\Qt\6.5.3\msvc2019_64\include\QtZlib -IC:\download_3rdparty\sqlite\sqlite3.lib -I..\..\EGMServer\include -IC:\Qt\6.5.3\msvc2019_64\include\QtSerialPort -IC:\Qt\6.5.3\msvc2019_64\include -IC:\Qt\6.5.3\msvc2019_64\include\QtCore -IC:\Qt\6.5.3\msvc2019_64\include\QtSql -IC:\Qt\6.5.3\msvc2019_64\include\QtNetwork -IC:\Qt\6.5.3\msvc2019_64\include\QtGui -IC:\Qt\6.5.3\msvc2019_64\include\QtWidgets -IC:\Qt\6.5.3\msvc2019_64\include\QtXml -IC:\Qt\6.5.3\msvc2019_64\mkspecs\win32-msvc
   OBJECT_DIR = EGMServer\test\CMakeFiles\Test_EGMServer.dir
   OBJECT_FILE_DIR = EGMServer\test\CMakeFiles\Test_EGMServer.dir
@@ -502,7 +502,7 @@ build EGMServer\test\Test_EGMServer_autogen\timestamp: CUSTOM_COMMAND C$:\Qt\6.5
 #############################################
 # Phony custom command for EGMServer\test\CMakeFiles\Test_EGMServer_autogen_timestamp_deps
 
-build EGMServer\test\CMakeFiles\Test_EGMServer_autogen_timestamp_deps: phony C$:\Qt\6.5.3\msvc2019_64\.\bin\moc.exe C$:\Qt\6.5.3\msvc2019_64\bin\Qt6Networkd.dll C$:\Qt\6.5.3\msvc2019_64\bin\Qt6SerialPortd.dll C$:\Qt\6.5.3\msvc2019_64\bin\Qt6Guid.dll C$:\Qt\6.5.3\msvc2019_64\bin\Qt6Cored.dll C$:\Qt\6.5.3\msvc2019_64\bin\Qt6Widgetsd.dll C$:\Qt\6.5.3\msvc2019_64\bin\Qt6Xmld.dll C$:\Qt\6.5.3\msvc2019_64\bin\Qt6Sqld.dll ..\..\build\bin\EGMServerSharedLibs.dll || ..\..\build\bin\EGMServerSharedLibs.dll EGMServer\EGMServerSharedLibs_autogen EGMServer\EGMServerSharedLibs_autogen_timestamp_deps
+build EGMServer\test\CMakeFiles\Test_EGMServer_autogen_timestamp_deps: phony C$:\Qt\6.5.3\msvc2019_64\.\bin\moc.exe C$:\Qt\6.5.3\msvc2019_64\bin\Qt6Networkd.dll C$:\Qt\6.5.3\msvc2019_64\bin\Qt6Cored.dll C$:\Qt\6.5.3\msvc2019_64\bin\Qt6SerialPortd.dll C$:\Qt\6.5.3\msvc2019_64\bin\Qt6Guid.dll C$:\Qt\6.5.3\msvc2019_64\bin\Qt6Sqld.dll C$:\Qt\6.5.3\msvc2019_64\bin\Qt6Widgetsd.dll C$:\Qt\6.5.3\msvc2019_64\bin\Qt6Xmld.dll ..\..\build\bin\EGMServerSharedLibs.dll || ..\..\build\bin\EGMServerSharedLibs.dll EGMServer\EGMServerSharedLibs_autogen EGMServer\EGMServerSharedLibs_autogen_timestamp_deps
 
 
 #############################################
@@ -553,11 +553,20 @@ build userManager\rebuild_cache: phony userManager\CMakeFiles\rebuild_cache.util
 build cmake_object_order_depends_target_Utility: phony || utility\CMakeFiles\Utility.dir
 
 build utility\CMakeFiles\Utility.dir\json\ParamSet.cpp.obj: CXX_COMPILER__Utility_Debug ..\..\utility\json\ParamSet.cpp || cmake_object_order_depends_target_Utility
-  DEFINES = -DUtility_EXPORTS
-  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1
-  INCLUDES = -Iutility -I..\..\utility -IC:\Qt\6.5.3\msvc2019_64\include\QtSerialPort -IC:\Qt\6.5.3\msvc2019_64\include -IC:\Qt\6.5.3\msvc2019_64\include\QtCore -IC:\Qt\6.5.3\msvc2019_64\include\QtZlib -IC:\Qt\6.5.3\msvc2019_64\include\QtSql -IC:\Qt\6.5.3\msvc2019_64\include\QtNetwork -IC:\Qt\6.5.3\msvc2019_64\include\QtGui -IC:\Qt\6.5.3\msvc2019_64\include\QtWidgets -IC:\Qt\6.5.3\msvc2019_64\include\QtXml -IC:\download_3rdparty\sqlite\sqlite3.lib -I..\..\utility\json\ParamSet.h
+  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_SERIALPORT_LIB -DQT_SQL_LIB -DQT_WIDGETS_LIB -DQT_XML_LIB -DUNICODE -DUtility_EXPORTS -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 /Zc:__cplusplus /permissive- -Zc:__cplusplus -permissive- -utf-8 -std:c++17
+  INCLUDES = -Iutility -I..\..\utility -IC:\Qt\6.5.3\msvc2019_64\include\QtZlib -IC:\download_3rdparty\sqlite\sqlite3.lib -I..\..\utility\path -I..\..\utility\json -IC:\Qt\6.5.3\msvc2019_64\include\QtSerialPort -IC:\Qt\6.5.3\msvc2019_64\include -IC:\Qt\6.5.3\msvc2019_64\include\QtCore -IC:\Qt\6.5.3\msvc2019_64\include\QtSql -IC:\Qt\6.5.3\msvc2019_64\include\QtNetwork -IC:\Qt\6.5.3\msvc2019_64\include\QtGui -IC:\Qt\6.5.3\msvc2019_64\include\QtWidgets -IC:\Qt\6.5.3\msvc2019_64\include\QtXml -IC:\Qt\6.5.3\msvc2019_64\mkspecs\win32-msvc
   OBJECT_DIR = utility\CMakeFiles\Utility.dir
   OBJECT_FILE_DIR = utility\CMakeFiles\Utility.dir\json
+  TARGET_COMPILE_PDB = utility\CMakeFiles\Utility.dir\
+  TARGET_PDB = ..\..\build\bin\Utility.pdb
+
+build utility\CMakeFiles\Utility.dir\path\CommonPath.cpp.obj: CXX_COMPILER__Utility_Debug ..\..\utility\path\CommonPath.cpp || cmake_object_order_depends_target_Utility
+  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_SERIALPORT_LIB -DQT_SQL_LIB -DQT_WIDGETS_LIB -DQT_XML_LIB -DUNICODE -DUtility_EXPORTS -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 /Zc:__cplusplus /permissive- -Zc:__cplusplus -permissive- -utf-8 -std:c++17
+  INCLUDES = -Iutility -I..\..\utility -IC:\Qt\6.5.3\msvc2019_64\include\QtZlib -IC:\download_3rdparty\sqlite\sqlite3.lib -I..\..\utility\path -I..\..\utility\json -IC:\Qt\6.5.3\msvc2019_64\include\QtSerialPort -IC:\Qt\6.5.3\msvc2019_64\include -IC:\Qt\6.5.3\msvc2019_64\include\QtCore -IC:\Qt\6.5.3\msvc2019_64\include\QtSql -IC:\Qt\6.5.3\msvc2019_64\include\QtNetwork -IC:\Qt\6.5.3\msvc2019_64\include\QtGui -IC:\Qt\6.5.3\msvc2019_64\include\QtWidgets -IC:\Qt\6.5.3\msvc2019_64\include\QtXml -IC:\Qt\6.5.3\msvc2019_64\mkspecs\win32-msvc
+  OBJECT_DIR = utility\CMakeFiles\Utility.dir
+  OBJECT_FILE_DIR = utility\CMakeFiles\Utility.dir\path
   TARGET_COMPILE_PDB = utility\CMakeFiles\Utility.dir\
   TARGET_PDB = ..\..\build\bin\Utility.pdb
 
@@ -569,10 +578,10 @@ build utility\CMakeFiles\Utility.dir\json\ParamSet.cpp.obj: CXX_COMPILER__Utilit
 #############################################
 # Link the shared library ..\..\build\bin\Utility.dll
 
-build ..\..\build\bin\Utility.dll ..\..\build\lib\Utility.lib: CXX_SHARED_LIBRARY_LINKER__Utility_Debug utility\CMakeFiles\Utility.dir\json\ParamSet.cpp.obj
+build ..\..\build\bin\Utility.dll ..\..\build\lib\Utility.lib: CXX_SHARED_LIBRARY_LINKER__Utility_Debug utility\CMakeFiles\Utility.dir\json\ParamSet.cpp.obj utility\CMakeFiles\Utility.dir\path\CommonPath.cpp.obj | C$:\Qt\6.5.3\msvc2019_64\lib\Qt6SerialPortd.lib C$:\Qt\6.5.3\msvc2019_64\lib\Qt6Sqld.lib C$:\Qt\6.5.3\msvc2019_64\lib\Qt6Networkd.lib C$:\Qt\6.5.3\msvc2019_64\lib\Qt6Widgetsd.lib C$:\Qt\6.5.3\msvc2019_64\lib\Qt6Xmld.lib C$:\Qt\6.5.3\msvc2019_64\lib\Qt6Guid.lib C$:\Qt\6.5.3\msvc2019_64\lib\Qt6Cored.lib
   LANGUAGE_COMPILE_FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1
   LINK_FLAGS = /machine:x64 /debug /INCREMENTAL
-  LINK_LIBRARIES = kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
+  LINK_LIBRARIES = C:\Qt\6.5.3\msvc2019_64\lib\Qt6SerialPortd.lib  C:\Qt\6.5.3\msvc2019_64\lib\Qt6Sqld.lib  C:\Qt\6.5.3\msvc2019_64\lib\Qt6Networkd.lib  C:\Qt\6.5.3\msvc2019_64\lib\Qt6Widgetsd.lib  C:\Qt\6.5.3\msvc2019_64\lib\Qt6Xmld.lib  ws2_32.lib  C:\Qt\6.5.3\msvc2019_64\lib\Qt6Guid.lib  d3d11.lib  dxgi.lib  dxguid.lib  C:\Qt\6.5.3\msvc2019_64\lib\Qt6Cored.lib  mpr.lib  userenv.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
   OBJECT_DIR = utility\CMakeFiles\Utility.dir
   POST_BUILD = cd .
   PRE_LINK = cd .

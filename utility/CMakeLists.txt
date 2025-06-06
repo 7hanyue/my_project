@@ -4,11 +4,11 @@ message(STATUS "CMAKE_CURRENT_SOURCE_DIR=${CMAKE_CURRENT_SOURCE_DIR}")
 #增加头文件所在目录：
 #include_directories(${QT_INCLUDES})
 
-
+#include_directories(path json)
 #将所有需要编译的cpp源码文件路径资源保存在ALL_SRCS中
-file(GLOB_RECURSE ALL_SRCS "json/*.cpp")
+file(GLOB_RECURSE ALL_SRCS "json/*.cpp" "path/*.cpp")
 #将所有需要编译的h头文件路径资源保存在ALL_INCLUDES中
-file(GLOB_RECURSE ALL_INCLUDES "json/*.h")
+file(GLOB_RECURSE ALL_INCLUDES "json/*.h" "path/*.h")
 
 message(STATUS "ALL_SRCS=${ALL_SRCS}")
 message(STATUS "\nALL_INCLUDES=${ALL_INCLUDES}")
@@ -19,7 +19,8 @@ message(STATUS "\nALL_INCLUDES=${ALL_INCLUDES}")
 #set(CMAKE_AUTOUIC ON)
 
 #只有把增加的.h .cpp文件使用（如生成库、链接到exe中) .h .cpp才不是杂项文件
-add_library(Utility SHARED ${ALL_SRCS} ${ALL_INCLUDES} ${Mocfiles} ${ui_FILES})
+add_library(Utility SHARED ${ALL_SRCS} ${ALL_INCLUDES} )#${Mocfiles} ${ui_FILES}
+target_link_libraries(Utility ${QT_LIBRARIES})
 
 #include_directories：
 #全局生效，对当前 CMakeLists.txt 及子目录中所有目标（后续定义的库、可执行文件等）添加头文件搜索路径，属于全局作用域。
@@ -30,7 +31,7 @@ add_library(Utility SHARED ${ALL_SRCS} ${ALL_INCLUDES} ${Mocfiles} ${ui_FILES})
 #例如：为库 MyLib 设置的路径，不会影响可执行文件 MyApp（除非 MyApp 依赖 MyLib 且通过 PUBLIC/INTERFACE 传递）
 
 #现代 CMake 推荐使用 target_include_directories，以实现更精确的依赖管理
-target_include_directories(Utility PUBLIC ${CMAKE_CURRENT_BINARY_DIR} ${ALL_INCLUDES})
+target_include_directories(Utility PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/path ${CMAKE_CURRENT_SOURCE_DIR}/json)
 
 
 

@@ -8,6 +8,15 @@ message(STATUS "PROJECT_SOURCE_DIR=${PROJECT_SOURCE_DIR}")
 set(CMAKE_INCLUDE_CURRENT_DIR ON)
 #set(CMAKE_AUTOUIC ON)
 
+# 1. 设置 C++ 标准为 C++17（或更高，如 C++20）
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED ON) # 强制启用，避免回退到旧标准
+
+# 2. MSVC 专属选项：修复 __cplusplus 和标准兼容性
+if(MSVC)
+    add_compile_options(/Zc:__cplusplus /permissive-)
+endif()
+
 ##通过下面这种方式进行find_package
 set(CMAKE_PREFIX_PATH  "C:/Qt/6.5.3/msvc2019_64")
 #需要注意的是，设置了CMAKE_PREFIX_PATH时，CMake会优先在CMAKE_PREFIX_PATH指定的路径下查找。如果没有找到，CMake会进一步在默认查找路径
