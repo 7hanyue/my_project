@@ -1,0 +1,64 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"EGMServer/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "Utility::@23b027168f11ea0d609c"
+		}
+	],
+	"id" : "EGMServerSharedLibs_autogen_timestamp_deps::@01079093e882336233ee",
+	"isGeneratorProvided" : true,
+	"name" : "EGMServerSharedLibs_autogen_timestamp_deps",
+	"paths" : 
+	{
+		"build" : "EGMServer",
+		"source" : "EGMServer"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "x64-Debug/build/EGMServer/CMakeFiles/EGMServerSharedLibs_autogen_timestamp_deps",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "x64-Debug/build/EGMServer/CMakeFiles/EGMServerSharedLibs_autogen_timestamp_deps.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

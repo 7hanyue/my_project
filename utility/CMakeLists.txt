@@ -1,6 +1,8 @@
 
 message(STATUS "\n----------------------#utility:#")
 message(STATUS "CMAKE_CURRENT_SOURCE_DIR=${CMAKE_CURRENT_SOURCE_DIR}")
+
+add_definitions(-DUTILITY_EXPORTS)
 #增加头文件所在目录：
 #include_directories(${QT_INCLUDES})
 

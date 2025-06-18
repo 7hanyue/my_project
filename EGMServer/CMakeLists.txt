@@ -1,8 +1,15 @@
 project (EGMServer)
 message(STATUS "\n----------------------#EGMServer:#")
 message(STATUS "CMAKE_CURRENT_SOURCE_DIR=${CMAKE_CURRENT_SOURCE_DIR}")
+
 #增加头文件所在目录：
 include_directories(include)
+
+#utility
+include_directories(${UTILITY_INCLUDE}/json )
+
+
+
 ##add_definitions用法的网址链接 https://blog.csdn.net/qq_35699473/article/details/115837708##
 add_definitions(-DEGMServer_Plugin)
 #
@@ -30,7 +37,7 @@ message("CMAKE_CURRENT_SOURCE_DIR" ${CMAKE_CURRENT_SOURCE_DIR})
 # 指定要链接的动态库的路径
 #link_directories(${PROJECT_SOURCE_DIR}/lib)
 add_library(EGMServerSharedLibs SHARED ${ALL_SRCS} ${ALL_INCLUDES} ${Mocfiles} ${ui_FILES})
-target_link_libraries(EGMServerSharedLibs ${QT_LIBRARIES})
+target_link_libraries(EGMServerSharedLibs ${QT_LIBRARIES} Utility)
 
 message(STATUS "----------------#EGMServer#end")
 

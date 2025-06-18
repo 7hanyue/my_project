@@ -10,7 +10,13 @@
 const std::string fileFormat = ".json";
 ParamSet::ParamSet(std::string fileName, std::string sectionName, std::string paramDir) : fileName(fileName), sectionName(sectionName), paramDir(paramDir)
 {
-
+	paramMap.clear();
+}
+ParamSet::ParamSet(QJsonObject& object)
+{
+	fileName = "";
+	sectionName = "";
+	paramMap.clear();
 }
 void ParamSet::Save()
 {
@@ -64,7 +70,7 @@ void ParamSet::SaveJson(QJsonObject& object)
 		if (!dir.exists()) 
 		{
 			//创建 dir 代表的完整路径（由 CommonPath::GetProgramDir() + paramDir 拼接）
-			if (!dir.mkdir("")) 
+			if (!dir.mkdir(CommonPath::GetProgramDir() + QString::fromStdString(paramDir)))
 			{
 				qWarning() << "创建路径失败:";
 			}
@@ -135,7 +141,7 @@ void ParamSet::SetInt(std::string name, int value)
 		//整型、double、bool转换为string
 		//采用std::to_string（C++11 及后续版本)
 		std::string str = std::to_string(value);
-		paramMap[name] = value;
+		paramMap[name] = str;
 	}
 	catch (...)
 	{
@@ -149,7 +155,7 @@ void ParamSet::SetDouble(std::string name, double value)
 		//整型、double、bool转换为string
 		//采用std::to_string（C++11 及后续版本)
 		std::string str = std::to_string(value);
-		paramMap[name] = value;
+		paramMap[name] = str;
 	}
 	catch (...)
 	{
@@ -163,7 +169,7 @@ void ParamSet::SetBool(std::string name, bool value)
 		//整型、double、bool转换为string
 		//采用std::to_string（C++11 及后续版本)
 		std::string str = std::to_string(value);
-		paramMap[name] = value;
+		paramMap[name] = str;
 	}
 	catch (...)
 	{

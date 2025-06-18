@@ -4,13 +4,22 @@
 #include <map>
 #include <QJsonObject>
 
-class ParamSet
+#ifdef _WIN32
+	#ifdef UTILITY_EXPORTS  // CMake 定义的宏
+		#define UTILITY_API __declspec(dllexport)  // 编译库时
+	#else
+		#define UTILITY_API __declspec(dllimport)  // 使用库时
+#endif
+#else
+	#define UTILITY_API  // Linux/Mac 默认导出所有符号
+#endif
+class UTILITY_API ParamSet
 {
 public:
 	ParamSet() = default;
 	~ParamSet() = default;
-	ParamSet(std::string fileName, std::string sectionName, std::string paramDir = "//configuration//");
-	//ParamSet(QJsonObject& object);
+	ParamSet(std::string fileName, std::string sectionName, std::string paramDir = "/configuration/");
+	ParamSet(QJsonObject& object);
 	virtual void Init() = 0;
 	virtual void SetParam() {};
 	virtual void GetParam() {};

@@ -34,14 +34,15 @@ find_package(Qt5Gui REQUIRED)
 find_package(Qt5Sql REQUIRED)
 find_package(Qt5Widgets REQUIRED)
 find_package(Qt5Xml REQUIRED)
+find_package(Qt5Concurrent REQUIRED)
 
-message(STATUS "Qt6SerialPort_INCLUDE_DIRS=${Qt5SerialPort_INCLUDE_DIRS}")
-message(STATUS "Qt6Core_LIBRARIES=${Qt5Core_LIBRARIES}")
-message(STATUS "Qt6Network_INCLUDE_DIRS=${Qt5Network_INCLUDE_DIRS}")
+message(STATUS "Qt5Concurrent_INCLUDE_DIRS=${Qt5Concurrent_INCLUDE_DIRS}")
+message(STATUS "Qt5Core_LIBRARIES=${Qt5Core_LIBRARIES}")
+message(STATUS "Qt5Network_INCLUDE_DIRS=${Qt5Network_INCLUDE_DIRS}")
 #Qt5SerialPort_LIBRARIES、Qt5Sql_LIBRARIES等这些变量变量是 CMake 在找到 Qt6 模块后默认提供的.当 find_package 正确找到 Qt6 的 SerialPort 模块后，这些变量就会被赋值
-set(QT_LIBRARIES ${Qt5SerialPort_LIBRARIES} ${Qt5Sql_LIBRARIES} ${Qt5Network_LIBRARIES} ${Qt5Core_LIBRARIES} ${Qt5Gui_LIBRARIES} ${Qt5Widgets_LIBRARIES} ${Qt5Xml_LIBRARIES})
+set(QT_LIBRARIES ${Qt5SerialPort_LIBRARIES} ${Qt5Sql_LIBRARIES} ${Qt5Network_LIBRARIES} ${Qt5Core_LIBRARIES} ${Qt5Gui_LIBRARIES} ${Qt5Widgets_LIBRARIES} ${Qt5Xml_LIBRARIES} ${Qt5Concurrent_LIBRARIES})
 
-set(QT_INCLUDES ${Qt5SerialPort_INCLUDE_DIRS} ${Qt5Sql_INCLUDE_DIRS} ${Qt5Network_INCLUDE_DIRS} ${Qt5Core_INCLUDE_DIRS} ${Qt5Gui_INCLUDE_DIRS} ${Qt5Widgets_INCLUDE_DIRS} ${Qt5Xml_INCLUDE_DIRS})
+set(QT_INCLUDES ${Qt5SerialPort_INCLUDE_DIRS} ${Qt5Sql_INCLUDE_DIRS} ${Qt5Network_INCLUDE_DIRS} ${Qt5Core_INCLUDE_DIRS} ${Qt5Gui_INCLUDE_DIRS} ${Qt5Widgets_INCLUDE_DIRS} ${Qt5Xml_INCLUDE_DIRS} ${Qt5Concurrent_INCLUDE_DIRS})
 #作用域
 include_directories(${QT_INCLUDES})
 #include_directories 命令添加的目录作用域取决于它在 CMakeLists.txt 文件中的位置。要是在 add_subdirectory 命令之前调用，这些目录会对所有子项目生效；要是在 add_subdirectory 命令之后调用，仅对当前子项目生效。
@@ -60,6 +61,10 @@ endif()
 #作用域
 include_directories(${SQLite3_LIBRARIES})
 
+
+
+
+
 message(STATUS "CMAKE_CURRENT_SOURCE_DIR=${CMAKE_CURRENT_SOURCE_DIR}")  
 # LIBRARY_OUTPUT_DIRECTORY 在 Windows 下对 .dll 无效（但对 Linux/macOS 有效）
 set(CMAKE_LIBRARY_OUTPUT_DIRECTORY_DEBUG ${CMAKE_CURRENT_SOURCE_DIR}/build/bin)
@@ -73,12 +78,20 @@ set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}/build/bin)
 set(EGMServer_INCLUDE ${CMAKE_CURRENT_SOURCE_DIR}/EGMServer/include)
 set(EGMServer_LIBRARIES EGMServerSharedLibs)
 
+
+set(UTILITY_INCLUDE ${CMAKE_CURRENT_SOURCE_DIR}/utility)
+
+set(LS_ROOT ${CMAKE_CURRENT_SOURCE_DIR})
+set(Ezcad3_include ${LS_ROOT}/3rdparty/Ezcad3/inculde)
+
+#set(json_INCLUDE ${CMAKE_CURRENT_SOURCE_DIR}/utility/json)
 message(STATUS "----------------#weld#end ")
 # 包含子项目。
+add_subdirectory (utility)
 add_subdirectory (EGMServer)
 add_subdirectory (EGMServer/test)
 add_subdirectory (userManager)
-add_subdirectory (utility)
+add_subdirectory (3DCalib)
 
 
 

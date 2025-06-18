@@ -1,5 +1,5 @@
 #include "EGMServer.h"
-#include "./ui_EGMServer.h"
+#include "ui_EGMServer.h"
 #include <QDebug>
 #include <QFileDialog>
 #include <QDateTime>
@@ -10,6 +10,11 @@
 #include "ROTFCommonDefinitions.h"
 //#include <QMessageBox>
 #include "ABBTcpServer.h"
+
+//用paramset的方式，保存到json中 todo 
+//#include "ServerParam.h"
+// 
+// 
 //#pragma execution_character_set("utf-8")
 EGMServer::EGMServer(QWidget *parent)
     : QDialog(parent)
@@ -18,6 +23,8 @@ EGMServer::EGMServer(QWidget *parent)
     ui->setupUi(this);
     ui->btnStratOrStopListen->setIcon(QIcon("C:/Users/an/Desktop/blue.png"));
     ui->btnStratOrStopListen->setText(tr("开始监听"));
+    //用paramset的方式，保存到json中 todo 
+    //_serverParam = std::make_shared<ServerParam>("robotServer", "");
 
     //获取当前exe的路径
     QString fileName = QCoreApplication::applicationDirPath() + "/Param/RobotCommunication.ini";
@@ -52,6 +59,9 @@ void EGMServer::_InitUIParams()
    connect(ui->comboTransmitProtocol,static_cast<void (QComboBox::*)(int)>(&QComboBox::currentIndexChanged),this,&EGMServer::onChangeProtocolType);
    ui->comboRobotType->setCurrentIndex(0);
    ui->comboTransmitProtocol->setCurrentIndex(0);
+   //用paramset的方式，保存到json中 todo
+   //onChangeRobotType(_serverParam->_robotType);
+
    onChangeRobotType(0);
 
 }
@@ -68,18 +78,31 @@ void EGMServer::accept()
 
 void EGMServer::onChangeRobotType(int type)
 {
+    //RobotType2 type2;
     switch (type)
     {
         case static_cast<int>(RobotType::ABB):
 
             ui->RobotPort->setText("3000");
+            //用paramset的方式，保存到json中 todo
+            //type2 = RobotType2::Abb;
+
             break;
         case static_cast<int>(RobotType::KUKA):
             ui->RobotPort->setText("6008");
+            //用paramset的方式，保存到json中 todo 
+            //type2 = RobotType2::Kuka;
+
             break;
         default:
             break;
     }
+    //用paramset的方式，保存到json中 todo 
+    /*_serverParam->_robotType = type2;
+    _serverParam->Save();
+    ui->comboRobotType->setCurrentIndex(type2);*/
+
+
     _robotType = type;
     onChangeProtocolType(ui->comboTransmitProtocol->currentIndex());
 }

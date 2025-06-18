@@ -34,10 +34,11 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
+  include("E:/ceshi2/robot/weld/x64-Debug/build/utility/cmake_install.cmake")
   include("E:/ceshi2/robot/weld/x64-Debug/build/EGMServer/cmake_install.cmake")
   include("E:/ceshi2/robot/weld/x64-Debug/build/EGMServer/test/cmake_install.cmake")
   include("E:/ceshi2/robot/weld/x64-Debug/build/userManager/cmake_install.cmake")
-  include("E:/ceshi2/robot/weld/x64-Debug/build/utility/cmake_install.cmake")
+  include("E:/ceshi2/robot/weld/x64-Debug/build/3DCalib/cmake_install.cmake")
 
 endif()
 

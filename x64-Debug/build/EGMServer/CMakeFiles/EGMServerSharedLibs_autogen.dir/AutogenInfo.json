@@ -35,6 +35,12 @@
 			"",
 			null
 		],
+		[
+			"E:/ceshi2/robot/weld/EGMServer/include/ServerParam.h",
+			"mU",
+			"",
+			null
+		],
 		[ "E:/ceshi2/robot/weld/EGMServer/include/globalvar.h", "mU", "", null ]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
@@ -44,6 +50,7 @@
 	[
 		"EGMServerSharedLibs_EXPORTS",
 		"EGMServer_Plugin",
+		"QT_CONCURRENT_LIB",
 		"QT_CORE_LIB",
 		"QT_GUI_LIB",
 		"QT_NETWORK_LIB",
@@ -66,6 +73,8 @@
 		"E:/ceshi2/robot/weld/EGMServer",
 		"C:/download_3rdparty/sqlite/sqlite3.lib",
 		"E:/ceshi2/robot/weld/EGMServer/include",
+		"E:/ceshi2/robot/weld/utility/json",
+		"E:/ceshi2/robot/weld/utility/path",
 		"C:/Qt5/Qt/5.15.2/msvc2019_64/include",
 		"C:/Qt5/Qt/5.15.2/msvc2019_64/include/QtSerialPort",
 		"C:/Qt5/Qt/5.15.2/msvc2019_64/include/QtCore",
@@ -75,7 +84,8 @@
 		"C:/Qt5/Qt/5.15.2/msvc2019_64/include/QtGui",
 		"C:/Qt5/Qt/5.15.2/msvc2019_64/include/QtANGLE",
 		"C:/Qt5/Qt/5.15.2/msvc2019_64/include/QtWidgets",
-		"C:/Qt5/Qt/5.15.2/msvc2019_64/include/QtXml"
+		"C:/Qt5/Qt/5.15.2/msvc2019_64/include/QtXml",
+		"C:/Qt5/Qt/5.15.2/msvc2019_64/include/QtConcurrent"
 	],
 	"MOC_MACRO_NAMES" : [ "Q_OBJECT", "Q_GADGET", "Q_NAMESPACE", "Q_NAMESPACE_EXPORT" ],
 	"MOC_OPTIONS" : [],
@@ -90,10 +100,12 @@
 		"E:/ceshi2/robot/weld/EGMServer/include/EGMServerConfig.h",
 		"E:/ceshi2/robot/weld/EGMServer/include/IRobotServer.h",
 		"E:/ceshi2/robot/weld/EGMServer/include/ROTFCommonDefinitions.h",
+		"E:/ceshi2/robot/weld/EGMServer/include/ServerParam.h",
 		"E:/ceshi2/robot/weld/EGMServer/include/globalvar.h",
 		"E:/ceshi2/robot/weld/EGMServer/src/ABBTcpServer.cpp",
 		"E:/ceshi2/robot/weld/EGMServer/src/EGMServer.cpp",
 		"E:/ceshi2/robot/weld/EGMServer/src/IRobotServer.cpp",
+		"E:/ceshi2/robot/weld/EGMServer/src/ServerParam.cpp",
 		"E:/ceshi2/robot/weld/EGMServer/src/globalvar.cpp"
 	],
 	"MULTI_CONFIG" : false,
@@ -109,6 +121,7 @@
 		[ "E:/ceshi2/robot/weld/EGMServer/src/ABBTcpServer.cpp", "mU", null ],
 		[ "E:/ceshi2/robot/weld/EGMServer/src/EGMServer.cpp", "mU", null ],
 		[ "E:/ceshi2/robot/weld/EGMServer/src/IRobotServer.cpp", "mU", null ],
+		[ "E:/ceshi2/robot/weld/EGMServer/src/ServerParam.cpp", "mU", null ],
 		[ "E:/ceshi2/robot/weld/EGMServer/src/globalvar.cpp", "mU", null ]
 	],
 	"UIC_OPTIONS" : [],

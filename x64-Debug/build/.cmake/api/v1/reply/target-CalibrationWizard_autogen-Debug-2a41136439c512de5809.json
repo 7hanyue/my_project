@@ -1,0 +1,71 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"3DCalib/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "CalibrationWizard_autogen_timestamp_deps::@c609fa02dfc014e2d95c"
+		}
+	],
+	"id" : "CalibrationWizard_autogen::@c609fa02dfc014e2d95c",
+	"isGeneratorProvided" : true,
+	"name" : "CalibrationWizard_autogen",
+	"paths" : 
+	{
+		"build" : "3DCalib",
+		"source" : "3DCalib"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "x64-Debug/build/3DCalib/CMakeFiles/CalibrationWizard_autogen",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "x64-Debug/build/3DCalib/CMakeFiles/CalibrationWizard_autogen.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "x64-Debug/build/3DCalib/CalibrationWizard_autogen/timestamp.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

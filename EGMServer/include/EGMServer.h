@@ -13,6 +13,9 @@
 //QT_BEGIN_NAMESPACE
 namespace Ui { class EGMServer; }
 //QT_END_NAMESPACE
+// 
+//用paramset的方式，保存到json中 todo 
+//class ServerParam;
 
 class EGMServerExport EGMServer : public QDialog
 {
@@ -27,6 +30,10 @@ public:
     void closeEvent(QCloseEvent *event) override;
     void accept() override;
     QString GetName_TimeData();
+
+public:
+    
+
 
 private:
     //初始化ui界面的，因为在qt creator中绘制控件的时候填写了对应值，故不再实现一部分功能
@@ -51,6 +58,9 @@ private slots:
 
 
 private:
+    //用paramset的方式，保存到json中 todo 
+    //std::shared_ptr<ServerParam> _serverParam;
+
     QSharedPointer<IRobotServer> _serverptr{ nullptr };
     QFuture<void> _futureRes;
 
