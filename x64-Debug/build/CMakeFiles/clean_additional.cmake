@@ -18,5 +18,8 @@ if("${CONFIG}" STREQUAL "" OR "${CONFIG}" STREQUAL "Debug")
   "ui\\CMakeFiles\\UILib_autogen.dir\\AutogenUsed.txt"
   "ui\\CMakeFiles\\UILib_autogen.dir\\ParseCache.txt"
   "ui\\UILib_autogen"
+  "utility2\\CMakeFiles\\Utility_2_autogen.dir\\AutogenUsed.txt"
+  "utility2\\CMakeFiles\\Utility_2_autogen.dir\\ParseCache.txt"
+  "utility2\\Utility_2_autogen"
   )
 endif()

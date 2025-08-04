@@ -1,0 +1,102 @@
+{
+	"BUILD_DIR" : "E:/ceshi2/robot/weld/x64-Debug/build/utility2/Utility_2_autogen",
+	"CMAKE_BINARY_DIR" : "E:/ceshi2/robot/weld/x64-Debug/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "E:/ceshi2/robot/weld/x64-Debug/build/utility2",
+	"CMAKE_CURRENT_SOURCE_DIR" : "E:/ceshi2/robot/weld/utility2",
+	"CMAKE_EXECUTABLE" : "E:/VS2019IDE/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe",
+	"CMAKE_LIST_FILES" : [ "E:/ceshi2/robot/weld/utility2/CMakeLists.txt" ],
+	"CMAKE_SOURCE_DIR" : "E:/ceshi2/robot/weld",
+	"DEP_FILE" : "E:/ceshi2/robot/weld/x64-Debug/build/utility2/Utility_2_autogen/deps",
+	"DEP_FILE_RULE_NAME" : "Utility_2_autogen/timestamp",
+	"HEADERS" : 
+	[
+		[
+			"E:/ceshi2/robot/weld/utility2/include/communication/ModbusTcpDriver.h",
+			"Mu",
+			"WNRHDKXP6L/moc_ModbusTcpDriver.cpp",
+			null
+		],
+		[
+			"E:/ceshi2/robot/weld/utility2/include/observer/Observer.h",
+			"Mu",
+			"IWU2QV5W26/moc_Observer.cpp",
+			null
+		],
+		[
+			"E:/ceshi2/robot/weld/utility2/include/observer/Subject.h",
+			"Mu",
+			"IWU2QV5W26/moc_Subject.cpp",
+			null
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "E:/ceshi2/robot/weld/x64-Debug/build/utility2/Utility_2_autogen/include",
+	"MOC_COMPILATION_FILE" : "E:/ceshi2/robot/weld/x64-Debug/build/utility2/Utility_2_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : 
+	[
+		"ModbusTcp_Plugin",
+		"QT_CONCURRENT_LIB",
+		"QT_CORE_LIB",
+		"QT_GUI_LIB",
+		"QT_NETWORK_LIB",
+		"QT_SERIALPORT_LIB",
+		"QT_SQL_LIB",
+		"QT_WIDGETS_LIB",
+		"QT_XML_LIB",
+		"Utility_2_EXPORTS",
+		"WIN32"
+	],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"E:/ceshi2/robot/weld/x64-Debug/build/utility2",
+		"E:/ceshi2/robot/weld/utility2",
+		"C:/download_3rdparty/sqlite/sqlite3.lib",
+		"E:/ceshi2/robot/weld/utility2/include",
+		"E:/ceshi2/robot/weld/utility2/include/observer",
+		"E:/ceshi2/robot/weld/utility2/include/communication",
+		"C:/Qt5/Qt/5.15.2/msvc2019_64/include",
+		"C:/Qt5/Qt/5.15.2/msvc2019_64/include/QtSerialPort",
+		"C:/Qt5/Qt/5.15.2/msvc2019_64/include/QtCore",
+		"C:/Qt5/Qt/5.15.2/msvc2019_64/mkspecs/win32-msvc",
+		"C:/Qt5/Qt/5.15.2/msvc2019_64/include/QtSql",
+		"C:/Qt5/Qt/5.15.2/msvc2019_64/include/QtNetwork",
+		"C:/Qt5/Qt/5.15.2/msvc2019_64/include/QtGui",
+		"C:/Qt5/Qt/5.15.2/msvc2019_64/include/QtANGLE",
+		"C:/Qt5/Qt/5.15.2/msvc2019_64/include/QtWidgets",
+		"C:/Qt5/Qt/5.15.2/msvc2019_64/include/QtXml",
+		"C:/Qt5/Qt/5.15.2/msvc2019_64/include/QtConcurrent",
+		"E:/ceshi2/robot/weld/3rdparty/libmodbus/include"
+	],
+	"MOC_MACRO_NAMES" : [ "Q_OBJECT", "Q_GADGET", "Q_NAMESPACE", "Q_NAMESPACE_EXPORT" ],
+	"MOC_OPTIONS" : [],
+	"MOC_PATH_PREFIX" : false,
+	"MOC_PREDEFS_CMD" : [],
+	"MOC_PREDEFS_FILE" : "",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : [],
+	"MULTI_CONFIG" : false,
+	"PARALLEL" : 4,
+	"PARSE_CACHE_FILE" : "E:/ceshi2/robot/weld/x64-Debug/build/utility2/CMakeFiles/Utility_2_autogen.dir/ParseCache.txt",
+	"QT_MOC_EXECUTABLE" : "C:/Qt5/Qt/5.15.2/msvc2019_64/bin/moc.exe",
+	"QT_UIC_EXECUTABLE" : "",
+	"QT_VERSION_MAJOR" : 5,
+	"QT_VERSION_MINOR" : 15,
+	"SETTINGS_FILE" : "E:/ceshi2/robot/weld/x64-Debug/build/utility2/CMakeFiles/Utility_2_autogen.dir/AutogenUsed.txt",
+	"SOURCES" : 
+	[
+		[
+			"E:/ceshi2/robot/weld/utility2/src/communication/ModbusTcpDriver.cpp",
+			"Mu",
+			null
+		],
+		[ "E:/ceshi2/robot/weld/utility2/src/observer/Subject.cpp", "Mu", null ]
+	],
+	"VERBOSITY" : 0
+}

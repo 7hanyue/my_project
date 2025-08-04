@@ -145,12 +145,21 @@ build utility\rebuild_cache: phony utility\CMakeFiles\rebuild_cache.util
 #############################################
 # Order-only phony target for Utility_2
 
-build cmake_object_order_depends_target_Utility_2: phony || utility2\CMakeFiles\Utility_2.dir
+build cmake_object_order_depends_target_Utility_2: phony || utility2\Utility_2_autogen utility2\Utility_2_autogen\timestamp utility2\Utility_2_autogen_timestamp_deps
+
+build utility2\CMakeFiles\Utility_2.dir\Utility_2_autogen\mocs_compilation.cpp.obj: CXX_COMPILER__Utility_2_Debug utility2\Utility_2_autogen\mocs_compilation.cpp || cmake_object_order_depends_target_Utility_2
+  DEFINES = -DModbusTcp_Plugin -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_SERIALPORT_LIB -DQT_SQL_LIB -DQT_WIDGETS_LIB -DQT_XML_LIB -DUtility_2_EXPORTS
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 /utf-8 -finput-charset=UTF-8 /Zc:__cplusplus /permissive- -std:c++17
+  INCLUDES = -Iutility2 -I..\..\utility2 -Iutility2\Utility_2_autogen\include -IC:\download_3rdparty\sqlite\sqlite3.lib -I..\..\utility2\include -I..\..\utility2\include\observer -I..\..\utility2\include\communication -IC:\Qt5\Qt\5.15.2\msvc2019_64\include -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtSerialPort -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtCore -IC:\Qt5\Qt\5.15.2\msvc2019_64\.\mkspecs\win32-msvc -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtSql -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtNetwork -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtGui -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtANGLE -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtWidgets -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtXml -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtConcurrent -I..\..\3rdparty\libmodbus\include
+  OBJECT_DIR = utility2\CMakeFiles\Utility_2.dir
+  OBJECT_FILE_DIR = utility2\CMakeFiles\Utility_2.dir\Utility_2_autogen
+  TARGET_COMPILE_PDB = utility2\CMakeFiles\Utility_2.dir\
+  TARGET_PDB = ..\..\build\bin\Utility_2.pdb
 
 build utility2\CMakeFiles\Utility_2.dir\src\communication\ModbusTcpDriver.cpp.obj: CXX_COMPILER__Utility_2_Debug ..\..\utility2\src\communication\ModbusTcpDriver.cpp || cmake_object_order_depends_target_Utility_2
   DEFINES = -DModbusTcp_Plugin -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_SERIALPORT_LIB -DQT_SQL_LIB -DQT_WIDGETS_LIB -DQT_XML_LIB -DUtility_2_EXPORTS
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 /utf-8 -finput-charset=UTF-8 /Zc:__cplusplus /permissive- -std:c++17
-  INCLUDES = -Iutility2 -I..\..\utility2 -IC:\download_3rdparty\sqlite\sqlite3.lib -I..\..\3rdparty\libmodbus\include -I..\..\utility2\include -I..\..\utility2\include\observer -I..\..\utility2\include\communication -IC:\Qt5\Qt\5.15.2\msvc2019_64\include -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtSerialPort -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtCore -IC:\Qt5\Qt\5.15.2\msvc2019_64\.\mkspecs\win32-msvc -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtSql -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtNetwork -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtGui -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtANGLE -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtWidgets -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtXml -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtConcurrent
+  INCLUDES = -Iutility2 -I..\..\utility2 -Iutility2\Utility_2_autogen\include -IC:\download_3rdparty\sqlite\sqlite3.lib -I..\..\utility2\include -I..\..\utility2\include\observer -I..\..\utility2\include\communication -IC:\Qt5\Qt\5.15.2\msvc2019_64\include -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtSerialPort -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtCore -IC:\Qt5\Qt\5.15.2\msvc2019_64\.\mkspecs\win32-msvc -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtSql -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtNetwork -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtGui -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtANGLE -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtWidgets -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtXml -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtConcurrent -I..\..\3rdparty\libmodbus\include
   OBJECT_DIR = utility2\CMakeFiles\Utility_2.dir
   OBJECT_FILE_DIR = utility2\CMakeFiles\Utility_2.dir\src\communication
   TARGET_COMPILE_PDB = utility2\CMakeFiles\Utility_2.dir\
@@ -159,7 +168,7 @@ build utility2\CMakeFiles\Utility_2.dir\src\communication\ModbusTcpDriver.cpp.ob
 build utility2\CMakeFiles\Utility_2.dir\src\observer\Subject.cpp.obj: CXX_COMPILER__Utility_2_Debug ..\..\utility2\src\observer\Subject.cpp || cmake_object_order_depends_target_Utility_2
   DEFINES = -DModbusTcp_Plugin -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_SERIALPORT_LIB -DQT_SQL_LIB -DQT_WIDGETS_LIB -DQT_XML_LIB -DUtility_2_EXPORTS
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 /utf-8 -finput-charset=UTF-8 /Zc:__cplusplus /permissive- -std:c++17
-  INCLUDES = -Iutility2 -I..\..\utility2 -IC:\download_3rdparty\sqlite\sqlite3.lib -I..\..\3rdparty\libmodbus\include -I..\..\utility2\include -I..\..\utility2\include\observer -I..\..\utility2\include\communication -IC:\Qt5\Qt\5.15.2\msvc2019_64\include -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtSerialPort -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtCore -IC:\Qt5\Qt\5.15.2\msvc2019_64\.\mkspecs\win32-msvc -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtSql -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtNetwork -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtGui -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtANGLE -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtWidgets -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtXml -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtConcurrent
+  INCLUDES = -Iutility2 -I..\..\utility2 -Iutility2\Utility_2_autogen\include -IC:\download_3rdparty\sqlite\sqlite3.lib -I..\..\utility2\include -I..\..\utility2\include\observer -I..\..\utility2\include\communication -IC:\Qt5\Qt\5.15.2\msvc2019_64\include -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtSerialPort -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtCore -IC:\Qt5\Qt\5.15.2\msvc2019_64\.\mkspecs\win32-msvc -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtSql -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtNetwork -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtGui -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtANGLE -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtWidgets -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtXml -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtConcurrent -I..\..\3rdparty\libmodbus\include
   OBJECT_DIR = utility2\CMakeFiles\Utility_2.dir
   OBJECT_FILE_DIR = utility2\CMakeFiles\Utility_2.dir\src\observer
   TARGET_COMPILE_PDB = utility2\CMakeFiles\Utility_2.dir\
@@ -173,10 +182,10 @@ build utility2\CMakeFiles\Utility_2.dir\src\observer\Subject.cpp.obj: CXX_COMPIL
 #############################################
 # Link the shared library ..\..\build\bin\Utility_2.dll
 
-build ..\..\build\bin\Utility_2.dll ..\..\build\lib\Utility_2.lib: CXX_SHARED_LIBRARY_LINKER__Utility_2_Debug utility2\CMakeFiles\Utility_2.dir\src\communication\ModbusTcpDriver.cpp.obj utility2\CMakeFiles\Utility_2.dir\src\observer\Subject.cpp.obj | C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\Qt5SerialPortd.lib C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\Qt5Sqld.lib C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\Qt5Networkd.lib C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\Qt5Widgetsd.lib C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\Qt5Xmld.lib C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\Qt5Concurrentd.lib C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\Qt5Guid.lib C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\Qt5Cored.lib
+build ..\..\build\bin\Utility_2.dll ..\..\build\lib\Utility_2.lib: CXX_SHARED_LIBRARY_LINKER__Utility_2_Debug utility2\CMakeFiles\Utility_2.dir\Utility_2_autogen\mocs_compilation.cpp.obj utility2\CMakeFiles\Utility_2.dir\src\communication\ModbusTcpDriver.cpp.obj utility2\CMakeFiles\Utility_2.dir\src\observer\Subject.cpp.obj | C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\Qt5SerialPortd.lib C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\Qt5Sqld.lib C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\Qt5Networkd.lib C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\Qt5Widgetsd.lib C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\Qt5Xmld.lib C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\Qt5Concurrentd.lib ..\..\3rdparty\libmodbus\release\lib\modbus.lib C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\Qt5Guid.lib C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\Qt5Cored.lib || utility2\Utility_2_autogen utility2\Utility_2_autogen_timestamp_deps
   LANGUAGE_COMPILE_FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1
   LINK_FLAGS = /machine:x64 /debug /INCREMENTAL
-  LINK_LIBRARIES = C:\Qt5\Qt\5.15.2\msvc2019_64\lib\Qt5SerialPortd.lib  C:\Qt5\Qt\5.15.2\msvc2019_64\lib\Qt5Sqld.lib  C:\Qt5\Qt\5.15.2\msvc2019_64\lib\Qt5Networkd.lib  C:\Qt5\Qt\5.15.2\msvc2019_64\lib\Qt5Widgetsd.lib  C:\Qt5\Qt\5.15.2\msvc2019_64\lib\Qt5Xmld.lib  C:\Qt5\Qt\5.15.2\msvc2019_64\lib\Qt5Concurrentd.lib  C:\Qt5\Qt\5.15.2\msvc2019_64\lib\Qt5Guid.lib  C:\Qt5\Qt\5.15.2\msvc2019_64\lib\Qt5Cored.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
+  LINK_LIBRARIES = C:\Qt5\Qt\5.15.2\msvc2019_64\lib\Qt5SerialPortd.lib  C:\Qt5\Qt\5.15.2\msvc2019_64\lib\Qt5Sqld.lib  C:\Qt5\Qt\5.15.2\msvc2019_64\lib\Qt5Networkd.lib  C:\Qt5\Qt\5.15.2\msvc2019_64\lib\Qt5Widgetsd.lib  C:\Qt5\Qt\5.15.2\msvc2019_64\lib\Qt5Xmld.lib  C:\Qt5\Qt\5.15.2\msvc2019_64\lib\Qt5Concurrentd.lib  ..\..\3rdparty\libmodbus\release\lib\modbus.lib  C:\Qt5\Qt\5.15.2\msvc2019_64\lib\Qt5Guid.lib  C:\Qt5\Qt\5.15.2\msvc2019_64\lib\Qt5Cored.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
   OBJECT_DIR = utility2\CMakeFiles\Utility_2.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
@@ -208,6 +217,40 @@ build utility2\CMakeFiles\rebuild_cache.util: CUSTOM_COMMAND
   restat = 1
 
 build utility2\rebuild_cache: phony utility2\CMakeFiles\rebuild_cache.util
+
+
+#############################################
+# Utility command for Utility_2_autogen_timestamp_deps
+
+build utility2\Utility_2_autogen_timestamp_deps: phony utility2\CMakeFiles\Utility_2_autogen_timestamp_deps
+
+
+#############################################
+# Utility command for Utility_2_autogen
+
+build utility2\Utility_2_autogen: phony utility2\CMakeFiles\Utility_2_autogen utility2\Utility_2_autogen\mocs_compilation.cpp utility2\Utility_2_autogen\timestamp utility2\Utility_2_autogen_timestamp_deps
+
+
+#############################################
+# Custom command for utility2\Utility_2_autogen\timestamp
+
+build utility2\Utility_2_autogen\timestamp: CUSTOM_COMMAND C$:\Qt5\Qt\5.15.2\msvc2019_64\bin\moc.exe || utility2\Utility_2_autogen_timestamp_deps
+  COMMAND = cmd.exe /C "cd /D E:\ceshi2\robot\weld\x64-Debug\build\utility2 && E:\VS2019IDE\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe -E cmake_autogen E:/ceshi2/robot/weld/x64-Debug/build/utility2/CMakeFiles/Utility_2_autogen.dir/AutogenInfo.json Debug && E:\VS2019IDE\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe -E touch E:/ceshi2/robot/weld/x64-Debug/build/utility2/Utility_2_autogen/timestamp && E:\VS2019IDE\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe -E cmake_transform_depfile Ninja gccdepfile E:/ceshi2/robot/weld E:/ceshi2/robot/weld/utility2 E:/ceshi2/robot/weld/x64-Debug/build E:/ceshi2/robot/weld/x64-Debug/build/utility2 E:/ceshi2/robot/weld/x64-Debug/build/utility2/Utility_2_autogen/deps E:/ceshi2/robot/weld/x64-Debug/build/CMakeFiles/d/5db09736b2b7a6c2758c19dbb3176d68278d71fec0489c219ca9e7d1552c8a69.d"
+  DESC = Automatic MOC for target Utility_2
+  depfile = E:/ceshi2/robot/weld/x64-Debug/build/CMakeFiles/d/5db09736b2b7a6c2758c19dbb3176d68278d71fec0489c219ca9e7d1552c8a69.d
+  restat = 1
+
+
+#############################################
+# Phony custom command for utility2\CMakeFiles\Utility_2_autogen_timestamp_deps
+
+build utility2\CMakeFiles\Utility_2_autogen_timestamp_deps: phony C$:\Qt5\Qt\5.15.2\msvc2019_64\bin\Qt5Concurrentd.dll C$:\Qt5\Qt\5.15.2\msvc2019_64\bin\Qt5Xmld.dll ..\..\3rdparty\libmodbus\release\lib\modbus.lib C$:\Qt5\Qt\5.15.2\msvc2019_64\bin\Qt5Sqld.dll C$:\Qt5\Qt\5.15.2\msvc2019_64\bin\Qt5Guid.dll C$:\Qt5\Qt\5.15.2\msvc2019_64\bin\Qt5Widgetsd.dll C$:\Qt5\Qt\5.15.2\msvc2019_64\bin\Qt5SerialPortd.dll C$:\Qt5\Qt\5.15.2\msvc2019_64\bin\Qt5Cored.dll C$:\Qt5\Qt\5.15.2\msvc2019_64\bin\moc.exe C$:\Qt5\Qt\5.15.2\msvc2019_64\bin\Qt5Networkd.dll
+
+
+#############################################
+# Phony custom command for utility2\CMakeFiles\Utility_2_autogen
+
+build utility2\CMakeFiles\Utility_2_autogen utility2\Utility_2_autogen\mocs_compilation.cpp: phony utility2\Utility_2_autogen\timestamp || utility2\Utility_2_autogen_timestamp_deps
 
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
@@ -320,7 +363,7 @@ build Laser\LaserLib_autogen\timestamp: CUSTOM_COMMAND C$:\Qt5\Qt\5.15.2\msvc201
 #############################################
 # Phony custom command for Laser\CMakeFiles\LaserLib_autogen_timestamp_deps
 
-build Laser\CMakeFiles\LaserLib_autogen_timestamp_deps: phony C$:\Qt5\Qt\5.15.2\msvc2019_64\bin\Qt5Concurrentd.dll C$:\Qt5\Qt\5.15.2\msvc2019_64\bin\Qt5Xmld.dll C$:\Qt5\Qt\5.15.2\msvc2019_64\bin\Qt5Cored.dll C$:\Qt5\Qt\5.15.2\msvc2019_64\bin\Qt5Guid.dll C$:\Qt5\Qt\5.15.2\msvc2019_64\bin\Qt5Widgetsd.dll C$:\Qt5\Qt\5.15.2\msvc2019_64\bin\uic.exe C$:\Qt5\Qt\5.15.2\msvc2019_64\bin\moc.exe C$:\Qt5\Qt\5.15.2\msvc2019_64\bin\Qt5Sqld.dll C$:\Qt5\Qt\5.15.2\msvc2019_64\bin\Qt5Networkd.dll C$:\Qt5\Qt\5.15.2\msvc2019_64\bin\Qt5SerialPortd.dll
+build Laser\CMakeFiles\LaserLib_autogen_timestamp_deps: phony C$:\Qt5\Qt\5.15.2\msvc2019_64\bin\Qt5Concurrentd.dll C$:\Qt5\Qt\5.15.2\msvc2019_64\bin\Qt5Xmld.dll C$:\Qt5\Qt\5.15.2\msvc2019_64\bin\Qt5Sqld.dll C$:\Qt5\Qt\5.15.2\msvc2019_64\bin\Qt5Guid.dll C$:\Qt5\Qt\5.15.2\msvc2019_64\bin\Qt5Widgetsd.dll C$:\Qt5\Qt\5.15.2\msvc2019_64\bin\Qt5SerialPortd.dll C$:\Qt5\Qt\5.15.2\msvc2019_64\bin\uic.exe C$:\Qt5\Qt\5.15.2\msvc2019_64\bin\Qt5Cored.dll C$:\Qt5\Qt\5.15.2\msvc2019_64\bin\moc.exe C$:\Qt5\Qt\5.15.2\msvc2019_64\bin\Qt5Networkd.dll
 
 
 #############################################
@@ -691,7 +734,7 @@ build EGMServer\EGMServerSharedLibs_autogen\timestamp: CUSTOM_COMMAND C$:\Qt5\Qt
 #############################################
 # Phony custom command for EGMServer\CMakeFiles\EGMServerSharedLibs_autogen_timestamp_deps
 
-build EGMServer\CMakeFiles\EGMServerSharedLibs_autogen_timestamp_deps: phony C$:\Qt5\Qt\5.15.2\msvc2019_64\bin\Qt5Concurrentd.dll C$:\Qt5\Qt\5.15.2\msvc2019_64\bin\Qt5Xmld.dll C$:\Qt5\Qt\5.15.2\msvc2019_64\bin\Qt5Cored.dll C$:\Qt5\Qt\5.15.2\msvc2019_64\bin\Qt5Guid.dll C$:\Qt5\Qt\5.15.2\msvc2019_64\bin\Qt5Widgetsd.dll C$:\Qt5\Qt\5.15.2\msvc2019_64\bin\uic.exe C$:\Qt5\Qt\5.15.2\msvc2019_64\bin\moc.exe C$:\Qt5\Qt\5.15.2\msvc2019_64\bin\Qt5Sqld.dll C$:\Qt5\Qt\5.15.2\msvc2019_64\bin\Qt5Networkd.dll C$:\Qt5\Qt\5.15.2\msvc2019_64\bin\Qt5SerialPortd.dll ..\..\build\bin\Utility.dll || ..\..\build\bin\Utility.dll
+build EGMServer\CMakeFiles\EGMServerSharedLibs_autogen_timestamp_deps: phony C$:\Qt5\Qt\5.15.2\msvc2019_64\bin\Qt5Concurrentd.dll C$:\Qt5\Qt\5.15.2\msvc2019_64\bin\Qt5Xmld.dll C$:\Qt5\Qt\5.15.2\msvc2019_64\bin\Qt5Sqld.dll C$:\Qt5\Qt\5.15.2\msvc2019_64\bin\Qt5Guid.dll C$:\Qt5\Qt\5.15.2\msvc2019_64\bin\Qt5Widgetsd.dll C$:\Qt5\Qt\5.15.2\msvc2019_64\bin\Qt5SerialPortd.dll C$:\Qt5\Qt\5.15.2\msvc2019_64\bin\uic.exe C$:\Qt5\Qt\5.15.2\msvc2019_64\bin\Qt5Cored.dll C$:\Qt5\Qt\5.15.2\msvc2019_64\bin\moc.exe C$:\Qt5\Qt\5.15.2\msvc2019_64\bin\Qt5Networkd.dll ..\..\build\bin\Utility.dll || ..\..\build\bin\Utility.dll
 
 
 #############################################
@@ -818,7 +861,7 @@ build EGMServer\test\Test_EGMServer_autogen\timestamp: CUSTOM_COMMAND C$:\Qt5\Qt
 #############################################
 # Phony custom command for EGMServer\test\CMakeFiles\Test_EGMServer_autogen_timestamp_deps
 
-build EGMServer\test\CMakeFiles\Test_EGMServer_autogen_timestamp_deps: phony C$:\Qt5\Qt\5.15.2\msvc2019_64\bin\Qt5Concurrentd.dll C$:\Qt5\Qt\5.15.2\msvc2019_64\bin\Qt5Xmld.dll C$:\Qt5\Qt\5.15.2\msvc2019_64\bin\Qt5Cored.dll C$:\Qt5\Qt\5.15.2\msvc2019_64\bin\Qt5Guid.dll C$:\Qt5\Qt\5.15.2\msvc2019_64\bin\Qt5Widgetsd.dll C$:\Qt5\Qt\5.15.2\msvc2019_64\bin\moc.exe C$:\Qt5\Qt\5.15.2\msvc2019_64\bin\Qt5Sqld.dll C$:\Qt5\Qt\5.15.2\msvc2019_64\bin\Qt5Networkd.dll C$:\Qt5\Qt\5.15.2\msvc2019_64\bin\Qt5SerialPortd.dll ..\..\build\bin\EGMServerSharedLibs.dll || ..\..\build\bin\EGMServerSharedLibs.dll ..\..\build\bin\Utility.dll EGMServer\EGMServerSharedLibs_autogen EGMServer\EGMServerSharedLibs_autogen_timestamp_deps
+build EGMServer\test\CMakeFiles\Test_EGMServer_autogen_timestamp_deps: phony C$:\Qt5\Qt\5.15.2\msvc2019_64\bin\Qt5Concurrentd.dll C$:\Qt5\Qt\5.15.2\msvc2019_64\bin\Qt5Xmld.dll C$:\Qt5\Qt\5.15.2\msvc2019_64\bin\Qt5Sqld.dll C$:\Qt5\Qt\5.15.2\msvc2019_64\bin\Qt5Guid.dll C$:\Qt5\Qt\5.15.2\msvc2019_64\bin\Qt5Widgetsd.dll C$:\Qt5\Qt\5.15.2\msvc2019_64\bin\Qt5SerialPortd.dll C$:\Qt5\Qt\5.15.2\msvc2019_64\bin\Qt5Cored.dll C$:\Qt5\Qt\5.15.2\msvc2019_64\bin\moc.exe C$:\Qt5\Qt\5.15.2\msvc2019_64\bin\Qt5Networkd.dll ..\..\build\bin\EGMServerSharedLibs.dll || ..\..\build\bin\EGMServerSharedLibs.dll ..\..\build\bin\Utility.dll EGMServer\EGMServerSharedLibs_autogen EGMServer\EGMServerSharedLibs_autogen_timestamp_deps
 
 
 #############################################
@@ -937,7 +980,7 @@ build ui\UILib_autogen\timestamp: CUSTOM_COMMAND C$:\Qt5\Qt\5.15.2\msvc2019_64\b
 #############################################
 # Phony custom command for ui\CMakeFiles\UILib_autogen_timestamp_deps
 
-build ui\CMakeFiles\UILib_autogen_timestamp_deps: phony C$:\Qt5\Qt\5.15.2\msvc2019_64\bin\Qt5Concurrentd.dll C$:\Qt5\Qt\5.15.2\msvc2019_64\bin\Qt5Xmld.dll C$:\Qt5\Qt\5.15.2\msvc2019_64\bin\Qt5Cored.dll C$:\Qt5\Qt\5.15.2\msvc2019_64\bin\Qt5Guid.dll C$:\Qt5\Qt\5.15.2\msvc2019_64\bin\Qt5Widgetsd.dll C$:\Qt5\Qt\5.15.2\msvc2019_64\bin\uic.exe C$:\Qt5\Qt\5.15.2\msvc2019_64\bin\moc.exe C$:\Qt5\Qt\5.15.2\msvc2019_64\bin\Qt5Sqld.dll C$:\Qt5\Qt\5.15.2\msvc2019_64\bin\Qt5Networkd.dll C$:\Qt5\Qt\5.15.2\msvc2019_64\bin\Qt5SerialPortd.dll ..\..\build\bin\Utility.dll || ..\..\build\bin\Utility.dll
+build ui\CMakeFiles\UILib_autogen_timestamp_deps: phony C$:\Qt5\Qt\5.15.2\msvc2019_64\bin\Qt5Concurrentd.dll C$:\Qt5\Qt\5.15.2\msvc2019_64\bin\Qt5Xmld.dll C$:\Qt5\Qt\5.15.2\msvc2019_64\bin\Qt5Sqld.dll C$:\Qt5\Qt\5.15.2\msvc2019_64\bin\Qt5Guid.dll C$:\Qt5\Qt\5.15.2\msvc2019_64\bin\Qt5Widgetsd.dll C$:\Qt5\Qt\5.15.2\msvc2019_64\bin\Qt5SerialPortd.dll C$:\Qt5\Qt\5.15.2\msvc2019_64\bin\uic.exe C$:\Qt5\Qt\5.15.2\msvc2019_64\bin\Qt5Cored.dll C$:\Qt5\Qt\5.15.2\msvc2019_64\bin\moc.exe C$:\Qt5\Qt\5.15.2\msvc2019_64\bin\Qt5Networkd.dll ..\..\build\bin\Utility.dll || ..\..\build\bin\Utility.dll
 
 
 #############################################
@@ -1137,7 +1180,7 @@ build 3DCalib\CalibrationWizard_autogen\timestamp: CUSTOM_COMMAND C$:\Qt5\Qt\5.1
 #############################################
 # Phony custom command for 3DCalib\CMakeFiles\CalibrationWizard_autogen_timestamp_deps
 
-build 3DCalib\CMakeFiles\CalibrationWizard_autogen_timestamp_deps: phony C$:\Qt5\Qt\5.15.2\msvc2019_64\bin\Qt5Concurrentd.dll C$:\Qt5\Qt\5.15.2\msvc2019_64\bin\Qt5Xmld.dll C$:\Qt5\Qt\5.15.2\msvc2019_64\bin\Qt5Cored.dll C$:\Qt5\Qt\5.15.2\msvc2019_64\bin\Qt5Guid.dll C$:\Qt5\Qt\5.15.2\msvc2019_64\bin\Qt5Widgetsd.dll C$:\Qt5\Qt\5.15.2\msvc2019_64\bin\uic.exe C$:\Qt5\Qt\5.15.2\msvc2019_64\bin\moc.exe C$:\Qt5\Qt\5.15.2\msvc2019_64\bin\Qt5Sqld.dll C$:\Qt5\Qt\5.15.2\msvc2019_64\bin\Qt5Networkd.dll C$:\Qt5\Qt\5.15.2\msvc2019_64\bin\Qt5SerialPortd.dll ..\..\build\bin\Utility.dll ..\..\build\bin\LaserLib.dll ..\..\build\bin\UILib.dll || ..\..\build\bin\LaserLib.dll ..\..\build\bin\UILib.dll ..\..\build\bin\Utility.dll Laser\LaserLib_autogen Laser\LaserLib_autogen_timestamp_deps ui\UILib_autogen ui\UILib_autogen_timestamp_deps
+build 3DCalib\CMakeFiles\CalibrationWizard_autogen_timestamp_deps: phony C$:\Qt5\Qt\5.15.2\msvc2019_64\bin\Qt5Concurrentd.dll C$:\Qt5\Qt\5.15.2\msvc2019_64\bin\Qt5Xmld.dll C$:\Qt5\Qt\5.15.2\msvc2019_64\bin\Qt5Sqld.dll C$:\Qt5\Qt\5.15.2\msvc2019_64\bin\Qt5Guid.dll C$:\Qt5\Qt\5.15.2\msvc2019_64\bin\Qt5Widgetsd.dll C$:\Qt5\Qt\5.15.2\msvc2019_64\bin\Qt5SerialPortd.dll C$:\Qt5\Qt\5.15.2\msvc2019_64\bin\uic.exe C$:\Qt5\Qt\5.15.2\msvc2019_64\bin\Qt5Cored.dll C$:\Qt5\Qt\5.15.2\msvc2019_64\bin\moc.exe C$:\Qt5\Qt\5.15.2\msvc2019_64\bin\Qt5Networkd.dll ..\..\build\bin\Utility.dll ..\..\build\bin\LaserLib.dll ..\..\build\bin\UILib.dll || ..\..\build\bin\LaserLib.dll ..\..\build\bin\UILib.dll ..\..\build\bin\Utility.dll Laser\LaserLib_autogen Laser\LaserLib_autogen_timestamp_deps ui\UILib_autogen ui\UILib_autogen_timestamp_deps
 
 
 #############################################
@@ -1195,6 +1238,10 @@ build Utility.dll: phony ..\..\build\bin\Utility.dll
 build Utility_2: phony ..\..\build\bin\Utility_2.dll
 
 build Utility_2.dll: phony ..\..\build\bin\Utility_2.dll
+
+build Utility_2_autogen: phony utility2\Utility_2_autogen
+
+build Utility_2_autogen_timestamp_deps: phony utility2\Utility_2_autogen_timestamp_deps
 
 # =============================================================================
 # Folder targets.

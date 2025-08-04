@@ -262,7 +262,7 @@ SQLite3_LIBRARY:FILEPATH=C:/download_3rdparty/sqlite/sqlite3.lib
 UILib_LIB_DEPENDS:STATIC=general;Qt5::SerialPort;general;Qt5::Sql;general;Qt5::Network;general;Qt5::Core;general;Qt5::Gui;general;Qt5::Widgets;general;Qt5::Xml;general;Qt5::Concurrent;general;Utility;
 
 //Dependencies for the target
-Utility_2_LIB_DEPENDS:STATIC=general;Qt5::SerialPort;general;Qt5::Sql;general;Qt5::Network;general;Qt5::Core;general;Qt5::Gui;general;Qt5::Widgets;general;Qt5::Xml;general;Qt5::Concurrent;
+Utility_2_LIB_DEPENDS:STATIC=general;Qt5::SerialPort;general;Qt5::Sql;general;Qt5::Network;general;Qt5::Core;general;Qt5::Gui;general;Qt5::Widgets;general;Qt5::Xml;general;Qt5::Concurrent;general;modbus;
 
 //Dependencies for the target
 Utility_LIB_DEPENDS:STATIC=general;Qt5::SerialPort;general;Qt5::Sql;general;Qt5::Network;general;Qt5::Core;general;Qt5::Gui;general;Qt5::Widgets;general;Qt5::Xml;general;Qt5::Concurrent;
@@ -277,7 +277,7 @@ modbus_DIR:PATH=modbus_DIR-NOTFOUND
 modbus_INCLUDE_DIRS:PATH=E:/ceshi2/robot/weld/3rdparty/libmodbus/include
 
 //Path to a library.
-modbus_LIBRARIES:FILEPATH=modbus_LIBRARIES-NOTFOUND
+modbus_LIBRARIES:FILEPATH=E:/ceshi2/robot/weld/3rdparty/libmodbus/release/lib/modbus.lib
 
 //Value Computed by CMake
 weld_BINARY_DIR:STATIC=E:/ceshi2/robot/weld/x64-Debug/build

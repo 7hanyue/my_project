@@ -13,7 +13,7 @@ message(STATUS "------------Findmodbus.cmake-------")
 unset(modbus_FOUND)
 
 set(modbus_DIR ${LS_ROOT}/3rdparty/libmodbus)
-set(modbus_LIBRARY_DIR ${modbus_DIR}/release/lib)
+set(modbus_LIBRARY_DIRS ${modbus_DIR}/release/lib ${modbus_DIR}/release/bin)
 
 find_path(modbus_INCLUDE_DIRS  # 变量名：找到头文件路径后，存到这个变量里  
     NAMES modbus.h       # 要找的头文件名（支持通配符，这里明确找 modbus.h）  
@@ -21,11 +21,14 @@ find_path(modbus_INCLUDE_DIRS  # 变量名：找到头文件路径后，存到这个变量里
     NO_SYSTEM_ENVIRONMENT_PATH  # 不走系统环境变量路径，只搜上面指定的 PATHS
     )
 
-find_library(modbus_LIBRARIES 
+find_library(modbus_LIBRARIES  #找到库文件后，路径 / 名称存到这个变量
             modbus #要找的库名
             PATHS ${modbus_LIBRARY_DIRS} # 查找路径：
             NO_SYSTEM_ENVIRONMENT_PATH # 不走系统环境变量路径，只搜上面指定的 PATHS
             )
+
+message(STATUS "Find modbus:modbus_INCLUDE_DIRS ${modbus_INCLUDE_DIRS}") 
+message(STATUS "Find modbus:modbus_LIBRARIES ${modbus_LIBRARIES}") 
 
 if (modbus_INCLUDE_DIRS AND modbus_LIBRARIES)
     set(modbus_FOUND TRUE)

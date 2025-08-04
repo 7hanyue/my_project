@@ -6,7 +6,9 @@ add_definitions(-DModbusTcp_Plugin)
 
 #增加头文件所在目录：
 #include_directories(${QT_INCLUDES})
-
+#include_directories(${modbus_INCLUDE_DIRS})
+message(modbus_INCLUDE_DIRS "${modbus_INCLUDE_DIRS}")
+message(modbus_LIBRARY_DIR "${modbus_LIBRARY_DIR}")
 #include_directories(path json)
 #将所有需要编译的cpp源码文件路径资源保存在ALL_SRCS中
 file(GLOB_RECURSE ALL_SRCS "src/*.cpp")
@@ -17,7 +19,7 @@ message(STATUS "ALL_SRCS=${ALL_SRCS}")
 message(STATUS "\nALL_INCLUDES=${ALL_INCLUDES}")
 
 #MOC 会处理包含 Q_OBJECT 宏的头文件，生成必要的代码以支持 Qt 的信号和槽机制。
-#set(CMAKE_AUTOMOC ON) #若没有这句话，软件界面不支持信号和槽机制
+set(CMAKE_AUTOMOC ON) #若没有这句话，软件界面不支持信号和槽机制
 #UIC 会将 .ui 文件（Qt Designer 设计的界面文件）转换为 C++ 代码
 #set(CMAKE_AUTOUIC ON)
 
@@ -25,7 +27,7 @@ message(STATUS "\nALL_INCLUDES=${ALL_INCLUDES}")
 add_library(Utility_2 SHARED ${ALL_SRCS} ${ALL_INCLUDES})
 #${Mocfiles} ${ui_FILES}
 target_link_libraries(Utility_2 ${QT_LIBRARIES})
-
+target_link_libraries(Utility_2 modbus)
 #include_directories：
 #全局生效，对当前 CMakeLists.txt 及子目录中所有目标（后续定义的库、可执行文件等）添加头文件搜索路径，属于全局作用域。
 #例如：在根目录 CMakeLists 中使用后，所有子模块的目标都会继承这些路径。

@@ -1,0 +1,363 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "utility",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "utility",
+					"targetIndexes" : 
+					[
+						15
+					]
+				},
+				{
+					"build" : "utility2",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "utility2",
+					"targetIndexes" : 
+					[
+						16,
+						17,
+						18
+					]
+				},
+				{
+					"build" : "Laser",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Laser",
+					"targetIndexes" : 
+					[
+						6,
+						7,
+						8
+					]
+				},
+				{
+					"build" : "EGMServer",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "EGMServer",
+					"targetIndexes" : 
+					[
+						3,
+						4,
+						5
+					]
+				},
+				{
+					"build" : "EGMServer/test",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "EGMServer/test",
+					"targetIndexes" : 
+					[
+						9,
+						10,
+						11
+					]
+				},
+				{
+					"build" : "ui",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "ui",
+					"targetIndexes" : 
+					[
+						12,
+						13,
+						14
+					]
+				},
+				{
+					"build" : "userManager",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "userManager"
+				},
+				{
+					"build" : "3DCalib",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "3DCalib",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7
+					],
+					"name" : "weld",
+					"targetIndexes" : 
+					[
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "EGMServer",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3,
+						4,
+						5
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						8
+					],
+					"name" : "3DCalib",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 8,
+					"id" : "CalibrationWizard::@c609fa02dfc014e2d95c",
+					"jsonFile" : "target-CalibrationWizard-Debug-442028af22386ca67bec.json",
+					"name" : "CalibrationWizard",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "CalibrationWizard_autogen::@c609fa02dfc014e2d95c",
+					"jsonFile" : "target-CalibrationWizard_autogen-Debug-2a41136439c512de5809.json",
+					"name" : "CalibrationWizard_autogen",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "CalibrationWizard_autogen_timestamp_deps::@c609fa02dfc014e2d95c",
+					"jsonFile" : "target-CalibrationWizard_autogen_timestamp_deps-Debug-b2d91fd4983b751a84a9.json",
+					"name" : "CalibrationWizard_autogen_timestamp_deps",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "EGMServerSharedLibs::@01079093e882336233ee",
+					"jsonFile" : "target-EGMServerSharedLibs-Debug-52d0e183e6d371ebf172.json",
+					"name" : "EGMServerSharedLibs",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "EGMServerSharedLibs_autogen::@01079093e882336233ee",
+					"jsonFile" : "target-EGMServerSharedLibs_autogen-Debug-e0bf6710be9d7d4a1cf7.json",
+					"name" : "EGMServerSharedLibs_autogen",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "EGMServerSharedLibs_autogen_timestamp_deps::@01079093e882336233ee",
+					"jsonFile" : "target-EGMServerSharedLibs_autogen_timestamp_deps-Debug-af10dd7d6eb8a9b1673c.json",
+					"name" : "EGMServerSharedLibs_autogen_timestamp_deps",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "LaserLib::@f9e7d40405eb2fd37a41",
+					"jsonFile" : "target-LaserLib-Debug-c4f25bbc80ff78484604.json",
+					"name" : "LaserLib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "LaserLib_autogen::@f9e7d40405eb2fd37a41",
+					"jsonFile" : "target-LaserLib_autogen-Debug-3eb1799815a63b99cb21.json",
+					"name" : "LaserLib_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "LaserLib_autogen_timestamp_deps::@f9e7d40405eb2fd37a41",
+					"jsonFile" : "target-LaserLib_autogen_timestamp_deps-Debug-7510aecab05922963c09.json",
+					"name" : "LaserLib_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "Test_EGMServer::@b5d8ff9fabe6251cbf83",
+					"jsonFile" : "target-Test_EGMServer-Debug-0bc6946db2c43f6a955f.json",
+					"name" : "Test_EGMServer",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "Test_EGMServer_autogen::@b5d8ff9fabe6251cbf83",
+					"jsonFile" : "target-Test_EGMServer_autogen-Debug-f88bbbc6d3cb4a4b2421.json",
+					"name" : "Test_EGMServer_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "Test_EGMServer_autogen_timestamp_deps::@b5d8ff9fabe6251cbf83",
+					"jsonFile" : "target-Test_EGMServer_autogen_timestamp_deps-Debug-69400b1b4d965f04f5fc.json",
+					"name" : "Test_EGMServer_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "UILib::@19b8bf288843bf358763",
+					"jsonFile" : "target-UILib-Debug-f575e0a91ca949b548fb.json",
+					"name" : "UILib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "UILib_autogen::@19b8bf288843bf358763",
+					"jsonFile" : "target-UILib_autogen-Debug-322095d16ca56bfc84b5.json",
+					"name" : "UILib_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "UILib_autogen_timestamp_deps::@19b8bf288843bf358763",
+					"jsonFile" : "target-UILib_autogen_timestamp_deps-Debug-96de1a9759f4cfbf2d63.json",
+					"name" : "UILib_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "Utility::@23b027168f11ea0d609c",
+					"jsonFile" : "target-Utility-Debug-23ffce6e4217d4502893.json",
+					"name" : "Utility",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "Utility_2::@1433568982246e944098",
+					"jsonFile" : "target-Utility_2-Debug-1c1f0df4973c2e1ae596.json",
+					"name" : "Utility_2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "Utility_2_autogen::@1433568982246e944098",
+					"jsonFile" : "target-Utility_2_autogen-Debug-a0e09433c535e8a55a63.json",
+					"name" : "Utility_2_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "Utility_2_autogen_timestamp_deps::@1433568982246e944098",
+					"jsonFile" : "target-Utility_2_autogen_timestamp_deps-Debug-ac684d4868b32037bd48.json",
+					"name" : "Utility_2_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "E:/ceshi2/robot/weld/x64-Debug/build",
+		"source" : "E:/ceshi2/robot/weld"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 2
+	}
+}
