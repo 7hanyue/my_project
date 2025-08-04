@@ -61,6 +61,30 @@ uint16_t ModbusTcpDriver::Uint16_Conver(uint16_t value)
 	else
 		return value;
 }
+//float ABCD转换为double
+double ModbusTcpDriver::Uint16Vec_to_double(uint16_t value0, uint16_t value1)
+{
+	// 拆分字节
+	uint8_t A = (value0 >> 8) & 0xFF;  // value0高8位
+	uint8_t B = value0 & 0xFF;         // value0低8位
+	uint8_t C = (value1 >> 8) & 0xFF;  // value1高8位
+	uint8_t D = value1 & 0xFF;         // value1低8位
+
+	// 按ABCD顺序组合为32位整数
+	uint32_t combined = (static_cast<uint32_t>(A) << 24) | (static_cast<uint32_t>(B) << 16) |  (static_cast<uint32_t>(C) << 8) |  D; 
+	// 按CDAB顺序组合为32位整数
+	//uint32_t combined = (static_cast<uint32_t>(C) << 24) | (static_cast<uint32_t>(D) << 16) | (static_cast<uint32_t>(A) << 8) | B;
+	// 按BADC顺序组合为32位整数
+	//uint32_t combined = (static_cast<uint32_t>(B) << 24) | (static_cast<uint32_t>(A) << 16) | (static_cast<uint32_t>(D) << 8) | C;
+	// 按DCBA顺序组合
+	//uint32_t combined = (static_cast<uint32_t>(D) << 24) | (static_cast<uint32_t>(C) << 16) | (static_cast<uint32_t>(B) << 8) | A;
+
+	//安全转换为float，再转为double返回
+	float fTemp;
+	//将combined（uint32_t类型）的二进制数据原样拷贝到fTemp（float类型）中，实现两种不同类型间的二进制位复用（类型双关）<（类型双关）必须确保两种类型的大小一致（如uint32_t和float通常都是 4 字节），否则会导致内存越界>
+	std::memcpy(&fTemp, &combined, sizeof(fTemp));
+	return static_cast<double>(fTemp);
+}
 
 void ModbusTcpDriver::SetWriteBuffer(uint16_t address, uint16_t value)
 {

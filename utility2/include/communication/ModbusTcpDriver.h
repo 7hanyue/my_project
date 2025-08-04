@@ -43,7 +43,8 @@ public:
 	{
 		m_conver = b;
 	}
-
+	//float ABCD转换为double
+	double Uint16Vec_to_double(uint16_t value0, uint16_t value1);
 	
 	//往寄存器中写数据
 	bool write_register(int startAddress, uint16_t value, int functionCodes = MODBUS_FC_MASK_WRITE_REGISTER);
