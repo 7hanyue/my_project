@@ -36,6 +36,7 @@
 		"E:/ceshi2/robot/weld/x64-Debug/build/EGMServer/test",
 		"E:/ceshi2/robot/weld/EGMServer/test",
 		"C:/download_3rdparty/sqlite/sqlite3.lib",
+		"E:/ceshi2/robot/weld/3rdparty/libmodbus/include",
 		"E:/ceshi2/robot/weld/EGMServer/include",
 		"E:/ceshi2/robot/weld/utility/path",
 		"E:/ceshi2/robot/weld/utility/json",

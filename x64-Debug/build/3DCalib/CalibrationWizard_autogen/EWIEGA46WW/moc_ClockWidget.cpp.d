@@ -1,17 +1,27 @@
 E:/ceshi2/robot/weld/x64-Debug/build/3DCalib/CalibrationWizard_autogen/EWIEGA46WW/moc_ClockWidget.cpp: E:/ceshi2/robot/weld/3DCalib/ClockWidget.h \
+  C:/Qt5/Qt/5.15.2/msvc2019_64/include/QtCore/QJsonObject \
   C:/Qt5/Qt/5.15.2/msvc2019_64/include/QtCore/QLibrary \
+  C:/Qt5/Qt/5.15.2/msvc2019_64/include/QtCore/QSharedPointer \
+  C:/Qt5/Qt/5.15.2/msvc2019_64/include/QtCore/QThread \
   C:/Qt5/Qt/5.15.2/msvc2019_64/include/QtCore/qalgorithms.h \
   C:/Qt5/Qt/5.15.2/msvc2019_64/include/QtCore/qarraydata.h \
   C:/Qt5/Qt/5.15.2/msvc2019_64/include/QtCore/qatomic.h \
   C:/Qt5/Qt/5.15.2/msvc2019_64/include/QtCore/qbasicatomic.h \
   C:/Qt5/Qt/5.15.2/msvc2019_64/include/QtCore/qbytearray.h \
   C:/Qt5/Qt/5.15.2/msvc2019_64/include/QtCore/qbytearraylist.h \
+  C:/Qt5/Qt/5.15.2/msvc2019_64/include/QtCore/qcborcommon.h \
+  C:/Qt5/Qt/5.15.2/msvc2019_64/include/QtCore/qcborvalue.h \
   C:/Qt5/Qt/5.15.2/msvc2019_64/include/QtCore/qchar.h \
   C:/Qt5/Qt/5.15.2/msvc2019_64/include/QtCore/qcompilerdetection.h \
   C:/Qt5/Qt/5.15.2/msvc2019_64/include/QtCore/qconfig.h \
   C:/Qt5/Qt/5.15.2/msvc2019_64/include/QtCore/qcontainerfwd.h \
   C:/Qt5/Qt/5.15.2/msvc2019_64/include/QtCore/qcontainertools_impl.h \
+  C:/Qt5/Qt/5.15.2/msvc2019_64/include/QtCore/qcontiguouscache.h \
   C:/Qt5/Qt/5.15.2/msvc2019_64/include/QtCore/qdatastream.h \
+  C:/Qt5/Qt/5.15.2/msvc2019_64/include/QtCore/qdatetime.h \
+  C:/Qt5/Qt/5.15.2/msvc2019_64/include/QtCore/qdeadlinetimer.h \
+  C:/Qt5/Qt/5.15.2/msvc2019_64/include/QtCore/qdebug.h \
+  C:/Qt5/Qt/5.15.2/msvc2019_64/include/QtCore/qelapsedtimer.h \
   C:/Qt5/Qt/5.15.2/msvc2019_64/include/QtCore/qflags.h \
   C:/Qt5/Qt/5.15.2/msvc2019_64/include/QtCore/qglobal.h \
   C:/Qt5/Qt/5.15.2/msvc2019_64/include/QtCore/qglobalstatic.h \
@@ -19,10 +29,14 @@ E:/ceshi2/robot/weld/x64-Debug/build/3DCalib/CalibrationWizard_autogen/EWIEGA46W
   C:/Qt5/Qt/5.15.2/msvc2019_64/include/QtCore/qhashfunctions.h \
   C:/Qt5/Qt/5.15.2/msvc2019_64/include/QtCore/qiodevice.h \
   C:/Qt5/Qt/5.15.2/msvc2019_64/include/QtCore/qiterator.h \
+  C:/Qt5/Qt/5.15.2/msvc2019_64/include/QtCore/qjsonobject.h \
+  C:/Qt5/Qt/5.15.2/msvc2019_64/include/QtCore/qjsonvalue.h \
   C:/Qt5/Qt/5.15.2/msvc2019_64/include/QtCore/qlibrary.h \
   C:/Qt5/Qt/5.15.2/msvc2019_64/include/QtCore/qline.h \
   C:/Qt5/Qt/5.15.2/msvc2019_64/include/QtCore/qlist.h \
+  C:/Qt5/Qt/5.15.2/msvc2019_64/include/QtCore/qlocale.h \
   C:/Qt5/Qt/5.15.2/msvc2019_64/include/QtCore/qlogging.h \
+  C:/Qt5/Qt/5.15.2/msvc2019_64/include/QtCore/qmap.h \
   C:/Qt5/Qt/5.15.2/msvc2019_64/include/QtCore/qmargins.h \
   C:/Qt5/Qt/5.15.2/msvc2019_64/include/QtCore/qmetatype.h \
   C:/Qt5/Qt/5.15.2/msvc2019_64/include/QtCore/qmutex.h \
@@ -38,7 +52,9 @@ E:/ceshi2/robot/weld/x64-Debug/build/3DCalib/CalibrationWizard_autogen/EWIEGA46W
   C:/Qt5/Qt/5.15.2/msvc2019_64/include/QtCore/qrect.h \
   C:/Qt5/Qt/5.15.2/msvc2019_64/include/QtCore/qrefcount.h \
   C:/Qt5/Qt/5.15.2/msvc2019_64/include/QtCore/qregexp.h \
+  C:/Qt5/Qt/5.15.2/msvc2019_64/include/QtCore/qregularexpression.h \
   C:/Qt5/Qt/5.15.2/msvc2019_64/include/QtCore/qscopedpointer.h \
+  C:/Qt5/Qt/5.15.2/msvc2019_64/include/QtCore/qset.h \
   C:/Qt5/Qt/5.15.2/msvc2019_64/include/QtCore/qshareddata.h \
   C:/Qt5/Qt/5.15.2/msvc2019_64/include/QtCore/qsharedpointer.h \
   C:/Qt5/Qt/5.15.2/msvc2019_64/include/QtCore/qsharedpointer_impl.h \
@@ -52,7 +68,12 @@ E:/ceshi2/robot/weld/x64-Debug/build/3DCalib/CalibrationWizard_autogen/EWIEGA46W
   C:/Qt5/Qt/5.15.2/msvc2019_64/include/QtCore/qsysinfo.h \
   C:/Qt5/Qt/5.15.2/msvc2019_64/include/QtCore/qsystemdetection.h \
   C:/Qt5/Qt/5.15.2/msvc2019_64/include/QtCore/qtcore-config.h \
+  C:/Qt5/Qt/5.15.2/msvc2019_64/include/QtCore/qtextstream.h \
+  C:/Qt5/Qt/5.15.2/msvc2019_64/include/QtCore/qthread.h \
   C:/Qt5/Qt/5.15.2/msvc2019_64/include/QtCore/qtypeinfo.h \
+  C:/Qt5/Qt/5.15.2/msvc2019_64/include/QtCore/qurl.h \
+  C:/Qt5/Qt/5.15.2/msvc2019_64/include/QtCore/quuid.h \
+  C:/Qt5/Qt/5.15.2/msvc2019_64/include/QtCore/qvariant.h \
   C:/Qt5/Qt/5.15.2/msvc2019_64/include/QtCore/qvarlengtharray.h \
   C:/Qt5/Qt/5.15.2/msvc2019_64/include/QtCore/qvector.h \
   C:/Qt5/Qt/5.15.2/msvc2019_64/include/QtCore/qversiontagging.h \
@@ -83,10 +104,12 @@ E:/ceshi2/robot/weld/x64-Debug/build/3DCalib/CalibrationWizard_autogen/EWIEGA46W
   C:/Qt5/Qt/5.15.2/msvc2019_64/include/QtGui/qtransform.h \
   C:/Qt5/Qt/5.15.2/msvc2019_64/include/QtGui/qwindowdefs.h \
   C:/Qt5/Qt/5.15.2/msvc2019_64/include/QtGui/qwindowdefs_win.h \
+  C:/Qt5/Qt/5.15.2/msvc2019_64/include/QtWidgets/QButtonGroup \
   C:/Qt5/Qt/5.15.2/msvc2019_64/include/QtWidgets/QCheckBox \
   C:/Qt5/Qt/5.15.2/msvc2019_64/include/QtWidgets/QDialog \
   C:/Qt5/Qt/5.15.2/msvc2019_64/include/QtWidgets/QWidget \
   C:/Qt5/Qt/5.15.2/msvc2019_64/include/QtWidgets/qabstractbutton.h \
+  C:/Qt5/Qt/5.15.2/msvc2019_64/include/QtWidgets/qbuttongroup.h \
   C:/Qt5/Qt/5.15.2/msvc2019_64/include/QtWidgets/qcheckbox.h \
   C:/Qt5/Qt/5.15.2/msvc2019_64/include/QtWidgets/qdialog.h \
   C:/Qt5/Qt/5.15.2/msvc2019_64/include/QtWidgets/qsizepolicy.h \
@@ -94,4 +117,10 @@ E:/ceshi2/robot/weld/x64-Debug/build/3DCalib/CalibrationWizard_autogen/EWIEGA46W
   C:/Qt5/Qt/5.15.2/msvc2019_64/include/QtWidgets/qtwidgetsglobal.h \
   C:/Qt5/Qt/5.15.2/msvc2019_64/include/QtWidgets/qwidget.h \
   E:/ceshi2/robot/weld/3DCalib/MarkParamDialog.h \
-  E:/ceshi2/robot/weld/3rdparty/Ezcad3/inculde/EzcadKernel.h
+  E:/ceshi2/robot/weld/3rdparty/Ezcad3/inculde/EzcadKernel.h \
+  E:/ceshi2/robot/weld/Laser/base/DynamicEzcad3.h \
+  E:/ceshi2/robot/weld/Laser/base/IEzdKernel.h \
+  E:/ceshi2/robot/weld/Laser/manager/Control.h \
+  E:/ceshi2/robot/weld/ui/9SquareGrids/PositionDatumsDialog.h \
+  E:/ceshi2/robot/weld/ui/9SquareGrids/PositionDatumsParam.h \
+  E:/ceshi2/robot/weld/utility/json/ParamSet.h

@@ -61,19 +61,23 @@ public:
     QTableWidget *tablew3DCalibData;
     QPushButton *btnSaveCalibData;
     QGroupBox *groupBox_4;
-    QWidget *widget;
+    QWidget *layoutWidget3;
     QVBoxLayout *verticalLayout_4;
     QPushButton *btnF3Param;
     QPushButton *btnMarkParam;
+    QPushButton *btnSet;
+    QLabel *label_7;
+    QDoubleSpinBox *doubleSpinxSecondZStep;
+    QPushButton *btn_test;
 
     void setupUi(QWidget *ClockWidget)
     {
         if (ClockWidget->objectName().isEmpty())
             ClockWidget->setObjectName(QString::fromUtf8("ClockWidget"));
-        ClockWidget->resize(973, 657);
+        ClockWidget->resize(1128, 706);
         groupBox = new QGroupBox(ClockWidget);
         groupBox->setObjectName(QString::fromUtf8("groupBox"));
-        groupBox->setGeometry(QRect(0, 460, 211, 201));
+        groupBox->setGeometry(QRect(0, 510, 211, 201));
         layoutWidget = new QWidget(groupBox);
         layoutWidget->setObjectName(QString::fromUtf8("layoutWidget"));
         layoutWidget->setGeometry(QRect(10, 20, 201, 139));
@@ -181,10 +185,10 @@ public:
 
         btnAddCalibData = new QPushButton(ClockWidget);
         btnAddCalibData->setObjectName(QString::fromUtf8("btnAddCalibData"));
-        btnAddCalibData->setGeometry(QRect(230, 430, 101, 24));
+        btnAddCalibData->setGeometry(QRect(230, 440, 101, 24));
         groupBox_2 = new QGroupBox(ClockWidget);
         groupBox_2->setObjectName(QString::fromUtf8("groupBox_2"));
-        groupBox_2->setGeometry(QRect(220, 460, 111, 91));
+        groupBox_2->setGeometry(QRect(220, 520, 111, 91));
         layoutWidget2 = new QWidget(groupBox_2);
         layoutWidget2->setObjectName(QString::fromUtf8("layoutWidget2"));
         layoutWidget2->setGeometry(QRect(10, 40, 101, 51));
@@ -204,41 +208,57 @@ public:
 
         label_6 = new QLabel(ClockWidget);
         label_6->setObjectName(QString::fromUtf8("label_6"));
-        label_6->setGeometry(QRect(350, 480, 151, 16));
+        label_6->setGeometry(QRect(350, 510, 151, 16));
         doubleSpxZphysicalValue = new QDoubleSpinBox(ClockWidget);
         doubleSpxZphysicalValue->setObjectName(QString::fromUtf8("doubleSpxZphysicalValue"));
-        doubleSpxZphysicalValue->setGeometry(QRect(350, 500, 121, 24));
+        doubleSpxZphysicalValue->setGeometry(QRect(350, 530, 121, 24));
         doubleSpxZphysicalValue->setMinimum(-300.000000000000000);
         doubleSpxZphysicalValue->setMaximum(300.000000000000000);
         doubleSpxZphysicalValue->setSingleStep(0.500000000000000);
         groupBox_3 = new QGroupBox(ClockWidget);
         groupBox_3->setObjectName(QString::fromUtf8("groupBox_3"));
-        groupBox_3->setGeometry(QRect(440, 0, 531, 451));
+        groupBox_3->setGeometry(QRect(730, 0, 411, 461));
         tablew3DCalibData = new QTableWidget(groupBox_3);
         tablew3DCalibData->setObjectName(QString::fromUtf8("tablew3DCalibData"));
-        tablew3DCalibData->setGeometry(QRect(10, 20, 521, 401));
+        tablew3DCalibData->setGeometry(QRect(10, 30, 391, 401));
         btnSaveCalibData = new QPushButton(groupBox_3);
         btnSaveCalibData->setObjectName(QString::fromUtf8("btnSaveCalibData"));
-        btnSaveCalibData->setGeometry(QRect(440, 420, 89, 24));
+        btnSaveCalibData->setGeometry(QRect(310, 430, 89, 24));
         groupBox_4 = new QGroupBox(ClockWidget);
         groupBox_4->setObjectName(QString::fromUtf8("groupBox_4"));
-        groupBox_4->setGeometry(QRect(220, 560, 111, 91));
-        widget = new QWidget(groupBox_4);
-        widget->setObjectName(QString::fromUtf8("widget"));
-        widget->setGeometry(QRect(10, 30, 101, 57));
-        verticalLayout_4 = new QVBoxLayout(widget);
+        groupBox_4->setGeometry(QRect(220, 620, 111, 91));
+        layoutWidget3 = new QWidget(groupBox_4);
+        layoutWidget3->setObjectName(QString::fromUtf8("layoutWidget3"));
+        layoutWidget3->setGeometry(QRect(10, 30, 101, 57));
+        verticalLayout_4 = new QVBoxLayout(layoutWidget3);
         verticalLayout_4->setObjectName(QString::fromUtf8("verticalLayout_4"));
         verticalLayout_4->setContentsMargins(0, 0, 0, 0);
-        btnF3Param = new QPushButton(widget);
+        btnF3Param = new QPushButton(layoutWidget3);
         btnF3Param->setObjectName(QString::fromUtf8("btnF3Param"));
 
         verticalLayout_4->addWidget(btnF3Param);
 
-        btnMarkParam = new QPushButton(widget);
+        btnMarkParam = new QPushButton(layoutWidget3);
         btnMarkParam->setObjectName(QString::fromUtf8("btnMarkParam"));
 
         verticalLayout_4->addWidget(btnMarkParam);
 
+        btnSet = new QPushButton(ClockWidget);
+        btnSet->setObjectName(QString::fromUtf8("btnSet"));
+        btnSet->setGeometry(QRect(148, 440, 61, 24));
+        btnSet->setToolTipDuration(2000);
+        label_7 = new QLabel(ClockWidget);
+        label_7->setObjectName(QString::fromUtf8("label_7"));
+        label_7->setGeometry(QRect(0, 440, 55, 22));
+        doubleSpinxSecondZStep = new QDoubleSpinBox(ClockWidget);
+        doubleSpinxSecondZStep->setObjectName(QString::fromUtf8("doubleSpinxSecondZStep"));
+        doubleSpinxSecondZStep->setGeometry(QRect(60, 440, 81, 24));
+        doubleSpinxSecondZStep->setMaximum(50.000000000000000);
+        doubleSpinxSecondZStep->setSingleStep(0.100000000000000);
+        doubleSpinxSecondZStep->setValue(0.200000000000000);
+        btn_test = new QPushButton(ClockWidget);
+        btn_test->setObjectName(QString::fromUtf8("btn_test"));
+        btn_test->setGeometry(QRect(730, 680, 89, 24));
 
         retranslateUi(ClockWidget);
 
@@ -265,6 +285,12 @@ public:
         groupBox_4->setTitle(QCoreApplication::translate("ClockWidget", "\350\256\276\347\275\256\345\217\202\346\225\260", nullptr));
         btnF3Param->setText(QCoreApplication::translate("ClockWidget", "F3\345\217\202\346\225\260", nullptr));
         btnMarkParam->setText(QCoreApplication::translate("ClockWidget", "\346\240\207\345\210\273\345\217\202\346\225\260\350\256\276\347\275\256", nullptr));
+#if QT_CONFIG(tooltip)
+        btnSet->setToolTip(QString());
+#endif // QT_CONFIG(tooltip)
+        btnSet->setText(QCoreApplication::translate("ClockWidget", "set", nullptr));
+        label_7->setText(QCoreApplication::translate("ClockWidget", "sz step", nullptr));
+        btn_test->setText(QCoreApplication::translate("ClockWidget", "\346\265\213\350\257\225", nullptr));
     } // retranslateUi
 
 };

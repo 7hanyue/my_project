@@ -18,6 +18,9 @@
 3DCalib_BINARY_DIR:STATIC=E:/ceshi2/robot/weld/x64-Debug/build/3DCalib
 
 //Value Computed by CMake
+3DCalib_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
 3DCalib_SOURCE_DIR:STATIC=E:/ceshi2/robot/weld/3DCalib
 
 //Path to a program.
@@ -83,8 +86,14 @@ CMAKE_EXE_LINKER_FLAGS_RELEASE:STRING=/INCREMENTAL:NO
 //Flags used by the linker during RELWITHDEBINFO builds.
 CMAKE_EXE_LINKER_FLAGS_RELWITHDEBINFO:STRING=/debug /INCREMENTAL
 
+//Enable/Disable output of build database during the build.
+CMAKE_EXPORT_BUILD_DATABASE:BOOL=
+
 //Enable/Disable output of compile commands during generation.
 CMAKE_EXPORT_COMPILE_COMMANDS:BOOL=
+
+//Value Computed by CMake.
+CMAKE_FIND_PACKAGE_REDIRECTS_DIR:STATIC=E:/ceshi2/robot/weld/x64-Debug/build/CMakeFiles/pkgRedirects
 
 //No help, variable specified on the command line.
 CMAKE_INSTALL_PREFIX:PATH=E:/ceshi2/robot/weld/out/install/x64-Debug
@@ -205,7 +214,19 @@ EGMServerSharedLibs_LIB_DEPENDS:STATIC=general;Qt5::SerialPort;general;Qt5::Sql;
 EGMServer_BINARY_DIR:STATIC=E:/ceshi2/robot/weld/x64-Debug/build/EGMServer
 
 //Value Computed by CMake
+EGMServer_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
 EGMServer_SOURCE_DIR:STATIC=E:/ceshi2/robot/weld/EGMServer
+
+//Dependencies for the target
+LaserLib_LIB_DEPENDS:STATIC=general;Qt5::SerialPort;general;Qt5::Sql;general;Qt5::Network;general;Qt5::Core;general;Qt5::Gui;general;Qt5::Widgets;general;Qt5::Xml;general;Qt5::Concurrent;
+
+//Arguments to supply to pkg-config
+PKG_CONFIG_ARGN:STRING=
+
+//pkg-config executable
+PKG_CONFIG_EXECUTABLE:FILEPATH=PKG_CONFIG_EXECUTABLE-NOTFOUND
 
 //The directory containing a CMake configuration file for Qt5Concurrent.
 Qt5Concurrent_DIR:PATH=C:/Qt5/Qt/5.15.2/msvc2019_64/lib/cmake/Qt5Concurrent
@@ -238,10 +259,31 @@ SQLite3_INCLUDE_DIR:PATH=C:/download_3rdparty/sqlite
 SQLite3_LIBRARY:FILEPATH=C:/download_3rdparty/sqlite/sqlite3.lib
 
 //Dependencies for the target
+UILib_LIB_DEPENDS:STATIC=general;Qt5::SerialPort;general;Qt5::Sql;general;Qt5::Network;general;Qt5::Core;general;Qt5::Gui;general;Qt5::Widgets;general;Qt5::Xml;general;Qt5::Concurrent;general;Utility;
+
+//Dependencies for the target
+Utility_2_LIB_DEPENDS:STATIC=general;Qt5::SerialPort;general;Qt5::Sql;general;Qt5::Network;general;Qt5::Core;general;Qt5::Gui;general;Qt5::Widgets;general;Qt5::Xml;general;Qt5::Concurrent;
+
+//Dependencies for the target
 Utility_LIB_DEPENDS:STATIC=general;Qt5::SerialPort;general;Qt5::Sql;general;Qt5::Network;general;Qt5::Core;general;Qt5::Gui;general;Qt5::Widgets;general;Qt5::Xml;general;Qt5::Concurrent;
+
+//Dependencies for the target
+Utilityb2_LIB_DEPENDS:STATIC=general;Qt5::SerialPort;general;Qt5::Sql;general;Qt5::Network;general;Qt5::Core;general;Qt5::Gui;general;Qt5::Widgets;general;Qt5::Xml;general;Qt5::Concurrent;
+
+//The directory containing a CMake configuration file for modbus.
+modbus_DIR:PATH=modbus_DIR-NOTFOUND
+
+//Path to a file.
+modbus_INCLUDE_DIRS:PATH=E:/ceshi2/robot/weld/3rdparty/libmodbus/include
+
+//Path to a library.
+modbus_LIBRARIES:FILEPATH=modbus_LIBRARIES-NOTFOUND
 
 //Value Computed by CMake
 weld_BINARY_DIR:STATIC=E:/ceshi2/robot/weld/x64-Debug/build
+
+//Value Computed by CMake
+weld_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
 weld_SOURCE_DIR:STATIC=E:/ceshi2/robot/weld
@@ -307,6 +349,8 @@ CMAKE_EXE_LINKER_FLAGS_MINSIZEREL-ADVANCED:INTERNAL=1
 CMAKE_EXE_LINKER_FLAGS_RELEASE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_EXE_LINKER_FLAGS_RELWITHDEBINFO
 CMAKE_EXE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CMAKE_EXPORT_BUILD_DATABASE
+CMAKE_EXPORT_BUILD_DATABASE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_EXPORT_COMPILE_COMMANDS
 CMAKE_EXPORT_COMPILE_COMMANDS-ADVANCED:INTERNAL=1
 //Name of external makefile project generator.
@@ -337,7 +381,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_MT
 CMAKE_MT-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=6
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=9
 //Platform information initialized
 CMAKE_PLATFORM_INFO_INITIALIZED:INTERNAL=1
 //noop for ranlib
@@ -385,6 +429,10 @@ CMAKE_STATIC_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
 //Details about finding SQLite3
 FIND_PACKAGE_MESSAGE_DETAILS_SQLite3:INTERNAL=[C:/download_3rdparty/sqlite][C:/download_3rdparty/sqlite/sqlite3.lib][v3.49.2()]
+//ADVANCED property for variable: PKG_CONFIG_ARGN
+PKG_CONFIG_ARGN-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: PKG_CONFIG_EXECUTABLE
+PKG_CONFIG_EXECUTABLE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: SQLite3_INCLUDE_DIR
 SQLite3_INCLUDE_DIR-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: SQLite3_LIBRARY

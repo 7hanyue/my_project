@@ -39,7 +39,7 @@ find_package(Qt5Concurrent REQUIRED)
 message(STATUS "Qt5Concurrent_INCLUDE_DIRS=${Qt5Concurrent_INCLUDE_DIRS}")
 message(STATUS "Qt5Core_LIBRARIES=${Qt5Core_LIBRARIES}")
 message(STATUS "Qt5Network_INCLUDE_DIRS=${Qt5Network_INCLUDE_DIRS}")
-#Qt5SerialPort_LIBRARIES、Qt5Sql_LIBRARIES等这些变量变量是 CMake 在找到 Qt6 模块后默认提供的.当 find_package 正确找到 Qt6 的 SerialPort 模块后，这些变量就会被赋值
+#Qt5SerialPort_LIBRARIES、Qt5Sql_LIBRARIES等这些变量变量是 CMake 在找到 Qt5 模块后默认提供的.当 find_package 正确找到 Qt5 的 SerialPort 模块后，这些变量就会被赋值
 set(QT_LIBRARIES ${Qt5SerialPort_LIBRARIES} ${Qt5Sql_LIBRARIES} ${Qt5Network_LIBRARIES} ${Qt5Core_LIBRARIES} ${Qt5Gui_LIBRARIES} ${Qt5Widgets_LIBRARIES} ${Qt5Xml_LIBRARIES} ${Qt5Concurrent_LIBRARIES})
 
 set(QT_INCLUDES ${Qt5SerialPort_INCLUDE_DIRS} ${Qt5Sql_INCLUDE_DIRS} ${Qt5Network_INCLUDE_DIRS} ${Qt5Core_INCLUDE_DIRS} ${Qt5Gui_INCLUDE_DIRS} ${Qt5Widgets_INCLUDE_DIRS} ${Qt5Xml_INCLUDE_DIRS} ${Qt5Concurrent_INCLUDE_DIRS})
@@ -81,16 +81,36 @@ set(EGMServer_LIBRARIES EGMServerSharedLibs)
 
 set(UTILITY_INCLUDE ${CMAKE_CURRENT_SOURCE_DIR}/utility)
 
+set(LASER_INCLUDE ${CMAKE_CURRENT_SOURCE_DIR}/Laser)
+
+set(UI_INCLUDE ${CMAKE_CURRENT_SOURCE_DIR}/ui)
+message(STATUS "UI_INCLUDE=${CMAKE_CURRENT_SOURCE_DIR}/ui")
 set(LS_ROOT ${CMAKE_CURRENT_SOURCE_DIR})
 set(Ezcad3_include ${LS_ROOT}/3rdparty/Ezcad3/inculde)
+message(STATUS "CMAKE_RUNTIME_OUTPUT_DIRECTORY=${CMAKE_RUNTIME_OUTPUT_DIRECTORY} ")
+
+set(L_Find_DIR ${LS_ROOT}/cmake)
+#CMAKE_MODULE_PATH：CMake 内置变量，存储查找自定义模块（如 Findxxx.cmake）的路径列表
+#把 ${L_Find_DIR}（需提前定义的路径变量）追加到 CMAKE_MODULE_PATH 最前面，让 CMake 优先在 ${L_Find_DIR} 里找自定义模块（比如 Findmodbus.cmake ）。
+set(CMAKE_MODULE_PATH ${L_Find_DIR} ${CMAKE_MODULE_PATH})
+
+#modbus库使用
+find_package(modbus REQUIRED) 
+include_directories(${modbus_INCLUDE_DIRS})
+
 
 #set(json_INCLUDE ${CMAKE_CURRENT_SOURCE_DIR}/utility/json)
 message(STATUS "----------------#weld#end ")
 # 包含子项目。
+
 add_subdirectory (utility)
+add_subdirectory (utility2)
+add_subdirectory (Laser)
 add_subdirectory (EGMServer)
 add_subdirectory (EGMServer/test)
+add_subdirectory (ui)
 add_subdirectory (userManager)
+
 add_subdirectory (3DCalib)
 
 

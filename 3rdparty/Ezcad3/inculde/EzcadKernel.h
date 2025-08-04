@@ -5189,7 +5189,7 @@ typedef E3_ERR (*e3_GetEntChildCount)(E3_ID idEnt,int& n);
 /// <param name="box">:外包盒尺寸</param>
 /// <param name="z">:Z坐标</param>
 /// <param name="a">:A坐标</param>
-typedef E3_ERR (*e3_GetEntBaseInfo)(E3_ID idEnt,int& type,int& nPen,TCHAR strName[256],Box2d& box,double& z,double& a);
+typedef E3_ERR (*e3_GetEntBaseInfo)(E3_ID idEnt,int& type,int& nPen,std::string strName,Box2d& box,double& z,double& a);
 
 /// <summary>
 /// <para>API编码:[00148051]</para>

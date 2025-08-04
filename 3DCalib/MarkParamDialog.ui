@@ -6,13 +6,146 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>800</width>
+    <width>574</width>
     <height>600</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>MarkParamDialog</string>
   </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>40</y>
+     <width>111</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>标刻速度(mm/s)</string>
+   </property>
+  </widget>
+  <widget class="QDoubleSpinBox" name="doubleSpxMarkSpeed">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>40</y>
+     <width>76</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="maximum">
+    <double>10000.000000000000000</double>
+   </property>
+   <property name="value">
+    <double>120.000000000000000</double>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>80</y>
+     <width>91</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>激光功率(%)</string>
+   </property>
+  </widget>
+  <widget class="QDoubleSpinBox" name="doubleSpxCenterPower">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>80</y>
+     <width>76</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="maximum">
+    <double>100.000000000000000</double>
+   </property>
+   <property name="value">
+    <double>10.000000000000000</double>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>120</y>
+     <width>111</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>打点时间(ms）</string>
+   </property>
+  </widget>
+  <widget class="QDoubleSpinBox" name="doubleSpxPointMarkTime">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>120</y>
+     <width>76</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="maximum">
+    <double>100000.000000000000000</double>
+   </property>
+   <property name="value">
+    <double>10.000000000000000</double>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnSavePenParam">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>510</y>
+     <width>89</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>保存</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>180</y>
+     <width>131</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>连续模式(cw/qcw)</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="comboContinued">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>180</y>
+     <width>76</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>是</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>否</string>
+    </property>
+   </item>
+  </widget>
  </widget>
  <resources/>
  <connections/>

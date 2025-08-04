@@ -12,5 +12,11 @@ if("${CONFIG}" STREQUAL "" OR "${CONFIG}" STREQUAL "Debug")
   "EGMServer\\test\\CMakeFiles\\Test_EGMServer_autogen.dir\\AutogenUsed.txt"
   "EGMServer\\test\\CMakeFiles\\Test_EGMServer_autogen.dir\\ParseCache.txt"
   "EGMServer\\test\\Test_EGMServer_autogen"
+  "Laser\\CMakeFiles\\LaserLib_autogen.dir\\AutogenUsed.txt"
+  "Laser\\CMakeFiles\\LaserLib_autogen.dir\\ParseCache.txt"
+  "Laser\\LaserLib_autogen"
+  "ui\\CMakeFiles\\UILib_autogen.dir\\AutogenUsed.txt"
+  "ui\\CMakeFiles\\UILib_autogen.dir\\ParseCache.txt"
+  "ui\\UILib_autogen"
   )
 endif()

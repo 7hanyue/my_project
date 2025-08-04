@@ -74,7 +74,7 @@ build cmake_object_order_depends_target_Utility: phony || utility\CMakeFiles\Uti
 build utility\CMakeFiles\Utility.dir\json\ParamSet.cpp.obj: CXX_COMPILER__Utility_Debug ..\..\utility\json\ParamSet.cpp || cmake_object_order_depends_target_Utility
   DEFINES = -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_SERIALPORT_LIB -DQT_SQL_LIB -DQT_WIDGETS_LIB -DQT_XML_LIB -DUTILITY_EXPORTS -DUtility_EXPORTS
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 /utf-8 -finput-charset=UTF-8 /Zc:__cplusplus /permissive- -std:c++17
-  INCLUDES = -Iutility -I..\..\utility -IC:\download_3rdparty\sqlite\sqlite3.lib -I..\..\utility\path -I..\..\utility\json -IC:\Qt5\Qt\5.15.2\msvc2019_64\include -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtSerialPort -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtCore -IC:\Qt5\Qt\5.15.2\msvc2019_64\.\mkspecs\win32-msvc -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtSql -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtNetwork -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtGui -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtANGLE -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtWidgets -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtXml -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtConcurrent
+  INCLUDES = -Iutility -I..\..\utility -IC:\download_3rdparty\sqlite\sqlite3.lib -I..\..\3rdparty\libmodbus\include -I..\..\utility\path -I..\..\utility\json -IC:\Qt5\Qt\5.15.2\msvc2019_64\include -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtSerialPort -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtCore -IC:\Qt5\Qt\5.15.2\msvc2019_64\.\mkspecs\win32-msvc -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtSql -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtNetwork -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtGui -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtANGLE -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtWidgets -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtXml -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtConcurrent
   OBJECT_DIR = utility\CMakeFiles\Utility.dir
   OBJECT_FILE_DIR = utility\CMakeFiles\Utility.dir\json
   TARGET_COMPILE_PDB = utility\CMakeFiles\Utility.dir\
@@ -83,7 +83,7 @@ build utility\CMakeFiles\Utility.dir\json\ParamSet.cpp.obj: CXX_COMPILER__Utilit
 build utility\CMakeFiles\Utility.dir\path\CommonPath.cpp.obj: CXX_COMPILER__Utility_Debug ..\..\utility\path\CommonPath.cpp || cmake_object_order_depends_target_Utility
   DEFINES = -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_SERIALPORT_LIB -DQT_SQL_LIB -DQT_WIDGETS_LIB -DQT_XML_LIB -DUTILITY_EXPORTS -DUtility_EXPORTS
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 /utf-8 -finput-charset=UTF-8 /Zc:__cplusplus /permissive- -std:c++17
-  INCLUDES = -Iutility -I..\..\utility -IC:\download_3rdparty\sqlite\sqlite3.lib -I..\..\utility\path -I..\..\utility\json -IC:\Qt5\Qt\5.15.2\msvc2019_64\include -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtSerialPort -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtCore -IC:\Qt5\Qt\5.15.2\msvc2019_64\.\mkspecs\win32-msvc -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtSql -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtNetwork -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtGui -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtANGLE -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtWidgets -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtXml -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtConcurrent
+  INCLUDES = -Iutility -I..\..\utility -IC:\download_3rdparty\sqlite\sqlite3.lib -I..\..\3rdparty\libmodbus\include -I..\..\utility\path -I..\..\utility\json -IC:\Qt5\Qt\5.15.2\msvc2019_64\include -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtSerialPort -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtCore -IC:\Qt5\Qt\5.15.2\msvc2019_64\.\mkspecs\win32-msvc -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtSql -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtNetwork -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtGui -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtANGLE -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtWidgets -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtXml -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtConcurrent
   OBJECT_DIR = utility\CMakeFiles\Utility.dir
   OBJECT_FILE_DIR = utility\CMakeFiles\Utility.dir\path
   TARGET_COMPILE_PDB = utility\CMakeFiles\Utility.dir\
@@ -139,6 +139,201 @@ build utility\rebuild_cache: phony utility\CMakeFiles\rebuild_cache.util
 # =============================================================================
 
 # =============================================================================
+# Object build statements for SHARED_LIBRARY target Utility_2
+
+
+#############################################
+# Order-only phony target for Utility_2
+
+build cmake_object_order_depends_target_Utility_2: phony || utility2\CMakeFiles\Utility_2.dir
+
+build utility2\CMakeFiles\Utility_2.dir\src\communication\ModbusTcpDriver.cpp.obj: CXX_COMPILER__Utility_2_Debug ..\..\utility2\src\communication\ModbusTcpDriver.cpp || cmake_object_order_depends_target_Utility_2
+  DEFINES = -DModbusTcp_Plugin -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_SERIALPORT_LIB -DQT_SQL_LIB -DQT_WIDGETS_LIB -DQT_XML_LIB -DUtility_2_EXPORTS
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 /utf-8 -finput-charset=UTF-8 /Zc:__cplusplus /permissive- -std:c++17
+  INCLUDES = -Iutility2 -I..\..\utility2 -IC:\download_3rdparty\sqlite\sqlite3.lib -I..\..\3rdparty\libmodbus\include -I..\..\utility2\include -I..\..\utility2\include\observer -I..\..\utility2\include\communication -IC:\Qt5\Qt\5.15.2\msvc2019_64\include -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtSerialPort -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtCore -IC:\Qt5\Qt\5.15.2\msvc2019_64\.\mkspecs\win32-msvc -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtSql -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtNetwork -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtGui -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtANGLE -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtWidgets -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtXml -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtConcurrent
+  OBJECT_DIR = utility2\CMakeFiles\Utility_2.dir
+  OBJECT_FILE_DIR = utility2\CMakeFiles\Utility_2.dir\src\communication
+  TARGET_COMPILE_PDB = utility2\CMakeFiles\Utility_2.dir\
+  TARGET_PDB = ..\..\build\bin\Utility_2.pdb
+
+build utility2\CMakeFiles\Utility_2.dir\src\observer\Subject.cpp.obj: CXX_COMPILER__Utility_2_Debug ..\..\utility2\src\observer\Subject.cpp || cmake_object_order_depends_target_Utility_2
+  DEFINES = -DModbusTcp_Plugin -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_SERIALPORT_LIB -DQT_SQL_LIB -DQT_WIDGETS_LIB -DQT_XML_LIB -DUtility_2_EXPORTS
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 /utf-8 -finput-charset=UTF-8 /Zc:__cplusplus /permissive- -std:c++17
+  INCLUDES = -Iutility2 -I..\..\utility2 -IC:\download_3rdparty\sqlite\sqlite3.lib -I..\..\3rdparty\libmodbus\include -I..\..\utility2\include -I..\..\utility2\include\observer -I..\..\utility2\include\communication -IC:\Qt5\Qt\5.15.2\msvc2019_64\include -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtSerialPort -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtCore -IC:\Qt5\Qt\5.15.2\msvc2019_64\.\mkspecs\win32-msvc -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtSql -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtNetwork -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtGui -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtANGLE -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtWidgets -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtXml -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtConcurrent
+  OBJECT_DIR = utility2\CMakeFiles\Utility_2.dir
+  OBJECT_FILE_DIR = utility2\CMakeFiles\Utility_2.dir\src\observer
+  TARGET_COMPILE_PDB = utility2\CMakeFiles\Utility_2.dir\
+  TARGET_PDB = ..\..\build\bin\Utility_2.pdb
+
+
+# =============================================================================
+# Link build statements for SHARED_LIBRARY target Utility_2
+
+
+#############################################
+# Link the shared library ..\..\build\bin\Utility_2.dll
+
+build ..\..\build\bin\Utility_2.dll ..\..\build\lib\Utility_2.lib: CXX_SHARED_LIBRARY_LINKER__Utility_2_Debug utility2\CMakeFiles\Utility_2.dir\src\communication\ModbusTcpDriver.cpp.obj utility2\CMakeFiles\Utility_2.dir\src\observer\Subject.cpp.obj | C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\Qt5SerialPortd.lib C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\Qt5Sqld.lib C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\Qt5Networkd.lib C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\Qt5Widgetsd.lib C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\Qt5Xmld.lib C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\Qt5Concurrentd.lib C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\Qt5Guid.lib C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\Qt5Cored.lib
+  LANGUAGE_COMPILE_FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1
+  LINK_FLAGS = /machine:x64 /debug /INCREMENTAL
+  LINK_LIBRARIES = C:\Qt5\Qt\5.15.2\msvc2019_64\lib\Qt5SerialPortd.lib  C:\Qt5\Qt\5.15.2\msvc2019_64\lib\Qt5Sqld.lib  C:\Qt5\Qt\5.15.2\msvc2019_64\lib\Qt5Networkd.lib  C:\Qt5\Qt\5.15.2\msvc2019_64\lib\Qt5Widgetsd.lib  C:\Qt5\Qt\5.15.2\msvc2019_64\lib\Qt5Xmld.lib  C:\Qt5\Qt\5.15.2\msvc2019_64\lib\Qt5Concurrentd.lib  C:\Qt5\Qt\5.15.2\msvc2019_64\lib\Qt5Guid.lib  C:\Qt5\Qt\5.15.2\msvc2019_64\lib\Qt5Cored.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
+  OBJECT_DIR = utility2\CMakeFiles\Utility_2.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  RESTAT = 1
+  TARGET_COMPILE_PDB = utility2\CMakeFiles\Utility_2.dir\
+  TARGET_FILE = ..\..\build\bin\Utility_2.dll
+  TARGET_IMPLIB = ..\..\build\lib\Utility_2.lib
+  TARGET_PDB = ..\..\build\bin\Utility_2.pdb
+
+
+#############################################
+# Utility command for edit_cache
+
+build utility2\CMakeFiles\edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D E:\ceshi2\robot\weld\x64-Debug\build\utility2 && E:\VS2019IDE\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build utility2\edit_cache: phony utility2\CMakeFiles\edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build utility2\CMakeFiles\rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D E:\ceshi2\robot\weld\x64-Debug\build\utility2 && E:\VS2019IDE\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe --regenerate-during-build -SE:\ceshi2\robot\weld -BE:\ceshi2\robot\weld\x64-Debug\build"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build utility2\rebuild_cache: phony utility2\CMakeFiles\rebuild_cache.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# E:/ceshi2/robot/weld/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for SHARED_LIBRARY target LaserLib
+
+
+#############################################
+# Order-only phony target for LaserLib
+
+build cmake_object_order_depends_target_LaserLib: phony || Laser\LaserLib_autogen Laser\LaserLib_autogen\timestamp Laser\LaserLib_autogen_timestamp_deps
+
+build Laser\CMakeFiles\LaserLib.dir\LaserLib_autogen\mocs_compilation.cpp.obj: CXX_COMPILER__LaserLib_Debug Laser\LaserLib_autogen\mocs_compilation.cpp || cmake_object_order_depends_target_LaserLib
+  DEFINES = -DLaserLib_EXPORTS -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_SERIALPORT_LIB -DQT_SQL_LIB -DQT_WIDGETS_LIB -DQT_XML_LIB
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 /utf-8 -finput-charset=UTF-8 /Zc:__cplusplus /permissive- -std:c++17
+  INCLUDES = -ILaser -I..\..\Laser -ILaser\LaserLib_autogen\include -IC:\download_3rdparty\sqlite\sqlite3.lib -I..\..\3rdparty\libmodbus\include -I..\..\3rdparty\Ezcad3\inculde -I..\..\Laser\base -I..\..\Laser\manager -IC:\Qt5\Qt\5.15.2\msvc2019_64\include -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtSerialPort -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtCore -IC:\Qt5\Qt\5.15.2\msvc2019_64\.\mkspecs\win32-msvc -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtSql -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtNetwork -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtGui -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtANGLE -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtWidgets -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtXml -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtConcurrent
+  OBJECT_DIR = Laser\CMakeFiles\LaserLib.dir
+  OBJECT_FILE_DIR = Laser\CMakeFiles\LaserLib.dir\LaserLib_autogen
+  TARGET_COMPILE_PDB = Laser\CMakeFiles\LaserLib.dir\
+  TARGET_PDB = ..\..\build\bin\LaserLib.pdb
+
+build Laser\CMakeFiles\LaserLib.dir\base\DynamicEzcad3.cpp.obj: CXX_COMPILER__LaserLib_Debug ..\..\Laser\base\DynamicEzcad3.cpp || cmake_object_order_depends_target_LaserLib
+  DEFINES = -DLaserLib_EXPORTS -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_SERIALPORT_LIB -DQT_SQL_LIB -DQT_WIDGETS_LIB -DQT_XML_LIB
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 /utf-8 -finput-charset=UTF-8 /Zc:__cplusplus /permissive- -std:c++17
+  INCLUDES = -ILaser -I..\..\Laser -ILaser\LaserLib_autogen\include -IC:\download_3rdparty\sqlite\sqlite3.lib -I..\..\3rdparty\libmodbus\include -I..\..\3rdparty\Ezcad3\inculde -I..\..\Laser\base -I..\..\Laser\manager -IC:\Qt5\Qt\5.15.2\msvc2019_64\include -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtSerialPort -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtCore -IC:\Qt5\Qt\5.15.2\msvc2019_64\.\mkspecs\win32-msvc -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtSql -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtNetwork -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtGui -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtANGLE -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtWidgets -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtXml -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtConcurrent
+  OBJECT_DIR = Laser\CMakeFiles\LaserLib.dir
+  OBJECT_FILE_DIR = Laser\CMakeFiles\LaserLib.dir\base
+  TARGET_COMPILE_PDB = Laser\CMakeFiles\LaserLib.dir\
+  TARGET_PDB = ..\..\build\bin\LaserLib.pdb
+
+build Laser\CMakeFiles\LaserLib.dir\manager\Control.cpp.obj: CXX_COMPILER__LaserLib_Debug ..\..\Laser\manager\Control.cpp || cmake_object_order_depends_target_LaserLib
+  DEFINES = -DLaserLib_EXPORTS -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_SERIALPORT_LIB -DQT_SQL_LIB -DQT_WIDGETS_LIB -DQT_XML_LIB
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 /utf-8 -finput-charset=UTF-8 /Zc:__cplusplus /permissive- -std:c++17
+  INCLUDES = -ILaser -I..\..\Laser -ILaser\LaserLib_autogen\include -IC:\download_3rdparty\sqlite\sqlite3.lib -I..\..\3rdparty\libmodbus\include -I..\..\3rdparty\Ezcad3\inculde -I..\..\Laser\base -I..\..\Laser\manager -IC:\Qt5\Qt\5.15.2\msvc2019_64\include -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtSerialPort -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtCore -IC:\Qt5\Qt\5.15.2\msvc2019_64\.\mkspecs\win32-msvc -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtSql -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtNetwork -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtGui -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtANGLE -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtWidgets -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtXml -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtConcurrent
+  OBJECT_DIR = Laser\CMakeFiles\LaserLib.dir
+  OBJECT_FILE_DIR = Laser\CMakeFiles\LaserLib.dir\manager
+  TARGET_COMPILE_PDB = Laser\CMakeFiles\LaserLib.dir\
+  TARGET_PDB = ..\..\build\bin\LaserLib.pdb
+
+
+# =============================================================================
+# Link build statements for SHARED_LIBRARY target LaserLib
+
+
+#############################################
+# Link the shared library ..\..\build\bin\LaserLib.dll
+
+build ..\..\build\bin\LaserLib.dll ..\..\build\lib\LaserLib.lib: CXX_SHARED_LIBRARY_LINKER__LaserLib_Debug Laser\CMakeFiles\LaserLib.dir\LaserLib_autogen\mocs_compilation.cpp.obj Laser\CMakeFiles\LaserLib.dir\base\DynamicEzcad3.cpp.obj Laser\CMakeFiles\LaserLib.dir\manager\Control.cpp.obj | C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\Qt5SerialPortd.lib C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\Qt5Sqld.lib C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\Qt5Networkd.lib C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\Qt5Widgetsd.lib C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\Qt5Xmld.lib C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\Qt5Concurrentd.lib C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\Qt5Guid.lib C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\Qt5Cored.lib || Laser\LaserLib_autogen Laser\LaserLib_autogen_timestamp_deps
+  LANGUAGE_COMPILE_FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1
+  LINK_FLAGS = /machine:x64 /debug /INCREMENTAL
+  LINK_LIBRARIES = C:\Qt5\Qt\5.15.2\msvc2019_64\lib\Qt5SerialPortd.lib  C:\Qt5\Qt\5.15.2\msvc2019_64\lib\Qt5Sqld.lib  C:\Qt5\Qt\5.15.2\msvc2019_64\lib\Qt5Networkd.lib  C:\Qt5\Qt\5.15.2\msvc2019_64\lib\Qt5Widgetsd.lib  C:\Qt5\Qt\5.15.2\msvc2019_64\lib\Qt5Xmld.lib  C:\Qt5\Qt\5.15.2\msvc2019_64\lib\Qt5Concurrentd.lib  C:\Qt5\Qt\5.15.2\msvc2019_64\lib\Qt5Guid.lib  C:\Qt5\Qt\5.15.2\msvc2019_64\lib\Qt5Cored.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
+  OBJECT_DIR = Laser\CMakeFiles\LaserLib.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  RESTAT = 1
+  TARGET_COMPILE_PDB = Laser\CMakeFiles\LaserLib.dir\
+  TARGET_FILE = ..\..\build\bin\LaserLib.dll
+  TARGET_IMPLIB = ..\..\build\lib\LaserLib.lib
+  TARGET_PDB = ..\..\build\bin\LaserLib.pdb
+
+
+#############################################
+# Utility command for edit_cache
+
+build Laser\CMakeFiles\edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D E:\ceshi2\robot\weld\x64-Debug\build\Laser && E:\VS2019IDE\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build Laser\edit_cache: phony Laser\CMakeFiles\edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build Laser\CMakeFiles\rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D E:\ceshi2\robot\weld\x64-Debug\build\Laser && E:\VS2019IDE\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe --regenerate-during-build -SE:\ceshi2\robot\weld -BE:\ceshi2\robot\weld\x64-Debug\build"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build Laser\rebuild_cache: phony Laser\CMakeFiles\rebuild_cache.util
+
+
+#############################################
+# Utility command for LaserLib_autogen_timestamp_deps
+
+build Laser\LaserLib_autogen_timestamp_deps: phony Laser\CMakeFiles\LaserLib_autogen_timestamp_deps
+
+
+#############################################
+# Utility command for LaserLib_autogen
+
+build Laser\LaserLib_autogen: phony Laser\CMakeFiles\LaserLib_autogen Laser\LaserLib_autogen\mocs_compilation.cpp Laser\LaserLib_autogen\timestamp Laser\LaserLib_autogen_timestamp_deps
+
+
+#############################################
+# Custom command for Laser\LaserLib_autogen\timestamp
+
+build Laser\LaserLib_autogen\timestamp: CUSTOM_COMMAND C$:\Qt5\Qt\5.15.2\msvc2019_64\bin\moc.exe C$:\Qt5\Qt\5.15.2\msvc2019_64\bin\uic.exe || Laser\LaserLib_autogen_timestamp_deps
+  COMMAND = cmd.exe /C "cd /D E:\ceshi2\robot\weld\x64-Debug\build\Laser && E:\VS2019IDE\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe -E cmake_autogen E:/ceshi2/robot/weld/x64-Debug/build/Laser/CMakeFiles/LaserLib_autogen.dir/AutogenInfo.json Debug && E:\VS2019IDE\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe -E touch E:/ceshi2/robot/weld/x64-Debug/build/Laser/LaserLib_autogen/timestamp && E:\VS2019IDE\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe -E cmake_transform_depfile Ninja gccdepfile E:/ceshi2/robot/weld E:/ceshi2/robot/weld/Laser E:/ceshi2/robot/weld/x64-Debug/build E:/ceshi2/robot/weld/x64-Debug/build/Laser E:/ceshi2/robot/weld/x64-Debug/build/Laser/LaserLib_autogen/deps E:/ceshi2/robot/weld/x64-Debug/build/CMakeFiles/d/231fa88ffcbcd724ca7d9e852a641e98e55f192a183d24c6de08ce008a3efc51.d"
+  DESC = Automatic MOC and UIC for target LaserLib
+  depfile = E:/ceshi2/robot/weld/x64-Debug/build/CMakeFiles/d/231fa88ffcbcd724ca7d9e852a641e98e55f192a183d24c6de08ce008a3efc51.d
+  restat = 1
+
+
+#############################################
+# Phony custom command for Laser\CMakeFiles\LaserLib_autogen_timestamp_deps
+
+build Laser\CMakeFiles\LaserLib_autogen_timestamp_deps: phony C$:\Qt5\Qt\5.15.2\msvc2019_64\bin\Qt5Concurrentd.dll C$:\Qt5\Qt\5.15.2\msvc2019_64\bin\Qt5Xmld.dll C$:\Qt5\Qt\5.15.2\msvc2019_64\bin\Qt5Cored.dll C$:\Qt5\Qt\5.15.2\msvc2019_64\bin\Qt5Guid.dll C$:\Qt5\Qt\5.15.2\msvc2019_64\bin\Qt5Widgetsd.dll C$:\Qt5\Qt\5.15.2\msvc2019_64\bin\uic.exe C$:\Qt5\Qt\5.15.2\msvc2019_64\bin\moc.exe C$:\Qt5\Qt\5.15.2\msvc2019_64\bin\Qt5Sqld.dll C$:\Qt5\Qt\5.15.2\msvc2019_64\bin\Qt5Networkd.dll C$:\Qt5\Qt\5.15.2\msvc2019_64\bin\Qt5SerialPortd.dll
+
+
+#############################################
+# Phony custom command for Laser\CMakeFiles\LaserLib_autogen
+
+build Laser\CMakeFiles\LaserLib_autogen Laser\LaserLib_autogen\mocs_compilation.cpp: phony Laser\LaserLib_autogen\timestamp || Laser\LaserLib_autogen_timestamp_deps
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# E:/ceshi2/robot/weld/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
 # Object build statements for SHARED_LIBRARY target EGMServerSharedLibs
 
 
@@ -150,7 +345,7 @@ build cmake_object_order_depends_target_EGMServerSharedLibs: phony || EGMServer\
 build EGMServer\CMakeFiles\EGMServerSharedLibs.dir\EGMServerSharedLibs_autogen\mocs_compilation.cpp.obj: CXX_COMPILER__EGMServerSharedLibs_Debug EGMServer\EGMServerSharedLibs_autogen\mocs_compilation.cpp || cmake_object_order_depends_target_EGMServerSharedLibs
   DEFINES = -DEGMServerSharedLibs_EXPORTS -DEGMServer_Plugin -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_SERIALPORT_LIB -DQT_SQL_LIB -DQT_WIDGETS_LIB -DQT_XML_LIB
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 /utf-8 -finput-charset=UTF-8 /Zc:__cplusplus /permissive- -std:c++17
-  INCLUDES = -IEGMServer -I..\..\EGMServer -IEGMServer\EGMServerSharedLibs_autogen\include -IC:\download_3rdparty\sqlite\sqlite3.lib -I..\..\EGMServer\include -I..\..\utility\json -I..\..\utility\path -IC:\Qt5\Qt\5.15.2\msvc2019_64\include -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtSerialPort -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtCore -IC:\Qt5\Qt\5.15.2\msvc2019_64\.\mkspecs\win32-msvc -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtSql -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtNetwork -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtGui -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtANGLE -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtWidgets -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtXml -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtConcurrent
+  INCLUDES = -IEGMServer -I..\..\EGMServer -IEGMServer\EGMServerSharedLibs_autogen\include -IC:\download_3rdparty\sqlite\sqlite3.lib -I..\..\3rdparty\libmodbus\include -I..\..\EGMServer\include -I..\..\utility\json -I..\..\utility\path -IC:\Qt5\Qt\5.15.2\msvc2019_64\include -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtSerialPort -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtCore -IC:\Qt5\Qt\5.15.2\msvc2019_64\.\mkspecs\win32-msvc -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtSql -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtNetwork -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtGui -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtANGLE -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtWidgets -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtXml -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtConcurrent
   OBJECT_DIR = EGMServer\CMakeFiles\EGMServerSharedLibs.dir
   OBJECT_FILE_DIR = EGMServer\CMakeFiles\EGMServerSharedLibs.dir\EGMServerSharedLibs_autogen
   TARGET_COMPILE_PDB = EGMServer\CMakeFiles\EGMServerSharedLibs.dir\
@@ -159,7 +354,7 @@ build EGMServer\CMakeFiles\EGMServerSharedLibs.dir\EGMServerSharedLibs_autogen\m
 build EGMServer\CMakeFiles\EGMServerSharedLibs.dir\src\ABBTcpServer.cpp.obj: CXX_COMPILER__EGMServerSharedLibs_Debug ..\..\EGMServer\src\ABBTcpServer.cpp || cmake_object_order_depends_target_EGMServerSharedLibs
   DEFINES = -DEGMServerSharedLibs_EXPORTS -DEGMServer_Plugin -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_SERIALPORT_LIB -DQT_SQL_LIB -DQT_WIDGETS_LIB -DQT_XML_LIB
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 /utf-8 -finput-charset=UTF-8 /Zc:__cplusplus /permissive- -std:c++17
-  INCLUDES = -IEGMServer -I..\..\EGMServer -IEGMServer\EGMServerSharedLibs_autogen\include -IC:\download_3rdparty\sqlite\sqlite3.lib -I..\..\EGMServer\include -I..\..\utility\json -I..\..\utility\path -IC:\Qt5\Qt\5.15.2\msvc2019_64\include -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtSerialPort -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtCore -IC:\Qt5\Qt\5.15.2\msvc2019_64\.\mkspecs\win32-msvc -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtSql -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtNetwork -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtGui -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtANGLE -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtWidgets -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtXml -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtConcurrent
+  INCLUDES = -IEGMServer -I..\..\EGMServer -IEGMServer\EGMServerSharedLibs_autogen\include -IC:\download_3rdparty\sqlite\sqlite3.lib -I..\..\3rdparty\libmodbus\include -I..\..\EGMServer\include -I..\..\utility\json -I..\..\utility\path -IC:\Qt5\Qt\5.15.2\msvc2019_64\include -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtSerialPort -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtCore -IC:\Qt5\Qt\5.15.2\msvc2019_64\.\mkspecs\win32-msvc -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtSql -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtNetwork -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtGui -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtANGLE -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtWidgets -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtXml -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtConcurrent
   OBJECT_DIR = EGMServer\CMakeFiles\EGMServerSharedLibs.dir
   OBJECT_FILE_DIR = EGMServer\CMakeFiles\EGMServerSharedLibs.dir\src
   TARGET_COMPILE_PDB = EGMServer\CMakeFiles\EGMServerSharedLibs.dir\
@@ -168,7 +363,7 @@ build EGMServer\CMakeFiles\EGMServerSharedLibs.dir\src\ABBTcpServer.cpp.obj: CXX
 build EGMServer\CMakeFiles\EGMServerSharedLibs.dir\src\EGMServer.cpp.obj: CXX_COMPILER__EGMServerSharedLibs_Debug ..\..\EGMServer\src\EGMServer.cpp || cmake_object_order_depends_target_EGMServerSharedLibs
   DEFINES = -DEGMServerSharedLibs_EXPORTS -DEGMServer_Plugin -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_SERIALPORT_LIB -DQT_SQL_LIB -DQT_WIDGETS_LIB -DQT_XML_LIB
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 /utf-8 -finput-charset=UTF-8 /Zc:__cplusplus /permissive- -std:c++17
-  INCLUDES = -IEGMServer -I..\..\EGMServer -IEGMServer\EGMServerSharedLibs_autogen\include -IC:\download_3rdparty\sqlite\sqlite3.lib -I..\..\EGMServer\include -I..\..\utility\json -I..\..\utility\path -IC:\Qt5\Qt\5.15.2\msvc2019_64\include -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtSerialPort -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtCore -IC:\Qt5\Qt\5.15.2\msvc2019_64\.\mkspecs\win32-msvc -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtSql -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtNetwork -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtGui -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtANGLE -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtWidgets -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtXml -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtConcurrent
+  INCLUDES = -IEGMServer -I..\..\EGMServer -IEGMServer\EGMServerSharedLibs_autogen\include -IC:\download_3rdparty\sqlite\sqlite3.lib -I..\..\3rdparty\libmodbus\include -I..\..\EGMServer\include -I..\..\utility\json -I..\..\utility\path -IC:\Qt5\Qt\5.15.2\msvc2019_64\include -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtSerialPort -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtCore -IC:\Qt5\Qt\5.15.2\msvc2019_64\.\mkspecs\win32-msvc -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtSql -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtNetwork -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtGui -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtANGLE -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtWidgets -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtXml -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtConcurrent
   OBJECT_DIR = EGMServer\CMakeFiles\EGMServerSharedLibs.dir
   OBJECT_FILE_DIR = EGMServer\CMakeFiles\EGMServerSharedLibs.dir\src
   TARGET_COMPILE_PDB = EGMServer\CMakeFiles\EGMServerSharedLibs.dir\
@@ -177,7 +372,7 @@ build EGMServer\CMakeFiles\EGMServerSharedLibs.dir\src\EGMServer.cpp.obj: CXX_CO
 build EGMServer\CMakeFiles\EGMServerSharedLibs.dir\src\IRobotServer.cpp.obj: CXX_COMPILER__EGMServerSharedLibs_Debug ..\..\EGMServer\src\IRobotServer.cpp || cmake_object_order_depends_target_EGMServerSharedLibs
   DEFINES = -DEGMServerSharedLibs_EXPORTS -DEGMServer_Plugin -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_SERIALPORT_LIB -DQT_SQL_LIB -DQT_WIDGETS_LIB -DQT_XML_LIB
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 /utf-8 -finput-charset=UTF-8 /Zc:__cplusplus /permissive- -std:c++17
-  INCLUDES = -IEGMServer -I..\..\EGMServer -IEGMServer\EGMServerSharedLibs_autogen\include -IC:\download_3rdparty\sqlite\sqlite3.lib -I..\..\EGMServer\include -I..\..\utility\json -I..\..\utility\path -IC:\Qt5\Qt\5.15.2\msvc2019_64\include -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtSerialPort -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtCore -IC:\Qt5\Qt\5.15.2\msvc2019_64\.\mkspecs\win32-msvc -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtSql -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtNetwork -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtGui -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtANGLE -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtWidgets -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtXml -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtConcurrent
+  INCLUDES = -IEGMServer -I..\..\EGMServer -IEGMServer\EGMServerSharedLibs_autogen\include -IC:\download_3rdparty\sqlite\sqlite3.lib -I..\..\3rdparty\libmodbus\include -I..\..\EGMServer\include -I..\..\utility\json -I..\..\utility\path -IC:\Qt5\Qt\5.15.2\msvc2019_64\include -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtSerialPort -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtCore -IC:\Qt5\Qt\5.15.2\msvc2019_64\.\mkspecs\win32-msvc -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtSql -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtNetwork -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtGui -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtANGLE -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtWidgets -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtXml -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtConcurrent
   OBJECT_DIR = EGMServer\CMakeFiles\EGMServerSharedLibs.dir
   OBJECT_FILE_DIR = EGMServer\CMakeFiles\EGMServerSharedLibs.dir\src
   TARGET_COMPILE_PDB = EGMServer\CMakeFiles\EGMServerSharedLibs.dir\
@@ -186,7 +381,7 @@ build EGMServer\CMakeFiles\EGMServerSharedLibs.dir\src\IRobotServer.cpp.obj: CXX
 build EGMServer\CMakeFiles\EGMServerSharedLibs.dir\src\ServerParam.cpp.obj: CXX_COMPILER__EGMServerSharedLibs_Debug ..\..\EGMServer\src\ServerParam.cpp || cmake_object_order_depends_target_EGMServerSharedLibs
   DEFINES = -DEGMServerSharedLibs_EXPORTS -DEGMServer_Plugin -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_SERIALPORT_LIB -DQT_SQL_LIB -DQT_WIDGETS_LIB -DQT_XML_LIB
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 /utf-8 -finput-charset=UTF-8 /Zc:__cplusplus /permissive- -std:c++17
-  INCLUDES = -IEGMServer -I..\..\EGMServer -IEGMServer\EGMServerSharedLibs_autogen\include -IC:\download_3rdparty\sqlite\sqlite3.lib -I..\..\EGMServer\include -I..\..\utility\json -I..\..\utility\path -IC:\Qt5\Qt\5.15.2\msvc2019_64\include -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtSerialPort -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtCore -IC:\Qt5\Qt\5.15.2\msvc2019_64\.\mkspecs\win32-msvc -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtSql -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtNetwork -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtGui -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtANGLE -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtWidgets -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtXml -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtConcurrent
+  INCLUDES = -IEGMServer -I..\..\EGMServer -IEGMServer\EGMServerSharedLibs_autogen\include -IC:\download_3rdparty\sqlite\sqlite3.lib -I..\..\3rdparty\libmodbus\include -I..\..\EGMServer\include -I..\..\utility\json -I..\..\utility\path -IC:\Qt5\Qt\5.15.2\msvc2019_64\include -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtSerialPort -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtCore -IC:\Qt5\Qt\5.15.2\msvc2019_64\.\mkspecs\win32-msvc -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtSql -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtNetwork -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtGui -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtANGLE -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtWidgets -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtXml -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtConcurrent
   OBJECT_DIR = EGMServer\CMakeFiles\EGMServerSharedLibs.dir
   OBJECT_FILE_DIR = EGMServer\CMakeFiles\EGMServerSharedLibs.dir\src
   TARGET_COMPILE_PDB = EGMServer\CMakeFiles\EGMServerSharedLibs.dir\
@@ -195,7 +390,7 @@ build EGMServer\CMakeFiles\EGMServerSharedLibs.dir\src\ServerParam.cpp.obj: CXX_
 build EGMServer\CMakeFiles\EGMServerSharedLibs.dir\src\globalvar.cpp.obj: CXX_COMPILER__EGMServerSharedLibs_Debug ..\..\EGMServer\src\globalvar.cpp || cmake_object_order_depends_target_EGMServerSharedLibs
   DEFINES = -DEGMServerSharedLibs_EXPORTS -DEGMServer_Plugin -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_SERIALPORT_LIB -DQT_SQL_LIB -DQT_WIDGETS_LIB -DQT_XML_LIB
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 /utf-8 -finput-charset=UTF-8 /Zc:__cplusplus /permissive- -std:c++17
-  INCLUDES = -IEGMServer -I..\..\EGMServer -IEGMServer\EGMServerSharedLibs_autogen\include -IC:\download_3rdparty\sqlite\sqlite3.lib -I..\..\EGMServer\include -I..\..\utility\json -I..\..\utility\path -IC:\Qt5\Qt\5.15.2\msvc2019_64\include -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtSerialPort -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtCore -IC:\Qt5\Qt\5.15.2\msvc2019_64\.\mkspecs\win32-msvc -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtSql -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtNetwork -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtGui -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtANGLE -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtWidgets -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtXml -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtConcurrent
+  INCLUDES = -IEGMServer -I..\..\EGMServer -IEGMServer\EGMServerSharedLibs_autogen\include -IC:\download_3rdparty\sqlite\sqlite3.lib -I..\..\3rdparty\libmodbus\include -I..\..\EGMServer\include -I..\..\utility\json -I..\..\utility\path -IC:\Qt5\Qt\5.15.2\msvc2019_64\include -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtSerialPort -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtCore -IC:\Qt5\Qt\5.15.2\msvc2019_64\.\mkspecs\win32-msvc -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtSql -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtNetwork -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtGui -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtANGLE -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtWidgets -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtXml -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtConcurrent
   OBJECT_DIR = EGMServer\CMakeFiles\EGMServerSharedLibs.dir
   OBJECT_FILE_DIR = EGMServer\CMakeFiles\EGMServerSharedLibs.dir\src
   TARGET_COMPILE_PDB = EGMServer\CMakeFiles\EGMServerSharedLibs.dir\
@@ -204,7 +399,7 @@ build EGMServer\CMakeFiles\EGMServerSharedLibs.dir\src\globalvar.cpp.obj: CXX_CO
 build EGMServer\CMakeFiles\EGMServerSharedLibs.dir\include\moc_ABBTcpServer.cpp.obj: CXX_COMPILER__EGMServerSharedLibs_Debug EGMServer\include\moc_ABBTcpServer.cpp || cmake_object_order_depends_target_EGMServerSharedLibs
   DEFINES = -DEGMServerSharedLibs_EXPORTS -DEGMServer_Plugin -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_SERIALPORT_LIB -DQT_SQL_LIB -DQT_WIDGETS_LIB -DQT_XML_LIB
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 /utf-8 -finput-charset=UTF-8 /Zc:__cplusplus /permissive- -std:c++17
-  INCLUDES = -IEGMServer -I..\..\EGMServer -IEGMServer\EGMServerSharedLibs_autogen\include -IC:\download_3rdparty\sqlite\sqlite3.lib -I..\..\EGMServer\include -I..\..\utility\json -I..\..\utility\path -IC:\Qt5\Qt\5.15.2\msvc2019_64\include -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtSerialPort -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtCore -IC:\Qt5\Qt\5.15.2\msvc2019_64\.\mkspecs\win32-msvc -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtSql -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtNetwork -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtGui -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtANGLE -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtWidgets -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtXml -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtConcurrent
+  INCLUDES = -IEGMServer -I..\..\EGMServer -IEGMServer\EGMServerSharedLibs_autogen\include -IC:\download_3rdparty\sqlite\sqlite3.lib -I..\..\3rdparty\libmodbus\include -I..\..\EGMServer\include -I..\..\utility\json -I..\..\utility\path -IC:\Qt5\Qt\5.15.2\msvc2019_64\include -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtSerialPort -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtCore -IC:\Qt5\Qt\5.15.2\msvc2019_64\.\mkspecs\win32-msvc -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtSql -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtNetwork -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtGui -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtANGLE -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtWidgets -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtXml -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtConcurrent
   OBJECT_DIR = EGMServer\CMakeFiles\EGMServerSharedLibs.dir
   OBJECT_FILE_DIR = EGMServer\CMakeFiles\EGMServerSharedLibs.dir\include
   TARGET_COMPILE_PDB = EGMServer\CMakeFiles\EGMServerSharedLibs.dir\
@@ -213,7 +408,7 @@ build EGMServer\CMakeFiles\EGMServerSharedLibs.dir\include\moc_ABBTcpServer.cpp.
 build EGMServer\CMakeFiles\EGMServerSharedLibs.dir\include\moc_EGMServer.cpp.obj: CXX_COMPILER__EGMServerSharedLibs_Debug EGMServer\include\moc_EGMServer.cpp || cmake_object_order_depends_target_EGMServerSharedLibs
   DEFINES = -DEGMServerSharedLibs_EXPORTS -DEGMServer_Plugin -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_SERIALPORT_LIB -DQT_SQL_LIB -DQT_WIDGETS_LIB -DQT_XML_LIB
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 /utf-8 -finput-charset=UTF-8 /Zc:__cplusplus /permissive- -std:c++17
-  INCLUDES = -IEGMServer -I..\..\EGMServer -IEGMServer\EGMServerSharedLibs_autogen\include -IC:\download_3rdparty\sqlite\sqlite3.lib -I..\..\EGMServer\include -I..\..\utility\json -I..\..\utility\path -IC:\Qt5\Qt\5.15.2\msvc2019_64\include -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtSerialPort -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtCore -IC:\Qt5\Qt\5.15.2\msvc2019_64\.\mkspecs\win32-msvc -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtSql -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtNetwork -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtGui -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtANGLE -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtWidgets -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtXml -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtConcurrent
+  INCLUDES = -IEGMServer -I..\..\EGMServer -IEGMServer\EGMServerSharedLibs_autogen\include -IC:\download_3rdparty\sqlite\sqlite3.lib -I..\..\3rdparty\libmodbus\include -I..\..\EGMServer\include -I..\..\utility\json -I..\..\utility\path -IC:\Qt5\Qt\5.15.2\msvc2019_64\include -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtSerialPort -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtCore -IC:\Qt5\Qt\5.15.2\msvc2019_64\.\mkspecs\win32-msvc -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtSql -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtNetwork -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtGui -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtANGLE -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtWidgets -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtXml -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtConcurrent
   OBJECT_DIR = EGMServer\CMakeFiles\EGMServerSharedLibs.dir
   OBJECT_FILE_DIR = EGMServer\CMakeFiles\EGMServerSharedLibs.dir\include
   TARGET_COMPILE_PDB = EGMServer\CMakeFiles\EGMServerSharedLibs.dir\
@@ -222,7 +417,7 @@ build EGMServer\CMakeFiles\EGMServerSharedLibs.dir\include\moc_EGMServer.cpp.obj
 build EGMServer\CMakeFiles\EGMServerSharedLibs.dir\include\moc_EGMServerConfig.cpp.obj: CXX_COMPILER__EGMServerSharedLibs_Debug EGMServer\include\moc_EGMServerConfig.cpp || cmake_object_order_depends_target_EGMServerSharedLibs
   DEFINES = -DEGMServerSharedLibs_EXPORTS -DEGMServer_Plugin -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_SERIALPORT_LIB -DQT_SQL_LIB -DQT_WIDGETS_LIB -DQT_XML_LIB
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 /utf-8 -finput-charset=UTF-8 /Zc:__cplusplus /permissive- -std:c++17
-  INCLUDES = -IEGMServer -I..\..\EGMServer -IEGMServer\EGMServerSharedLibs_autogen\include -IC:\download_3rdparty\sqlite\sqlite3.lib -I..\..\EGMServer\include -I..\..\utility\json -I..\..\utility\path -IC:\Qt5\Qt\5.15.2\msvc2019_64\include -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtSerialPort -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtCore -IC:\Qt5\Qt\5.15.2\msvc2019_64\.\mkspecs\win32-msvc -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtSql -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtNetwork -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtGui -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtANGLE -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtWidgets -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtXml -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtConcurrent
+  INCLUDES = -IEGMServer -I..\..\EGMServer -IEGMServer\EGMServerSharedLibs_autogen\include -IC:\download_3rdparty\sqlite\sqlite3.lib -I..\..\3rdparty\libmodbus\include -I..\..\EGMServer\include -I..\..\utility\json -I..\..\utility\path -IC:\Qt5\Qt\5.15.2\msvc2019_64\include -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtSerialPort -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtCore -IC:\Qt5\Qt\5.15.2\msvc2019_64\.\mkspecs\win32-msvc -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtSql -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtNetwork -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtGui -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtANGLE -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtWidgets -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtXml -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtConcurrent
   OBJECT_DIR = EGMServer\CMakeFiles\EGMServerSharedLibs.dir
   OBJECT_FILE_DIR = EGMServer\CMakeFiles\EGMServerSharedLibs.dir\include
   TARGET_COMPILE_PDB = EGMServer\CMakeFiles\EGMServerSharedLibs.dir\
@@ -231,7 +426,7 @@ build EGMServer\CMakeFiles\EGMServerSharedLibs.dir\include\moc_EGMServerConfig.c
 build EGMServer\CMakeFiles\EGMServerSharedLibs.dir\include\moc_IRobotServer.cpp.obj: CXX_COMPILER__EGMServerSharedLibs_Debug EGMServer\include\moc_IRobotServer.cpp || cmake_object_order_depends_target_EGMServerSharedLibs
   DEFINES = -DEGMServerSharedLibs_EXPORTS -DEGMServer_Plugin -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_SERIALPORT_LIB -DQT_SQL_LIB -DQT_WIDGETS_LIB -DQT_XML_LIB
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 /utf-8 -finput-charset=UTF-8 /Zc:__cplusplus /permissive- -std:c++17
-  INCLUDES = -IEGMServer -I..\..\EGMServer -IEGMServer\EGMServerSharedLibs_autogen\include -IC:\download_3rdparty\sqlite\sqlite3.lib -I..\..\EGMServer\include -I..\..\utility\json -I..\..\utility\path -IC:\Qt5\Qt\5.15.2\msvc2019_64\include -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtSerialPort -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtCore -IC:\Qt5\Qt\5.15.2\msvc2019_64\.\mkspecs\win32-msvc -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtSql -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtNetwork -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtGui -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtANGLE -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtWidgets -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtXml -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtConcurrent
+  INCLUDES = -IEGMServer -I..\..\EGMServer -IEGMServer\EGMServerSharedLibs_autogen\include -IC:\download_3rdparty\sqlite\sqlite3.lib -I..\..\3rdparty\libmodbus\include -I..\..\EGMServer\include -I..\..\utility\json -I..\..\utility\path -IC:\Qt5\Qt\5.15.2\msvc2019_64\include -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtSerialPort -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtCore -IC:\Qt5\Qt\5.15.2\msvc2019_64\.\mkspecs\win32-msvc -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtSql -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtNetwork -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtGui -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtANGLE -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtWidgets -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtXml -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtConcurrent
   OBJECT_DIR = EGMServer\CMakeFiles\EGMServerSharedLibs.dir
   OBJECT_FILE_DIR = EGMServer\CMakeFiles\EGMServerSharedLibs.dir\include
   TARGET_COMPILE_PDB = EGMServer\CMakeFiles\EGMServerSharedLibs.dir\
@@ -240,7 +435,7 @@ build EGMServer\CMakeFiles\EGMServerSharedLibs.dir\include\moc_IRobotServer.cpp.
 build EGMServer\CMakeFiles\EGMServerSharedLibs.dir\include\moc_ROTFCommonDefinitions.cpp.obj: CXX_COMPILER__EGMServerSharedLibs_Debug EGMServer\include\moc_ROTFCommonDefinitions.cpp || cmake_object_order_depends_target_EGMServerSharedLibs
   DEFINES = -DEGMServerSharedLibs_EXPORTS -DEGMServer_Plugin -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_SERIALPORT_LIB -DQT_SQL_LIB -DQT_WIDGETS_LIB -DQT_XML_LIB
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 /utf-8 -finput-charset=UTF-8 /Zc:__cplusplus /permissive- -std:c++17
-  INCLUDES = -IEGMServer -I..\..\EGMServer -IEGMServer\EGMServerSharedLibs_autogen\include -IC:\download_3rdparty\sqlite\sqlite3.lib -I..\..\EGMServer\include -I..\..\utility\json -I..\..\utility\path -IC:\Qt5\Qt\5.15.2\msvc2019_64\include -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtSerialPort -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtCore -IC:\Qt5\Qt\5.15.2\msvc2019_64\.\mkspecs\win32-msvc -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtSql -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtNetwork -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtGui -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtANGLE -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtWidgets -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtXml -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtConcurrent
+  INCLUDES = -IEGMServer -I..\..\EGMServer -IEGMServer\EGMServerSharedLibs_autogen\include -IC:\download_3rdparty\sqlite\sqlite3.lib -I..\..\3rdparty\libmodbus\include -I..\..\EGMServer\include -I..\..\utility\json -I..\..\utility\path -IC:\Qt5\Qt\5.15.2\msvc2019_64\include -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtSerialPort -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtCore -IC:\Qt5\Qt\5.15.2\msvc2019_64\.\mkspecs\win32-msvc -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtSql -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtNetwork -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtGui -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtANGLE -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtWidgets -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtXml -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtConcurrent
   OBJECT_DIR = EGMServer\CMakeFiles\EGMServerSharedLibs.dir
   OBJECT_FILE_DIR = EGMServer\CMakeFiles\EGMServerSharedLibs.dir\include
   TARGET_COMPILE_PDB = EGMServer\CMakeFiles\EGMServerSharedLibs.dir\
@@ -249,7 +444,7 @@ build EGMServer\CMakeFiles\EGMServerSharedLibs.dir\include\moc_ROTFCommonDefinit
 build EGMServer\CMakeFiles\EGMServerSharedLibs.dir\include\moc_ServerParam.cpp.obj: CXX_COMPILER__EGMServerSharedLibs_Debug EGMServer\include\moc_ServerParam.cpp || cmake_object_order_depends_target_EGMServerSharedLibs
   DEFINES = -DEGMServerSharedLibs_EXPORTS -DEGMServer_Plugin -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_SERIALPORT_LIB -DQT_SQL_LIB -DQT_WIDGETS_LIB -DQT_XML_LIB
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 /utf-8 -finput-charset=UTF-8 /Zc:__cplusplus /permissive- -std:c++17
-  INCLUDES = -IEGMServer -I..\..\EGMServer -IEGMServer\EGMServerSharedLibs_autogen\include -IC:\download_3rdparty\sqlite\sqlite3.lib -I..\..\EGMServer\include -I..\..\utility\json -I..\..\utility\path -IC:\Qt5\Qt\5.15.2\msvc2019_64\include -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtSerialPort -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtCore -IC:\Qt5\Qt\5.15.2\msvc2019_64\.\mkspecs\win32-msvc -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtSql -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtNetwork -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtGui -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtANGLE -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtWidgets -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtXml -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtConcurrent
+  INCLUDES = -IEGMServer -I..\..\EGMServer -IEGMServer\EGMServerSharedLibs_autogen\include -IC:\download_3rdparty\sqlite\sqlite3.lib -I..\..\3rdparty\libmodbus\include -I..\..\EGMServer\include -I..\..\utility\json -I..\..\utility\path -IC:\Qt5\Qt\5.15.2\msvc2019_64\include -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtSerialPort -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtCore -IC:\Qt5\Qt\5.15.2\msvc2019_64\.\mkspecs\win32-msvc -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtSql -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtNetwork -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtGui -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtANGLE -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtWidgets -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtXml -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtConcurrent
   OBJECT_DIR = EGMServer\CMakeFiles\EGMServerSharedLibs.dir
   OBJECT_FILE_DIR = EGMServer\CMakeFiles\EGMServerSharedLibs.dir\include
   TARGET_COMPILE_PDB = EGMServer\CMakeFiles\EGMServerSharedLibs.dir\
@@ -258,7 +453,7 @@ build EGMServer\CMakeFiles\EGMServerSharedLibs.dir\include\moc_ServerParam.cpp.o
 build EGMServer\CMakeFiles\EGMServerSharedLibs.dir\include\moc_globalvar.cpp.obj: CXX_COMPILER__EGMServerSharedLibs_Debug EGMServer\include\moc_globalvar.cpp || cmake_object_order_depends_target_EGMServerSharedLibs
   DEFINES = -DEGMServerSharedLibs_EXPORTS -DEGMServer_Plugin -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_SERIALPORT_LIB -DQT_SQL_LIB -DQT_WIDGETS_LIB -DQT_XML_LIB
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 /utf-8 -finput-charset=UTF-8 /Zc:__cplusplus /permissive- -std:c++17
-  INCLUDES = -IEGMServer -I..\..\EGMServer -IEGMServer\EGMServerSharedLibs_autogen\include -IC:\download_3rdparty\sqlite\sqlite3.lib -I..\..\EGMServer\include -I..\..\utility\json -I..\..\utility\path -IC:\Qt5\Qt\5.15.2\msvc2019_64\include -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtSerialPort -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtCore -IC:\Qt5\Qt\5.15.2\msvc2019_64\.\mkspecs\win32-msvc -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtSql -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtNetwork -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtGui -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtANGLE -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtWidgets -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtXml -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtConcurrent
+  INCLUDES = -IEGMServer -I..\..\EGMServer -IEGMServer\EGMServerSharedLibs_autogen\include -IC:\download_3rdparty\sqlite\sqlite3.lib -I..\..\3rdparty\libmodbus\include -I..\..\EGMServer\include -I..\..\utility\json -I..\..\utility\path -IC:\Qt5\Qt\5.15.2\msvc2019_64\include -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtSerialPort -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtCore -IC:\Qt5\Qt\5.15.2\msvc2019_64\.\mkspecs\win32-msvc -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtSql -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtNetwork -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtGui -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtANGLE -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtWidgets -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtXml -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtConcurrent
   OBJECT_DIR = EGMServer\CMakeFiles\EGMServerSharedLibs.dir
   OBJECT_FILE_DIR = EGMServer\CMakeFiles\EGMServerSharedLibs.dir\include
   TARGET_COMPILE_PDB = EGMServer\CMakeFiles\EGMServerSharedLibs.dir\
@@ -267,7 +462,7 @@ build EGMServer\CMakeFiles\EGMServerSharedLibs.dir\include\moc_globalvar.cpp.obj
 build EGMServer\CMakeFiles\EGMServerSharedLibs.dir\src\moc_ABBTcpServer.cpp.obj: CXX_COMPILER__EGMServerSharedLibs_Debug EGMServer\src\moc_ABBTcpServer.cpp || cmake_object_order_depends_target_EGMServerSharedLibs
   DEFINES = -DEGMServerSharedLibs_EXPORTS -DEGMServer_Plugin -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_SERIALPORT_LIB -DQT_SQL_LIB -DQT_WIDGETS_LIB -DQT_XML_LIB
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 /utf-8 -finput-charset=UTF-8 /Zc:__cplusplus /permissive- -std:c++17
-  INCLUDES = -IEGMServer -I..\..\EGMServer -IEGMServer\EGMServerSharedLibs_autogen\include -IC:\download_3rdparty\sqlite\sqlite3.lib -I..\..\EGMServer\include -I..\..\utility\json -I..\..\utility\path -IC:\Qt5\Qt\5.15.2\msvc2019_64\include -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtSerialPort -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtCore -IC:\Qt5\Qt\5.15.2\msvc2019_64\.\mkspecs\win32-msvc -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtSql -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtNetwork -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtGui -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtANGLE -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtWidgets -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtXml -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtConcurrent
+  INCLUDES = -IEGMServer -I..\..\EGMServer -IEGMServer\EGMServerSharedLibs_autogen\include -IC:\download_3rdparty\sqlite\sqlite3.lib -I..\..\3rdparty\libmodbus\include -I..\..\EGMServer\include -I..\..\utility\json -I..\..\utility\path -IC:\Qt5\Qt\5.15.2\msvc2019_64\include -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtSerialPort -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtCore -IC:\Qt5\Qt\5.15.2\msvc2019_64\.\mkspecs\win32-msvc -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtSql -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtNetwork -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtGui -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtANGLE -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtWidgets -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtXml -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtConcurrent
   OBJECT_DIR = EGMServer\CMakeFiles\EGMServerSharedLibs.dir
   OBJECT_FILE_DIR = EGMServer\CMakeFiles\EGMServerSharedLibs.dir\src
   TARGET_COMPILE_PDB = EGMServer\CMakeFiles\EGMServerSharedLibs.dir\
@@ -276,7 +471,7 @@ build EGMServer\CMakeFiles\EGMServerSharedLibs.dir\src\moc_ABBTcpServer.cpp.obj:
 build EGMServer\CMakeFiles\EGMServerSharedLibs.dir\src\moc_EGMServer.cpp.obj: CXX_COMPILER__EGMServerSharedLibs_Debug EGMServer\src\moc_EGMServer.cpp || cmake_object_order_depends_target_EGMServerSharedLibs
   DEFINES = -DEGMServerSharedLibs_EXPORTS -DEGMServer_Plugin -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_SERIALPORT_LIB -DQT_SQL_LIB -DQT_WIDGETS_LIB -DQT_XML_LIB
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 /utf-8 -finput-charset=UTF-8 /Zc:__cplusplus /permissive- -std:c++17
-  INCLUDES = -IEGMServer -I..\..\EGMServer -IEGMServer\EGMServerSharedLibs_autogen\include -IC:\download_3rdparty\sqlite\sqlite3.lib -I..\..\EGMServer\include -I..\..\utility\json -I..\..\utility\path -IC:\Qt5\Qt\5.15.2\msvc2019_64\include -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtSerialPort -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtCore -IC:\Qt5\Qt\5.15.2\msvc2019_64\.\mkspecs\win32-msvc -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtSql -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtNetwork -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtGui -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtANGLE -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtWidgets -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtXml -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtConcurrent
+  INCLUDES = -IEGMServer -I..\..\EGMServer -IEGMServer\EGMServerSharedLibs_autogen\include -IC:\download_3rdparty\sqlite\sqlite3.lib -I..\..\3rdparty\libmodbus\include -I..\..\EGMServer\include -I..\..\utility\json -I..\..\utility\path -IC:\Qt5\Qt\5.15.2\msvc2019_64\include -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtSerialPort -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtCore -IC:\Qt5\Qt\5.15.2\msvc2019_64\.\mkspecs\win32-msvc -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtSql -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtNetwork -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtGui -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtANGLE -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtWidgets -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtXml -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtConcurrent
   OBJECT_DIR = EGMServer\CMakeFiles\EGMServerSharedLibs.dir
   OBJECT_FILE_DIR = EGMServer\CMakeFiles\EGMServerSharedLibs.dir\src
   TARGET_COMPILE_PDB = EGMServer\CMakeFiles\EGMServerSharedLibs.dir\
@@ -285,7 +480,7 @@ build EGMServer\CMakeFiles\EGMServerSharedLibs.dir\src\moc_EGMServer.cpp.obj: CX
 build EGMServer\CMakeFiles\EGMServerSharedLibs.dir\src\moc_IRobotServer.cpp.obj: CXX_COMPILER__EGMServerSharedLibs_Debug EGMServer\src\moc_IRobotServer.cpp || cmake_object_order_depends_target_EGMServerSharedLibs
   DEFINES = -DEGMServerSharedLibs_EXPORTS -DEGMServer_Plugin -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_SERIALPORT_LIB -DQT_SQL_LIB -DQT_WIDGETS_LIB -DQT_XML_LIB
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 /utf-8 -finput-charset=UTF-8 /Zc:__cplusplus /permissive- -std:c++17
-  INCLUDES = -IEGMServer -I..\..\EGMServer -IEGMServer\EGMServerSharedLibs_autogen\include -IC:\download_3rdparty\sqlite\sqlite3.lib -I..\..\EGMServer\include -I..\..\utility\json -I..\..\utility\path -IC:\Qt5\Qt\5.15.2\msvc2019_64\include -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtSerialPort -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtCore -IC:\Qt5\Qt\5.15.2\msvc2019_64\.\mkspecs\win32-msvc -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtSql -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtNetwork -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtGui -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtANGLE -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtWidgets -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtXml -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtConcurrent
+  INCLUDES = -IEGMServer -I..\..\EGMServer -IEGMServer\EGMServerSharedLibs_autogen\include -IC:\download_3rdparty\sqlite\sqlite3.lib -I..\..\3rdparty\libmodbus\include -I..\..\EGMServer\include -I..\..\utility\json -I..\..\utility\path -IC:\Qt5\Qt\5.15.2\msvc2019_64\include -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtSerialPort -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtCore -IC:\Qt5\Qt\5.15.2\msvc2019_64\.\mkspecs\win32-msvc -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtSql -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtNetwork -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtGui -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtANGLE -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtWidgets -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtXml -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtConcurrent
   OBJECT_DIR = EGMServer\CMakeFiles\EGMServerSharedLibs.dir
   OBJECT_FILE_DIR = EGMServer\CMakeFiles\EGMServerSharedLibs.dir\src
   TARGET_COMPILE_PDB = EGMServer\CMakeFiles\EGMServerSharedLibs.dir\
@@ -294,7 +489,7 @@ build EGMServer\CMakeFiles\EGMServerSharedLibs.dir\src\moc_IRobotServer.cpp.obj:
 build EGMServer\CMakeFiles\EGMServerSharedLibs.dir\src\moc_ServerParam.cpp.obj: CXX_COMPILER__EGMServerSharedLibs_Debug EGMServer\src\moc_ServerParam.cpp || cmake_object_order_depends_target_EGMServerSharedLibs
   DEFINES = -DEGMServerSharedLibs_EXPORTS -DEGMServer_Plugin -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_SERIALPORT_LIB -DQT_SQL_LIB -DQT_WIDGETS_LIB -DQT_XML_LIB
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 /utf-8 -finput-charset=UTF-8 /Zc:__cplusplus /permissive- -std:c++17
-  INCLUDES = -IEGMServer -I..\..\EGMServer -IEGMServer\EGMServerSharedLibs_autogen\include -IC:\download_3rdparty\sqlite\sqlite3.lib -I..\..\EGMServer\include -I..\..\utility\json -I..\..\utility\path -IC:\Qt5\Qt\5.15.2\msvc2019_64\include -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtSerialPort -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtCore -IC:\Qt5\Qt\5.15.2\msvc2019_64\.\mkspecs\win32-msvc -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtSql -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtNetwork -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtGui -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtANGLE -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtWidgets -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtXml -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtConcurrent
+  INCLUDES = -IEGMServer -I..\..\EGMServer -IEGMServer\EGMServerSharedLibs_autogen\include -IC:\download_3rdparty\sqlite\sqlite3.lib -I..\..\3rdparty\libmodbus\include -I..\..\EGMServer\include -I..\..\utility\json -I..\..\utility\path -IC:\Qt5\Qt\5.15.2\msvc2019_64\include -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtSerialPort -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtCore -IC:\Qt5\Qt\5.15.2\msvc2019_64\.\mkspecs\win32-msvc -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtSql -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtNetwork -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtGui -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtANGLE -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtWidgets -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtXml -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtConcurrent
   OBJECT_DIR = EGMServer\CMakeFiles\EGMServerSharedLibs.dir
   OBJECT_FILE_DIR = EGMServer\CMakeFiles\EGMServerSharedLibs.dir\src
   TARGET_COMPILE_PDB = EGMServer\CMakeFiles\EGMServerSharedLibs.dir\
@@ -303,7 +498,7 @@ build EGMServer\CMakeFiles\EGMServerSharedLibs.dir\src\moc_ServerParam.cpp.obj: 
 build EGMServer\CMakeFiles\EGMServerSharedLibs.dir\src\moc_globalvar.cpp.obj: CXX_COMPILER__EGMServerSharedLibs_Debug EGMServer\src\moc_globalvar.cpp || cmake_object_order_depends_target_EGMServerSharedLibs
   DEFINES = -DEGMServerSharedLibs_EXPORTS -DEGMServer_Plugin -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_SERIALPORT_LIB -DQT_SQL_LIB -DQT_WIDGETS_LIB -DQT_XML_LIB
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 /utf-8 -finput-charset=UTF-8 /Zc:__cplusplus /permissive- -std:c++17
-  INCLUDES = -IEGMServer -I..\..\EGMServer -IEGMServer\EGMServerSharedLibs_autogen\include -IC:\download_3rdparty\sqlite\sqlite3.lib -I..\..\EGMServer\include -I..\..\utility\json -I..\..\utility\path -IC:\Qt5\Qt\5.15.2\msvc2019_64\include -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtSerialPort -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtCore -IC:\Qt5\Qt\5.15.2\msvc2019_64\.\mkspecs\win32-msvc -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtSql -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtNetwork -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtGui -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtANGLE -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtWidgets -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtXml -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtConcurrent
+  INCLUDES = -IEGMServer -I..\..\EGMServer -IEGMServer\EGMServerSharedLibs_autogen\include -IC:\download_3rdparty\sqlite\sqlite3.lib -I..\..\3rdparty\libmodbus\include -I..\..\EGMServer\include -I..\..\utility\json -I..\..\utility\path -IC:\Qt5\Qt\5.15.2\msvc2019_64\include -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtSerialPort -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtCore -IC:\Qt5\Qt\5.15.2\msvc2019_64\.\mkspecs\win32-msvc -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtSql -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtNetwork -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtGui -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtANGLE -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtWidgets -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtXml -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtConcurrent
   OBJECT_DIR = EGMServer\CMakeFiles\EGMServerSharedLibs.dir
   OBJECT_FILE_DIR = EGMServer\CMakeFiles\EGMServerSharedLibs.dir\src
   TARGET_COMPILE_PDB = EGMServer\CMakeFiles\EGMServerSharedLibs.dir\
@@ -496,7 +691,7 @@ build EGMServer\EGMServerSharedLibs_autogen\timestamp: CUSTOM_COMMAND C$:\Qt5\Qt
 #############################################
 # Phony custom command for EGMServer\CMakeFiles\EGMServerSharedLibs_autogen_timestamp_deps
 
-build EGMServer\CMakeFiles\EGMServerSharedLibs_autogen_timestamp_deps: phony C$:\Qt5\Qt\5.15.2\msvc2019_64\bin\Qt5Xmld.dll C$:\Qt5\Qt\5.15.2\msvc2019_64\bin\Qt5Concurrentd.dll C$:\Qt5\Qt\5.15.2\msvc2019_64\bin\Qt5Sqld.dll C$:\Qt5\Qt\5.15.2\msvc2019_64\bin\uic.exe C$:\Qt5\Qt\5.15.2\msvc2019_64\bin\Qt5Cored.dll C$:\Qt5\Qt\5.15.2\msvc2019_64\bin\Qt5Networkd.dll C$:\Qt5\Qt\5.15.2\msvc2019_64\bin\Qt5Guid.dll C$:\Qt5\Qt\5.15.2\msvc2019_64\bin\moc.exe C$:\Qt5\Qt\5.15.2\msvc2019_64\bin\Qt5SerialPortd.dll C$:\Qt5\Qt\5.15.2\msvc2019_64\bin\Qt5Widgetsd.dll ..\..\build\bin\Utility.dll || ..\..\build\bin\Utility.dll
+build EGMServer\CMakeFiles\EGMServerSharedLibs_autogen_timestamp_deps: phony C$:\Qt5\Qt\5.15.2\msvc2019_64\bin\Qt5Concurrentd.dll C$:\Qt5\Qt\5.15.2\msvc2019_64\bin\Qt5Xmld.dll C$:\Qt5\Qt\5.15.2\msvc2019_64\bin\Qt5Cored.dll C$:\Qt5\Qt\5.15.2\msvc2019_64\bin\Qt5Guid.dll C$:\Qt5\Qt\5.15.2\msvc2019_64\bin\Qt5Widgetsd.dll C$:\Qt5\Qt\5.15.2\msvc2019_64\bin\uic.exe C$:\Qt5\Qt\5.15.2\msvc2019_64\bin\moc.exe C$:\Qt5\Qt\5.15.2\msvc2019_64\bin\Qt5Sqld.dll C$:\Qt5\Qt\5.15.2\msvc2019_64\bin\Qt5Networkd.dll C$:\Qt5\Qt\5.15.2\msvc2019_64\bin\Qt5SerialPortd.dll ..\..\build\bin\Utility.dll || ..\..\build\bin\Utility.dll
 
 
 #############################################
@@ -521,7 +716,7 @@ build cmake_object_order_depends_target_Test_EGMServer: phony || EGMServer\test\
 build EGMServer\test\CMakeFiles\Test_EGMServer.dir\Test_EGMServer_autogen\mocs_compilation.cpp.obj: CXX_COMPILER__Test_EGMServer_Debug EGMServer\test\Test_EGMServer_autogen\mocs_compilation.cpp || cmake_object_order_depends_target_Test_EGMServer
   DEFINES = -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_SERIALPORT_LIB -DQT_SQL_LIB -DQT_WIDGETS_LIB -DQT_XML_LIB
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 /utf-8 -finput-charset=UTF-8 /Zc:__cplusplus /permissive- -std:c++17
-  INCLUDES = -IEGMServer\test -I..\..\EGMServer\test -IEGMServer\test\Test_EGMServer_autogen\include -IC:\download_3rdparty\sqlite\sqlite3.lib -I..\..\EGMServer\include -I..\..\utility\path -I..\..\utility\json -IC:\Qt5\Qt\5.15.2\msvc2019_64\include -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtSerialPort -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtCore -IC:\Qt5\Qt\5.15.2\msvc2019_64\.\mkspecs\win32-msvc -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtSql -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtNetwork -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtGui -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtANGLE -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtWidgets -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtXml -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtConcurrent
+  INCLUDES = -IEGMServer\test -I..\..\EGMServer\test -IEGMServer\test\Test_EGMServer_autogen\include -IC:\download_3rdparty\sqlite\sqlite3.lib -I..\..\3rdparty\libmodbus\include -I..\..\EGMServer\include -I..\..\utility\path -I..\..\utility\json -IC:\Qt5\Qt\5.15.2\msvc2019_64\include -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtSerialPort -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtCore -IC:\Qt5\Qt\5.15.2\msvc2019_64\.\mkspecs\win32-msvc -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtSql -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtNetwork -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtGui -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtANGLE -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtWidgets -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtXml -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtConcurrent
   OBJECT_DIR = EGMServer\test\CMakeFiles\Test_EGMServer.dir
   OBJECT_FILE_DIR = EGMServer\test\CMakeFiles\Test_EGMServer.dir\Test_EGMServer_autogen
   TARGET_COMPILE_PDB = EGMServer\test\CMakeFiles\Test_EGMServer.dir\
@@ -530,7 +725,7 @@ build EGMServer\test\CMakeFiles\Test_EGMServer.dir\Test_EGMServer_autogen\mocs_c
 build EGMServer\test\CMakeFiles\Test_EGMServer.dir\main.cpp.obj: CXX_COMPILER__Test_EGMServer_Debug ..\..\EGMServer\test\main.cpp || cmake_object_order_depends_target_Test_EGMServer
   DEFINES = -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_SERIALPORT_LIB -DQT_SQL_LIB -DQT_WIDGETS_LIB -DQT_XML_LIB
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 /utf-8 -finput-charset=UTF-8 /Zc:__cplusplus /permissive- -std:c++17
-  INCLUDES = -IEGMServer\test -I..\..\EGMServer\test -IEGMServer\test\Test_EGMServer_autogen\include -IC:\download_3rdparty\sqlite\sqlite3.lib -I..\..\EGMServer\include -I..\..\utility\path -I..\..\utility\json -IC:\Qt5\Qt\5.15.2\msvc2019_64\include -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtSerialPort -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtCore -IC:\Qt5\Qt\5.15.2\msvc2019_64\.\mkspecs\win32-msvc -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtSql -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtNetwork -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtGui -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtANGLE -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtWidgets -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtXml -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtConcurrent
+  INCLUDES = -IEGMServer\test -I..\..\EGMServer\test -IEGMServer\test\Test_EGMServer_autogen\include -IC:\download_3rdparty\sqlite\sqlite3.lib -I..\..\3rdparty\libmodbus\include -I..\..\EGMServer\include -I..\..\utility\path -I..\..\utility\json -IC:\Qt5\Qt\5.15.2\msvc2019_64\include -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtSerialPort -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtCore -IC:\Qt5\Qt\5.15.2\msvc2019_64\.\mkspecs\win32-msvc -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtSql -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtNetwork -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtGui -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtANGLE -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtWidgets -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtXml -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtConcurrent
   OBJECT_DIR = EGMServer\test\CMakeFiles\Test_EGMServer.dir
   OBJECT_FILE_DIR = EGMServer\test\CMakeFiles\Test_EGMServer.dir
   TARGET_COMPILE_PDB = EGMServer\test\CMakeFiles\Test_EGMServer.dir\
@@ -539,7 +734,7 @@ build EGMServer\test\CMakeFiles\Test_EGMServer.dir\main.cpp.obj: CXX_COMPILER__T
 build EGMServer\test\CMakeFiles\Test_EGMServer.dir\moc_main.cpp.obj: CXX_COMPILER__Test_EGMServer_Debug EGMServer\test\moc_main.cpp || cmake_object_order_depends_target_Test_EGMServer
   DEFINES = -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_SERIALPORT_LIB -DQT_SQL_LIB -DQT_WIDGETS_LIB -DQT_XML_LIB
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 /utf-8 -finput-charset=UTF-8 /Zc:__cplusplus /permissive- -std:c++17
-  INCLUDES = -IEGMServer\test -I..\..\EGMServer\test -IEGMServer\test\Test_EGMServer_autogen\include -IC:\download_3rdparty\sqlite\sqlite3.lib -I..\..\EGMServer\include -I..\..\utility\path -I..\..\utility\json -IC:\Qt5\Qt\5.15.2\msvc2019_64\include -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtSerialPort -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtCore -IC:\Qt5\Qt\5.15.2\msvc2019_64\.\mkspecs\win32-msvc -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtSql -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtNetwork -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtGui -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtANGLE -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtWidgets -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtXml -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtConcurrent
+  INCLUDES = -IEGMServer\test -I..\..\EGMServer\test -IEGMServer\test\Test_EGMServer_autogen\include -IC:\download_3rdparty\sqlite\sqlite3.lib -I..\..\3rdparty\libmodbus\include -I..\..\EGMServer\include -I..\..\utility\path -I..\..\utility\json -IC:\Qt5\Qt\5.15.2\msvc2019_64\include -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtSerialPort -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtCore -IC:\Qt5\Qt\5.15.2\msvc2019_64\.\mkspecs\win32-msvc -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtSql -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtNetwork -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtGui -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtANGLE -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtWidgets -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtXml -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtConcurrent
   OBJECT_DIR = EGMServer\test\CMakeFiles\Test_EGMServer.dir
   OBJECT_FILE_DIR = EGMServer\test\CMakeFiles\Test_EGMServer.dir
   TARGET_COMPILE_PDB = EGMServer\test\CMakeFiles\Test_EGMServer.dir\
@@ -623,13 +818,132 @@ build EGMServer\test\Test_EGMServer_autogen\timestamp: CUSTOM_COMMAND C$:\Qt5\Qt
 #############################################
 # Phony custom command for EGMServer\test\CMakeFiles\Test_EGMServer_autogen_timestamp_deps
 
-build EGMServer\test\CMakeFiles\Test_EGMServer_autogen_timestamp_deps: phony C$:\Qt5\Qt\5.15.2\msvc2019_64\bin\Qt5Xmld.dll C$:\Qt5\Qt\5.15.2\msvc2019_64\bin\Qt5Concurrentd.dll C$:\Qt5\Qt\5.15.2\msvc2019_64\bin\Qt5Sqld.dll C$:\Qt5\Qt\5.15.2\msvc2019_64\bin\Qt5Cored.dll C$:\Qt5\Qt\5.15.2\msvc2019_64\bin\Qt5Networkd.dll C$:\Qt5\Qt\5.15.2\msvc2019_64\bin\Qt5Guid.dll C$:\Qt5\Qt\5.15.2\msvc2019_64\bin\moc.exe C$:\Qt5\Qt\5.15.2\msvc2019_64\bin\Qt5SerialPortd.dll C$:\Qt5\Qt\5.15.2\msvc2019_64\bin\Qt5Widgetsd.dll ..\..\build\bin\EGMServerSharedLibs.dll || ..\..\build\bin\EGMServerSharedLibs.dll ..\..\build\bin\Utility.dll EGMServer\EGMServerSharedLibs_autogen EGMServer\EGMServerSharedLibs_autogen_timestamp_deps
+build EGMServer\test\CMakeFiles\Test_EGMServer_autogen_timestamp_deps: phony C$:\Qt5\Qt\5.15.2\msvc2019_64\bin\Qt5Concurrentd.dll C$:\Qt5\Qt\5.15.2\msvc2019_64\bin\Qt5Xmld.dll C$:\Qt5\Qt\5.15.2\msvc2019_64\bin\Qt5Cored.dll C$:\Qt5\Qt\5.15.2\msvc2019_64\bin\Qt5Guid.dll C$:\Qt5\Qt\5.15.2\msvc2019_64\bin\Qt5Widgetsd.dll C$:\Qt5\Qt\5.15.2\msvc2019_64\bin\moc.exe C$:\Qt5\Qt\5.15.2\msvc2019_64\bin\Qt5Sqld.dll C$:\Qt5\Qt\5.15.2\msvc2019_64\bin\Qt5Networkd.dll C$:\Qt5\Qt\5.15.2\msvc2019_64\bin\Qt5SerialPortd.dll ..\..\build\bin\EGMServerSharedLibs.dll || ..\..\build\bin\EGMServerSharedLibs.dll ..\..\build\bin\Utility.dll EGMServer\EGMServerSharedLibs_autogen EGMServer\EGMServerSharedLibs_autogen_timestamp_deps
 
 
 #############################################
 # Phony custom command for EGMServer\test\CMakeFiles\Test_EGMServer_autogen
 
 build EGMServer\test\CMakeFiles\Test_EGMServer_autogen EGMServer\test\Test_EGMServer_autogen\mocs_compilation.cpp: phony EGMServer\test\Test_EGMServer_autogen\timestamp || ..\..\build\bin\EGMServerSharedLibs.dll ..\..\build\bin\Utility.dll EGMServer\EGMServerSharedLibs_autogen EGMServer\EGMServerSharedLibs_autogen_timestamp_deps EGMServer\test\Test_EGMServer_autogen_timestamp_deps
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# E:/ceshi2/robot/weld/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for SHARED_LIBRARY target UILib
+
+
+#############################################
+# Order-only phony target for UILib
+
+build cmake_object_order_depends_target_UILib: phony || cmake_object_order_depends_target_Utility ui\UILib_autogen ui\UILib_autogen\timestamp ui\UILib_autogen_timestamp_deps
+
+build ui\CMakeFiles\UILib.dir\UILib_autogen\mocs_compilation.cpp.obj: CXX_COMPILER__UILib_Debug ui\UILib_autogen\mocs_compilation.cpp || cmake_object_order_depends_target_UILib
+  DEFINES = -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_SERIALPORT_LIB -DQT_SQL_LIB -DQT_WIDGETS_LIB -DQT_XML_LIB -DUILib_EXPORTS
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 /utf-8 -finput-charset=UTF-8 /Zc:__cplusplus /permissive- -std:c++17
+  INCLUDES = -Iui -I..\..\ui -Iui\UILib_autogen\include -IC:\download_3rdparty\sqlite\sqlite3.lib -I..\..\3rdparty\libmodbus\include -I..\..\utility\json -I..\..\ui\9SquareGrids -I..\..\utility\path -IC:\Qt5\Qt\5.15.2\msvc2019_64\include -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtSerialPort -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtCore -IC:\Qt5\Qt\5.15.2\msvc2019_64\.\mkspecs\win32-msvc -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtSql -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtNetwork -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtGui -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtANGLE -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtWidgets -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtXml -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtConcurrent
+  OBJECT_DIR = ui\CMakeFiles\UILib.dir
+  OBJECT_FILE_DIR = ui\CMakeFiles\UILib.dir\UILib_autogen
+  TARGET_COMPILE_PDB = ui\CMakeFiles\UILib.dir\
+  TARGET_PDB = ..\..\build\bin\UILib.pdb
+
+build ui\CMakeFiles\UILib.dir\9SquareGrids\PositionDatumsDialog.cpp.obj: CXX_COMPILER__UILib_Debug ..\..\ui\9SquareGrids\PositionDatumsDialog.cpp || cmake_object_order_depends_target_UILib
+  DEFINES = -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_SERIALPORT_LIB -DQT_SQL_LIB -DQT_WIDGETS_LIB -DQT_XML_LIB -DUILib_EXPORTS
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 /utf-8 -finput-charset=UTF-8 /Zc:__cplusplus /permissive- -std:c++17
+  INCLUDES = -Iui -I..\..\ui -Iui\UILib_autogen\include -IC:\download_3rdparty\sqlite\sqlite3.lib -I..\..\3rdparty\libmodbus\include -I..\..\utility\json -I..\..\ui\9SquareGrids -I..\..\utility\path -IC:\Qt5\Qt\5.15.2\msvc2019_64\include -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtSerialPort -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtCore -IC:\Qt5\Qt\5.15.2\msvc2019_64\.\mkspecs\win32-msvc -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtSql -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtNetwork -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtGui -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtANGLE -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtWidgets -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtXml -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtConcurrent
+  OBJECT_DIR = ui\CMakeFiles\UILib.dir
+  OBJECT_FILE_DIR = ui\CMakeFiles\UILib.dir\9SquareGrids
+  TARGET_COMPILE_PDB = ui\CMakeFiles\UILib.dir\
+  TARGET_PDB = ..\..\build\bin\UILib.pdb
+
+build ui\CMakeFiles\UILib.dir\9SquareGrids\PositionDatumsParam.cpp.obj: CXX_COMPILER__UILib_Debug ..\..\ui\9SquareGrids\PositionDatumsParam.cpp || cmake_object_order_depends_target_UILib
+  DEFINES = -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_SERIALPORT_LIB -DQT_SQL_LIB -DQT_WIDGETS_LIB -DQT_XML_LIB -DUILib_EXPORTS
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 /utf-8 -finput-charset=UTF-8 /Zc:__cplusplus /permissive- -std:c++17
+  INCLUDES = -Iui -I..\..\ui -Iui\UILib_autogen\include -IC:\download_3rdparty\sqlite\sqlite3.lib -I..\..\3rdparty\libmodbus\include -I..\..\utility\json -I..\..\ui\9SquareGrids -I..\..\utility\path -IC:\Qt5\Qt\5.15.2\msvc2019_64\include -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtSerialPort -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtCore -IC:\Qt5\Qt\5.15.2\msvc2019_64\.\mkspecs\win32-msvc -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtSql -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtNetwork -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtGui -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtANGLE -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtWidgets -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtXml -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtConcurrent
+  OBJECT_DIR = ui\CMakeFiles\UILib.dir
+  OBJECT_FILE_DIR = ui\CMakeFiles\UILib.dir\9SquareGrids
+  TARGET_COMPILE_PDB = ui\CMakeFiles\UILib.dir\
+  TARGET_PDB = ..\..\build\bin\UILib.pdb
+
+
+# =============================================================================
+# Link build statements for SHARED_LIBRARY target UILib
+
+
+#############################################
+# Link the shared library ..\..\build\bin\UILib.dll
+
+build ..\..\build\bin\UILib.dll ..\..\build\lib\UILib.lib: CXX_SHARED_LIBRARY_LINKER__UILib_Debug ui\CMakeFiles\UILib.dir\UILib_autogen\mocs_compilation.cpp.obj ui\CMakeFiles\UILib.dir\9SquareGrids\PositionDatumsDialog.cpp.obj ui\CMakeFiles\UILib.dir\9SquareGrids\PositionDatumsParam.cpp.obj | ..\..\build\lib\Utility.lib C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\Qt5SerialPortd.lib C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\Qt5Sqld.lib C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\Qt5Networkd.lib C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\Qt5Widgetsd.lib C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\Qt5Guid.lib C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\Qt5Xmld.lib C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\Qt5Concurrentd.lib C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\Qt5Cored.lib || ..\..\build\bin\Utility.dll ui\UILib_autogen ui\UILib_autogen_timestamp_deps
+  LANGUAGE_COMPILE_FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1
+  LINK_FLAGS = /machine:x64 /debug /INCREMENTAL
+  LINK_LIBRARIES = ..\..\build\lib\Utility.lib  C:\Qt5\Qt\5.15.2\msvc2019_64\lib\Qt5SerialPortd.lib  C:\Qt5\Qt\5.15.2\msvc2019_64\lib\Qt5Sqld.lib  C:\Qt5\Qt\5.15.2\msvc2019_64\lib\Qt5Networkd.lib  C:\Qt5\Qt\5.15.2\msvc2019_64\lib\Qt5Widgetsd.lib  C:\Qt5\Qt\5.15.2\msvc2019_64\lib\Qt5Guid.lib  C:\Qt5\Qt\5.15.2\msvc2019_64\lib\Qt5Xmld.lib  C:\Qt5\Qt\5.15.2\msvc2019_64\lib\Qt5Concurrentd.lib  C:\Qt5\Qt\5.15.2\msvc2019_64\lib\Qt5Cored.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
+  OBJECT_DIR = ui\CMakeFiles\UILib.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  RESTAT = 1
+  TARGET_COMPILE_PDB = ui\CMakeFiles\UILib.dir\
+  TARGET_FILE = ..\..\build\bin\UILib.dll
+  TARGET_IMPLIB = ..\..\build\lib\UILib.lib
+  TARGET_PDB = ..\..\build\bin\UILib.pdb
+
+
+#############################################
+# Utility command for edit_cache
+
+build ui\CMakeFiles\edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D E:\ceshi2\robot\weld\x64-Debug\build\ui && E:\VS2019IDE\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build ui\edit_cache: phony ui\CMakeFiles\edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build ui\CMakeFiles\rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D E:\ceshi2\robot\weld\x64-Debug\build\ui && E:\VS2019IDE\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe --regenerate-during-build -SE:\ceshi2\robot\weld -BE:\ceshi2\robot\weld\x64-Debug\build"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build ui\rebuild_cache: phony ui\CMakeFiles\rebuild_cache.util
+
+
+#############################################
+# Utility command for UILib_autogen_timestamp_deps
+
+build ui\UILib_autogen_timestamp_deps: phony ui\CMakeFiles\UILib_autogen_timestamp_deps ..\..\build\bin\Utility.dll
+
+
+#############################################
+# Utility command for UILib_autogen
+
+build ui\UILib_autogen: phony ui\CMakeFiles\UILib_autogen ui\UILib_autogen\mocs_compilation.cpp ui\UILib_autogen\timestamp ui\UILib_autogen_timestamp_deps
+
+
+#############################################
+# Custom command for ui\UILib_autogen\timestamp
+
+build ui\UILib_autogen\timestamp: CUSTOM_COMMAND C$:\Qt5\Qt\5.15.2\msvc2019_64\bin\moc.exe C$:\Qt5\Qt\5.15.2\msvc2019_64\bin\uic.exe || ..\..\build\bin\Utility.dll ui\UILib_autogen_timestamp_deps
+  COMMAND = cmd.exe /C "cd /D E:\ceshi2\robot\weld\x64-Debug\build\ui && E:\VS2019IDE\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe -E cmake_autogen E:/ceshi2/robot/weld/x64-Debug/build/ui/CMakeFiles/UILib_autogen.dir/AutogenInfo.json Debug && E:\VS2019IDE\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe -E touch E:/ceshi2/robot/weld/x64-Debug/build/ui/UILib_autogen/timestamp && E:\VS2019IDE\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe -E cmake_transform_depfile Ninja gccdepfile E:/ceshi2/robot/weld E:/ceshi2/robot/weld/ui E:/ceshi2/robot/weld/x64-Debug/build E:/ceshi2/robot/weld/x64-Debug/build/ui E:/ceshi2/robot/weld/x64-Debug/build/ui/UILib_autogen/deps E:/ceshi2/robot/weld/x64-Debug/build/CMakeFiles/d/1f130c794e49682b7a992fc6fdb0ae5af4e58c26b248117ab7372101a25d3ad7.d"
+  DESC = Automatic MOC and UIC for target UILib
+  depfile = E:/ceshi2/robot/weld/x64-Debug/build/CMakeFiles/d/1f130c794e49682b7a992fc6fdb0ae5af4e58c26b248117ab7372101a25d3ad7.d
+  restat = 1
+
+
+#############################################
+# Phony custom command for ui\CMakeFiles\UILib_autogen_timestamp_deps
+
+build ui\CMakeFiles\UILib_autogen_timestamp_deps: phony C$:\Qt5\Qt\5.15.2\msvc2019_64\bin\Qt5Concurrentd.dll C$:\Qt5\Qt\5.15.2\msvc2019_64\bin\Qt5Xmld.dll C$:\Qt5\Qt\5.15.2\msvc2019_64\bin\Qt5Cored.dll C$:\Qt5\Qt\5.15.2\msvc2019_64\bin\Qt5Guid.dll C$:\Qt5\Qt\5.15.2\msvc2019_64\bin\Qt5Widgetsd.dll C$:\Qt5\Qt\5.15.2\msvc2019_64\bin\uic.exe C$:\Qt5\Qt\5.15.2\msvc2019_64\bin\moc.exe C$:\Qt5\Qt\5.15.2\msvc2019_64\bin\Qt5Sqld.dll C$:\Qt5\Qt\5.15.2\msvc2019_64\bin\Qt5Networkd.dll C$:\Qt5\Qt\5.15.2\msvc2019_64\bin\Qt5SerialPortd.dll ..\..\build\bin\Utility.dll || ..\..\build\bin\Utility.dll
+
+
+#############################################
+# Phony custom command for ui\CMakeFiles\UILib_autogen
+
+build ui\CMakeFiles\UILib_autogen ui\UILib_autogen\mocs_compilation.cpp: phony ui\UILib_autogen\timestamp || ..\..\build\bin\Utility.dll ui\UILib_autogen_timestamp_deps
 
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
@@ -682,21 +996,57 @@ build 3DCalib\edit_cache: phony 3DCalib\CMakeFiles\edit_cache.util
 #############################################
 # Order-only phony target for CalibrationWizard
 
-build cmake_object_order_depends_target_CalibrationWizard: phony || 3DCalib\CalibrationWizard_autogen 3DCalib\CalibrationWizard_autogen\timestamp 3DCalib\CalibrationWizard_autogen_timestamp_deps cmake_object_order_depends_target_Utility
+build cmake_object_order_depends_target_CalibrationWizard: phony || 3DCalib\CalibrationWizard_autogen 3DCalib\CalibrationWizard_autogen\timestamp 3DCalib\CalibrationWizard_autogen_timestamp_deps cmake_object_order_depends_target_LaserLib cmake_object_order_depends_target_UILib cmake_object_order_depends_target_Utility
 
 build 3DCalib\CMakeFiles\CalibrationWizard.dir\CalibrationWizard_autogen\mocs_compilation.cpp.obj: CXX_COMPILER__CalibrationWizard_Debug 3DCalib\CalibrationWizard_autogen\mocs_compilation.cpp || cmake_object_order_depends_target_CalibrationWizard
   DEFINES = -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_SERIALPORT_LIB -DQT_SQL_LIB -DQT_WIDGETS_LIB -DQT_XML_LIB
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 /utf-8 -finput-charset=UTF-8 /Zc:__cplusplus /permissive- -std:c++17
-  INCLUDES = -I3DCalib -I..\..\3DCalib -I3DCalib\CalibrationWizard_autogen\include -IC:\download_3rdparty\sqlite\sqlite3.lib -I..\..\3DCalib\include -I..\..\utility\json -I..\..\3rdparty\Ezcad3\inculde -I..\..\utility\path -IC:\Qt5\Qt\5.15.2\msvc2019_64\include -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtSerialPort -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtCore -IC:\Qt5\Qt\5.15.2\msvc2019_64\.\mkspecs\win32-msvc -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtSql -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtNetwork -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtGui -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtANGLE -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtWidgets -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtXml -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtConcurrent
+  INCLUDES = -I3DCalib -I..\..\3DCalib -I3DCalib\CalibrationWizard_autogen\include -IC:\download_3rdparty\sqlite\sqlite3.lib -I..\..\3rdparty\libmodbus\include -I..\..\3DCalib\include -I..\..\utility\json -I..\..\Laser\manager -I..\..\ui\9SquareGrids -I..\..\3rdparty\Ezcad3\inculde -I..\..\utility\path -I..\..\Laser -I..\..\Laser\base -I..\..\ui -IC:\Qt5\Qt\5.15.2\msvc2019_64\include -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtSerialPort -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtCore -IC:\Qt5\Qt\5.15.2\msvc2019_64\.\mkspecs\win32-msvc -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtSql -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtNetwork -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtGui -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtANGLE -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtWidgets -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtXml -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtConcurrent
   OBJECT_DIR = 3DCalib\CMakeFiles\CalibrationWizard.dir
   OBJECT_FILE_DIR = 3DCalib\CMakeFiles\CalibrationWizard.dir\CalibrationWizard_autogen
+  TARGET_COMPILE_PDB = 3DCalib\CMakeFiles\CalibrationWizard.dir\
+  TARGET_PDB = ..\..\build\bin\CalibrationWizard.pdb
+
+build 3DCalib\CMakeFiles\CalibrationWizard.dir\__\Laser\base\DynamicEzcad3.cpp.obj: CXX_COMPILER__CalibrationWizard_Debug ..\..\Laser\base\DynamicEzcad3.cpp || cmake_object_order_depends_target_CalibrationWizard
+  DEFINES = -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_SERIALPORT_LIB -DQT_SQL_LIB -DQT_WIDGETS_LIB -DQT_XML_LIB
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 /utf-8 -finput-charset=UTF-8 /Zc:__cplusplus /permissive- -std:c++17
+  INCLUDES = -I3DCalib -I..\..\3DCalib -I3DCalib\CalibrationWizard_autogen\include -IC:\download_3rdparty\sqlite\sqlite3.lib -I..\..\3rdparty\libmodbus\include -I..\..\3DCalib\include -I..\..\utility\json -I..\..\Laser\manager -I..\..\ui\9SquareGrids -I..\..\3rdparty\Ezcad3\inculde -I..\..\utility\path -I..\..\Laser -I..\..\Laser\base -I..\..\ui -IC:\Qt5\Qt\5.15.2\msvc2019_64\include -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtSerialPort -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtCore -IC:\Qt5\Qt\5.15.2\msvc2019_64\.\mkspecs\win32-msvc -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtSql -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtNetwork -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtGui -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtANGLE -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtWidgets -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtXml -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtConcurrent
+  OBJECT_DIR = 3DCalib\CMakeFiles\CalibrationWizard.dir
+  OBJECT_FILE_DIR = 3DCalib\CMakeFiles\CalibrationWizard.dir\__\Laser\base
+  TARGET_COMPILE_PDB = 3DCalib\CMakeFiles\CalibrationWizard.dir\
+  TARGET_PDB = ..\..\build\bin\CalibrationWizard.pdb
+
+build 3DCalib\CMakeFiles\CalibrationWizard.dir\__\Laser\manager\Control.cpp.obj: CXX_COMPILER__CalibrationWizard_Debug ..\..\Laser\manager\Control.cpp || cmake_object_order_depends_target_CalibrationWizard
+  DEFINES = -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_SERIALPORT_LIB -DQT_SQL_LIB -DQT_WIDGETS_LIB -DQT_XML_LIB
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 /utf-8 -finput-charset=UTF-8 /Zc:__cplusplus /permissive- -std:c++17
+  INCLUDES = -I3DCalib -I..\..\3DCalib -I3DCalib\CalibrationWizard_autogen\include -IC:\download_3rdparty\sqlite\sqlite3.lib -I..\..\3rdparty\libmodbus\include -I..\..\3DCalib\include -I..\..\utility\json -I..\..\Laser\manager -I..\..\ui\9SquareGrids -I..\..\3rdparty\Ezcad3\inculde -I..\..\utility\path -I..\..\Laser -I..\..\Laser\base -I..\..\ui -IC:\Qt5\Qt\5.15.2\msvc2019_64\include -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtSerialPort -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtCore -IC:\Qt5\Qt\5.15.2\msvc2019_64\.\mkspecs\win32-msvc -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtSql -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtNetwork -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtGui -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtANGLE -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtWidgets -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtXml -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtConcurrent
+  OBJECT_DIR = 3DCalib\CMakeFiles\CalibrationWizard.dir
+  OBJECT_FILE_DIR = 3DCalib\CMakeFiles\CalibrationWizard.dir\__\Laser\manager
+  TARGET_COMPILE_PDB = 3DCalib\CMakeFiles\CalibrationWizard.dir\
+  TARGET_PDB = ..\..\build\bin\CalibrationWizard.pdb
+
+build 3DCalib\CMakeFiles\CalibrationWizard.dir\__\ui\9SquareGrids\PositionDatumsDialog.cpp.obj: CXX_COMPILER__CalibrationWizard_Debug ..\..\ui\9SquareGrids\PositionDatumsDialog.cpp || cmake_object_order_depends_target_CalibrationWizard
+  DEFINES = -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_SERIALPORT_LIB -DQT_SQL_LIB -DQT_WIDGETS_LIB -DQT_XML_LIB
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 /utf-8 -finput-charset=UTF-8 /Zc:__cplusplus /permissive- -std:c++17
+  INCLUDES = -I3DCalib -I..\..\3DCalib -I3DCalib\CalibrationWizard_autogen\include -IC:\download_3rdparty\sqlite\sqlite3.lib -I..\..\3rdparty\libmodbus\include -I..\..\3DCalib\include -I..\..\utility\json -I..\..\Laser\manager -I..\..\ui\9SquareGrids -I..\..\3rdparty\Ezcad3\inculde -I..\..\utility\path -I..\..\Laser -I..\..\Laser\base -I..\..\ui -IC:\Qt5\Qt\5.15.2\msvc2019_64\include -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtSerialPort -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtCore -IC:\Qt5\Qt\5.15.2\msvc2019_64\.\mkspecs\win32-msvc -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtSql -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtNetwork -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtGui -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtANGLE -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtWidgets -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtXml -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtConcurrent
+  OBJECT_DIR = 3DCalib\CMakeFiles\CalibrationWizard.dir
+  OBJECT_FILE_DIR = 3DCalib\CMakeFiles\CalibrationWizard.dir\__\ui\9SquareGrids
+  TARGET_COMPILE_PDB = 3DCalib\CMakeFiles\CalibrationWizard.dir\
+  TARGET_PDB = ..\..\build\bin\CalibrationWizard.pdb
+
+build 3DCalib\CMakeFiles\CalibrationWizard.dir\__\ui\9SquareGrids\PositionDatumsParam.cpp.obj: CXX_COMPILER__CalibrationWizard_Debug ..\..\ui\9SquareGrids\PositionDatumsParam.cpp || cmake_object_order_depends_target_CalibrationWizard
+  DEFINES = -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_SERIALPORT_LIB -DQT_SQL_LIB -DQT_WIDGETS_LIB -DQT_XML_LIB
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 /utf-8 -finput-charset=UTF-8 /Zc:__cplusplus /permissive- -std:c++17
+  INCLUDES = -I3DCalib -I..\..\3DCalib -I3DCalib\CalibrationWizard_autogen\include -IC:\download_3rdparty\sqlite\sqlite3.lib -I..\..\3rdparty\libmodbus\include -I..\..\3DCalib\include -I..\..\utility\json -I..\..\Laser\manager -I..\..\ui\9SquareGrids -I..\..\3rdparty\Ezcad3\inculde -I..\..\utility\path -I..\..\Laser -I..\..\Laser\base -I..\..\ui -IC:\Qt5\Qt\5.15.2\msvc2019_64\include -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtSerialPort -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtCore -IC:\Qt5\Qt\5.15.2\msvc2019_64\.\mkspecs\win32-msvc -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtSql -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtNetwork -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtGui -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtANGLE -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtWidgets -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtXml -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtConcurrent
+  OBJECT_DIR = 3DCalib\CMakeFiles\CalibrationWizard.dir
+  OBJECT_FILE_DIR = 3DCalib\CMakeFiles\CalibrationWizard.dir\__\ui\9SquareGrids
   TARGET_COMPILE_PDB = 3DCalib\CMakeFiles\CalibrationWizard.dir\
   TARGET_PDB = ..\..\build\bin\CalibrationWizard.pdb
 
 build 3DCalib\CMakeFiles\CalibrationWizard.dir\CalibParam.cpp.obj: CXX_COMPILER__CalibrationWizard_Debug ..\..\3DCalib\CalibParam.cpp || cmake_object_order_depends_target_CalibrationWizard
   DEFINES = -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_SERIALPORT_LIB -DQT_SQL_LIB -DQT_WIDGETS_LIB -DQT_XML_LIB
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 /utf-8 -finput-charset=UTF-8 /Zc:__cplusplus /permissive- -std:c++17
-  INCLUDES = -I3DCalib -I..\..\3DCalib -I3DCalib\CalibrationWizard_autogen\include -IC:\download_3rdparty\sqlite\sqlite3.lib -I..\..\3DCalib\include -I..\..\utility\json -I..\..\3rdparty\Ezcad3\inculde -I..\..\utility\path -IC:\Qt5\Qt\5.15.2\msvc2019_64\include -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtSerialPort -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtCore -IC:\Qt5\Qt\5.15.2\msvc2019_64\.\mkspecs\win32-msvc -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtSql -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtNetwork -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtGui -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtANGLE -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtWidgets -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtXml -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtConcurrent
+  INCLUDES = -I3DCalib -I..\..\3DCalib -I3DCalib\CalibrationWizard_autogen\include -IC:\download_3rdparty\sqlite\sqlite3.lib -I..\..\3rdparty\libmodbus\include -I..\..\3DCalib\include -I..\..\utility\json -I..\..\Laser\manager -I..\..\ui\9SquareGrids -I..\..\3rdparty\Ezcad3\inculde -I..\..\utility\path -I..\..\Laser -I..\..\Laser\base -I..\..\ui -IC:\Qt5\Qt\5.15.2\msvc2019_64\include -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtSerialPort -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtCore -IC:\Qt5\Qt\5.15.2\msvc2019_64\.\mkspecs\win32-msvc -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtSql -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtNetwork -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtGui -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtANGLE -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtWidgets -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtXml -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtConcurrent
   OBJECT_DIR = 3DCalib\CMakeFiles\CalibrationWizard.dir
   OBJECT_FILE_DIR = 3DCalib\CMakeFiles\CalibrationWizard.dir
   TARGET_COMPILE_PDB = 3DCalib\CMakeFiles\CalibrationWizard.dir\
@@ -705,7 +1055,7 @@ build 3DCalib\CMakeFiles\CalibrationWizard.dir\CalibParam.cpp.obj: CXX_COMPILER_
 build 3DCalib\CMakeFiles\CalibrationWizard.dir\ClockWidget.cpp.obj: CXX_COMPILER__CalibrationWizard_Debug ..\..\3DCalib\ClockWidget.cpp || cmake_object_order_depends_target_CalibrationWizard
   DEFINES = -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_SERIALPORT_LIB -DQT_SQL_LIB -DQT_WIDGETS_LIB -DQT_XML_LIB
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 /utf-8 -finput-charset=UTF-8 /Zc:__cplusplus /permissive- -std:c++17
-  INCLUDES = -I3DCalib -I..\..\3DCalib -I3DCalib\CalibrationWizard_autogen\include -IC:\download_3rdparty\sqlite\sqlite3.lib -I..\..\3DCalib\include -I..\..\utility\json -I..\..\3rdparty\Ezcad3\inculde -I..\..\utility\path -IC:\Qt5\Qt\5.15.2\msvc2019_64\include -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtSerialPort -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtCore -IC:\Qt5\Qt\5.15.2\msvc2019_64\.\mkspecs\win32-msvc -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtSql -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtNetwork -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtGui -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtANGLE -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtWidgets -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtXml -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtConcurrent
+  INCLUDES = -I3DCalib -I..\..\3DCalib -I3DCalib\CalibrationWizard_autogen\include -IC:\download_3rdparty\sqlite\sqlite3.lib -I..\..\3rdparty\libmodbus\include -I..\..\3DCalib\include -I..\..\utility\json -I..\..\Laser\manager -I..\..\ui\9SquareGrids -I..\..\3rdparty\Ezcad3\inculde -I..\..\utility\path -I..\..\Laser -I..\..\Laser\base -I..\..\ui -IC:\Qt5\Qt\5.15.2\msvc2019_64\include -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtSerialPort -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtCore -IC:\Qt5\Qt\5.15.2\msvc2019_64\.\mkspecs\win32-msvc -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtSql -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtNetwork -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtGui -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtANGLE -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtWidgets -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtXml -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtConcurrent
   OBJECT_DIR = 3DCalib\CMakeFiles\CalibrationWizard.dir
   OBJECT_FILE_DIR = 3DCalib\CMakeFiles\CalibrationWizard.dir
   TARGET_COMPILE_PDB = 3DCalib\CMakeFiles\CalibrationWizard.dir\
@@ -714,7 +1064,7 @@ build 3DCalib\CMakeFiles\CalibrationWizard.dir\ClockWidget.cpp.obj: CXX_COMPILER
 build 3DCalib\CMakeFiles\CalibrationWizard.dir\MarkParamDialog.cpp.obj: CXX_COMPILER__CalibrationWizard_Debug ..\..\3DCalib\MarkParamDialog.cpp || cmake_object_order_depends_target_CalibrationWizard
   DEFINES = -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_SERIALPORT_LIB -DQT_SQL_LIB -DQT_WIDGETS_LIB -DQT_XML_LIB
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 /utf-8 -finput-charset=UTF-8 /Zc:__cplusplus /permissive- -std:c++17
-  INCLUDES = -I3DCalib -I..\..\3DCalib -I3DCalib\CalibrationWizard_autogen\include -IC:\download_3rdparty\sqlite\sqlite3.lib -I..\..\3DCalib\include -I..\..\utility\json -I..\..\3rdparty\Ezcad3\inculde -I..\..\utility\path -IC:\Qt5\Qt\5.15.2\msvc2019_64\include -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtSerialPort -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtCore -IC:\Qt5\Qt\5.15.2\msvc2019_64\.\mkspecs\win32-msvc -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtSql -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtNetwork -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtGui -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtANGLE -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtWidgets -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtXml -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtConcurrent
+  INCLUDES = -I3DCalib -I..\..\3DCalib -I3DCalib\CalibrationWizard_autogen\include -IC:\download_3rdparty\sqlite\sqlite3.lib -I..\..\3rdparty\libmodbus\include -I..\..\3DCalib\include -I..\..\utility\json -I..\..\Laser\manager -I..\..\ui\9SquareGrids -I..\..\3rdparty\Ezcad3\inculde -I..\..\utility\path -I..\..\Laser -I..\..\Laser\base -I..\..\ui -IC:\Qt5\Qt\5.15.2\msvc2019_64\include -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtSerialPort -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtCore -IC:\Qt5\Qt\5.15.2\msvc2019_64\.\mkspecs\win32-msvc -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtSql -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtNetwork -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtGui -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtANGLE -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtWidgets -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtXml -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtConcurrent
   OBJECT_DIR = 3DCalib\CMakeFiles\CalibrationWizard.dir
   OBJECT_FILE_DIR = 3DCalib\CMakeFiles\CalibrationWizard.dir
   TARGET_COMPILE_PDB = 3DCalib\CMakeFiles\CalibrationWizard.dir\
@@ -723,7 +1073,7 @@ build 3DCalib\CMakeFiles\CalibrationWizard.dir\MarkParamDialog.cpp.obj: CXX_COMP
 build 3DCalib\CMakeFiles\CalibrationWizard.dir\main.cpp.obj: CXX_COMPILER__CalibrationWizard_Debug ..\..\3DCalib\main.cpp || cmake_object_order_depends_target_CalibrationWizard
   DEFINES = -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_SERIALPORT_LIB -DQT_SQL_LIB -DQT_WIDGETS_LIB -DQT_XML_LIB
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 /utf-8 -finput-charset=UTF-8 /Zc:__cplusplus /permissive- -std:c++17
-  INCLUDES = -I3DCalib -I..\..\3DCalib -I3DCalib\CalibrationWizard_autogen\include -IC:\download_3rdparty\sqlite\sqlite3.lib -I..\..\3DCalib\include -I..\..\utility\json -I..\..\3rdparty\Ezcad3\inculde -I..\..\utility\path -IC:\Qt5\Qt\5.15.2\msvc2019_64\include -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtSerialPort -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtCore -IC:\Qt5\Qt\5.15.2\msvc2019_64\.\mkspecs\win32-msvc -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtSql -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtNetwork -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtGui -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtANGLE -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtWidgets -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtXml -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtConcurrent
+  INCLUDES = -I3DCalib -I..\..\3DCalib -I3DCalib\CalibrationWizard_autogen\include -IC:\download_3rdparty\sqlite\sqlite3.lib -I..\..\3rdparty\libmodbus\include -I..\..\3DCalib\include -I..\..\utility\json -I..\..\Laser\manager -I..\..\ui\9SquareGrids -I..\..\3rdparty\Ezcad3\inculde -I..\..\utility\path -I..\..\Laser -I..\..\Laser\base -I..\..\ui -IC:\Qt5\Qt\5.15.2\msvc2019_64\include -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtSerialPort -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtCore -IC:\Qt5\Qt\5.15.2\msvc2019_64\.\mkspecs\win32-msvc -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtSql -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtNetwork -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtGui -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtANGLE -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtWidgets -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtXml -IC:\Qt5\Qt\5.15.2\msvc2019_64\include\QtConcurrent
   OBJECT_DIR = 3DCalib\CMakeFiles\CalibrationWizard.dir
   OBJECT_FILE_DIR = 3DCalib\CMakeFiles\CalibrationWizard.dir
   TARGET_COMPILE_PDB = 3DCalib\CMakeFiles\CalibrationWizard.dir\
@@ -737,10 +1087,10 @@ build 3DCalib\CMakeFiles\CalibrationWizard.dir\main.cpp.obj: CXX_COMPILER__Calib
 #############################################
 # Link the executable ..\..\build\bin\CalibrationWizard.exe
 
-build ..\..\build\bin\CalibrationWizard.exe: CXX_EXECUTABLE_LINKER__CalibrationWizard_Debug 3DCalib\CMakeFiles\CalibrationWizard.dir\CalibrationWizard_autogen\mocs_compilation.cpp.obj 3DCalib\CMakeFiles\CalibrationWizard.dir\CalibParam.cpp.obj 3DCalib\CMakeFiles\CalibrationWizard.dir\ClockWidget.cpp.obj 3DCalib\CMakeFiles\CalibrationWizard.dir\MarkParamDialog.cpp.obj 3DCalib\CMakeFiles\CalibrationWizard.dir\main.cpp.obj | ..\..\build\lib\Utility.lib C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\Qt5SerialPortd.lib C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\Qt5Sqld.lib C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\Qt5Networkd.lib C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\Qt5Widgetsd.lib C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\Qt5Guid.lib C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\Qt5Xmld.lib C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\Qt5Concurrentd.lib C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\Qt5Cored.lib C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\qtmaind.lib || ..\..\build\bin\Utility.dll 3DCalib\CalibrationWizard_autogen 3DCalib\CalibrationWizard_autogen_timestamp_deps
+build ..\..\build\bin\CalibrationWizard.exe: CXX_EXECUTABLE_LINKER__CalibrationWizard_Debug 3DCalib\CMakeFiles\CalibrationWizard.dir\CalibrationWizard_autogen\mocs_compilation.cpp.obj 3DCalib\CMakeFiles\CalibrationWizard.dir\__\Laser\base\DynamicEzcad3.cpp.obj 3DCalib\CMakeFiles\CalibrationWizard.dir\__\Laser\manager\Control.cpp.obj 3DCalib\CMakeFiles\CalibrationWizard.dir\__\ui\9SquareGrids\PositionDatumsDialog.cpp.obj 3DCalib\CMakeFiles\CalibrationWizard.dir\__\ui\9SquareGrids\PositionDatumsParam.cpp.obj 3DCalib\CMakeFiles\CalibrationWizard.dir\CalibParam.cpp.obj 3DCalib\CMakeFiles\CalibrationWizard.dir\ClockWidget.cpp.obj 3DCalib\CMakeFiles\CalibrationWizard.dir\MarkParamDialog.cpp.obj 3DCalib\CMakeFiles\CalibrationWizard.dir\main.cpp.obj | ..\..\build\lib\LaserLib.lib ..\..\build\lib\UILib.lib ..\..\build\lib\Utility.lib C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\Qt5SerialPortd.lib C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\Qt5Sqld.lib C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\Qt5Networkd.lib C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\Qt5Widgetsd.lib C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\Qt5Guid.lib C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\Qt5Xmld.lib C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\Qt5Concurrentd.lib C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\Qt5Cored.lib C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\qtmaind.lib || ..\..\build\bin\LaserLib.dll ..\..\build\bin\UILib.dll ..\..\build\bin\Utility.dll 3DCalib\CalibrationWizard_autogen 3DCalib\CalibrationWizard_autogen_timestamp_deps
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1
   LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:windows
-  LINK_LIBRARIES = ..\..\build\lib\Utility.lib  C:\Qt5\Qt\5.15.2\msvc2019_64\lib\Qt5SerialPortd.lib  C:\Qt5\Qt\5.15.2\msvc2019_64\lib\Qt5Sqld.lib  C:\Qt5\Qt\5.15.2\msvc2019_64\lib\Qt5Networkd.lib  C:\Qt5\Qt\5.15.2\msvc2019_64\lib\Qt5Widgetsd.lib  C:\Qt5\Qt\5.15.2\msvc2019_64\lib\Qt5Guid.lib  C:\Qt5\Qt\5.15.2\msvc2019_64\lib\Qt5Xmld.lib  C:\Qt5\Qt\5.15.2\msvc2019_64\lib\Qt5Concurrentd.lib  C:\Qt5\Qt\5.15.2\msvc2019_64\lib\Qt5Cored.lib  C:\Qt5\Qt\5.15.2\msvc2019_64\lib\qtmaind.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
+  LINK_LIBRARIES = ..\..\build\lib\LaserLib.lib  ..\..\build\lib\UILib.lib  ..\..\build\lib\Utility.lib  C:\Qt5\Qt\5.15.2\msvc2019_64\lib\Qt5SerialPortd.lib  C:\Qt5\Qt\5.15.2\msvc2019_64\lib\Qt5Sqld.lib  C:\Qt5\Qt\5.15.2\msvc2019_64\lib\Qt5Networkd.lib  C:\Qt5\Qt\5.15.2\msvc2019_64\lib\Qt5Widgetsd.lib  C:\Qt5\Qt\5.15.2\msvc2019_64\lib\Qt5Guid.lib  C:\Qt5\Qt\5.15.2\msvc2019_64\lib\Qt5Xmld.lib  C:\Qt5\Qt\5.15.2\msvc2019_64\lib\Qt5Concurrentd.lib  C:\Qt5\Qt\5.15.2\msvc2019_64\lib\Qt5Cored.lib  C:\Qt5\Qt\5.15.2\msvc2019_64\lib\qtmaind.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
   OBJECT_DIR = 3DCalib\CMakeFiles\CalibrationWizard.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
@@ -765,7 +1115,7 @@ build 3DCalib\rebuild_cache: phony 3DCalib\CMakeFiles\rebuild_cache.util
 #############################################
 # Utility command for CalibrationWizard_autogen_timestamp_deps
 
-build 3DCalib\CalibrationWizard_autogen_timestamp_deps: phony 3DCalib\CMakeFiles\CalibrationWizard_autogen_timestamp_deps ..\..\build\bin\Utility.dll
+build 3DCalib\CalibrationWizard_autogen_timestamp_deps: phony 3DCalib\CMakeFiles\CalibrationWizard_autogen_timestamp_deps ..\..\build\bin\LaserLib.dll ..\..\build\bin\UILib.dll ..\..\build\bin\Utility.dll
 
 
 #############################################
@@ -777,7 +1127,7 @@ build 3DCalib\CalibrationWizard_autogen: phony 3DCalib\CMakeFiles\CalibrationWiz
 #############################################
 # Custom command for 3DCalib\CalibrationWizard_autogen\timestamp
 
-build 3DCalib\CalibrationWizard_autogen\timestamp: CUSTOM_COMMAND C$:\Qt5\Qt\5.15.2\msvc2019_64\bin\moc.exe C$:\Qt5\Qt\5.15.2\msvc2019_64\bin\uic.exe || ..\..\build\bin\Utility.dll 3DCalib\CalibrationWizard_autogen_timestamp_deps
+build 3DCalib\CalibrationWizard_autogen\timestamp: CUSTOM_COMMAND C$:\Qt5\Qt\5.15.2\msvc2019_64\bin\moc.exe C$:\Qt5\Qt\5.15.2\msvc2019_64\bin\uic.exe || ..\..\build\bin\LaserLib.dll ..\..\build\bin\UILib.dll ..\..\build\bin\Utility.dll 3DCalib\CalibrationWizard_autogen_timestamp_deps Laser\LaserLib_autogen Laser\LaserLib_autogen_timestamp_deps ui\UILib_autogen ui\UILib_autogen_timestamp_deps
   COMMAND = cmd.exe /C "cd /D E:\ceshi2\robot\weld\x64-Debug\build\3DCalib && E:\VS2019IDE\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe -E cmake_autogen E:/ceshi2/robot/weld/x64-Debug/build/3DCalib/CMakeFiles/CalibrationWizard_autogen.dir/AutogenInfo.json Debug && E:\VS2019IDE\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe -E touch E:/ceshi2/robot/weld/x64-Debug/build/3DCalib/CalibrationWizard_autogen/timestamp && E:\VS2019IDE\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe -E cmake_transform_depfile Ninja gccdepfile E:/ceshi2/robot/weld E:/ceshi2/robot/weld/3DCalib E:/ceshi2/robot/weld/x64-Debug/build E:/ceshi2/robot/weld/x64-Debug/build/3DCalib E:/ceshi2/robot/weld/x64-Debug/build/3DCalib/CalibrationWizard_autogen/deps E:/ceshi2/robot/weld/x64-Debug/build/CMakeFiles/d/a7f73a44c7fde71264dac0f58cbdc1f0be0066b772cd2f3d4756e75c9610dc90.d"
   DESC = Automatic MOC and UIC for target CalibrationWizard
   depfile = E:/ceshi2/robot/weld/x64-Debug/build/CMakeFiles/d/a7f73a44c7fde71264dac0f58cbdc1f0be0066b772cd2f3d4756e75c9610dc90.d
@@ -787,13 +1137,13 @@ build 3DCalib\CalibrationWizard_autogen\timestamp: CUSTOM_COMMAND C$:\Qt5\Qt\5.1
 #############################################
 # Phony custom command for 3DCalib\CMakeFiles\CalibrationWizard_autogen_timestamp_deps
 
-build 3DCalib\CMakeFiles\CalibrationWizard_autogen_timestamp_deps: phony C$:\Qt5\Qt\5.15.2\msvc2019_64\bin\Qt5Xmld.dll C$:\Qt5\Qt\5.15.2\msvc2019_64\bin\Qt5Concurrentd.dll C$:\Qt5\Qt\5.15.2\msvc2019_64\bin\Qt5Sqld.dll C$:\Qt5\Qt\5.15.2\msvc2019_64\bin\uic.exe C$:\Qt5\Qt\5.15.2\msvc2019_64\bin\Qt5Cored.dll C$:\Qt5\Qt\5.15.2\msvc2019_64\bin\Qt5Networkd.dll C$:\Qt5\Qt\5.15.2\msvc2019_64\bin\Qt5Guid.dll C$:\Qt5\Qt\5.15.2\msvc2019_64\bin\moc.exe C$:\Qt5\Qt\5.15.2\msvc2019_64\bin\Qt5SerialPortd.dll C$:\Qt5\Qt\5.15.2\msvc2019_64\bin\Qt5Widgetsd.dll ..\..\build\bin\Utility.dll || ..\..\build\bin\Utility.dll
+build 3DCalib\CMakeFiles\CalibrationWizard_autogen_timestamp_deps: phony C$:\Qt5\Qt\5.15.2\msvc2019_64\bin\Qt5Concurrentd.dll C$:\Qt5\Qt\5.15.2\msvc2019_64\bin\Qt5Xmld.dll C$:\Qt5\Qt\5.15.2\msvc2019_64\bin\Qt5Cored.dll C$:\Qt5\Qt\5.15.2\msvc2019_64\bin\Qt5Guid.dll C$:\Qt5\Qt\5.15.2\msvc2019_64\bin\Qt5Widgetsd.dll C$:\Qt5\Qt\5.15.2\msvc2019_64\bin\uic.exe C$:\Qt5\Qt\5.15.2\msvc2019_64\bin\moc.exe C$:\Qt5\Qt\5.15.2\msvc2019_64\bin\Qt5Sqld.dll C$:\Qt5\Qt\5.15.2\msvc2019_64\bin\Qt5Networkd.dll C$:\Qt5\Qt\5.15.2\msvc2019_64\bin\Qt5SerialPortd.dll ..\..\build\bin\Utility.dll ..\..\build\bin\LaserLib.dll ..\..\build\bin\UILib.dll || ..\..\build\bin\LaserLib.dll ..\..\build\bin\UILib.dll ..\..\build\bin\Utility.dll Laser\LaserLib_autogen Laser\LaserLib_autogen_timestamp_deps ui\UILib_autogen ui\UILib_autogen_timestamp_deps
 
 
 #############################################
 # Phony custom command for 3DCalib\CMakeFiles\CalibrationWizard_autogen
 
-build 3DCalib\CMakeFiles\CalibrationWizard_autogen 3DCalib\CalibrationWizard_autogen\mocs_compilation.cpp: phony 3DCalib\CalibrationWizard_autogen\timestamp || ..\..\build\bin\Utility.dll 3DCalib\CalibrationWizard_autogen_timestamp_deps
+build 3DCalib\CMakeFiles\CalibrationWizard_autogen 3DCalib\CalibrationWizard_autogen\mocs_compilation.cpp: phony 3DCalib\CalibrationWizard_autogen\timestamp || ..\..\build\bin\LaserLib.dll ..\..\build\bin\UILib.dll ..\..\build\bin\Utility.dll 3DCalib\CalibrationWizard_autogen_timestamp_deps Laser\LaserLib_autogen Laser\LaserLib_autogen_timestamp_deps ui\UILib_autogen ui\UILib_autogen_timestamp_deps
 
 # =============================================================================
 # Target aliases.
@@ -814,6 +1164,14 @@ build EGMServerSharedLibs_autogen: phony EGMServer\EGMServerSharedLibs_autogen
 
 build EGMServerSharedLibs_autogen_timestamp_deps: phony EGMServer\EGMServerSharedLibs_autogen_timestamp_deps
 
+build LaserLib: phony ..\..\build\bin\LaserLib.dll
+
+build LaserLib.dll: phony ..\..\build\bin\LaserLib.dll
+
+build LaserLib_autogen: phony Laser\LaserLib_autogen
+
+build LaserLib_autogen_timestamp_deps: phony Laser\LaserLib_autogen_timestamp_deps
+
 build Test_EGMServer: phony ..\..\build\bin\Test_EGMServer.exe
 
 build Test_EGMServer.exe: phony ..\..\build\bin\Test_EGMServer.exe
@@ -822,9 +1180,21 @@ build Test_EGMServer_autogen: phony EGMServer\test\Test_EGMServer_autogen
 
 build Test_EGMServer_autogen_timestamp_deps: phony EGMServer\test\Test_EGMServer_autogen_timestamp_deps
 
+build UILib: phony ..\..\build\bin\UILib.dll
+
+build UILib.dll: phony ..\..\build\bin\UILib.dll
+
+build UILib_autogen: phony ui\UILib_autogen
+
+build UILib_autogen_timestamp_deps: phony ui\UILib_autogen_timestamp_deps
+
 build Utility: phony ..\..\build\bin\Utility.dll
 
 build Utility.dll: phony ..\..\build\bin\Utility.dll
+
+build Utility_2: phony ..\..\build\bin\Utility_2.dll
+
+build Utility_2.dll: phony ..\..\build\bin\Utility_2.dll
 
 # =============================================================================
 # Folder targets.
@@ -834,7 +1204,7 @@ build Utility.dll: phony ..\..\build\bin\Utility.dll
 #############################################
 # Folder: E:/ceshi2/robot/weld/x64-Debug/build
 
-build all: phony utility\all EGMServer\all EGMServer\test\all userManager\all 3DCalib\all
+build all: phony utility\all utility2\all Laser\all EGMServer\all EGMServer\test\all ui\all userManager\all 3DCalib\all
 
 # =============================================================================
 
@@ -860,6 +1230,20 @@ build EGMServer\test\all: phony ..\..\build\bin\Test_EGMServer.exe
 # =============================================================================
 
 #############################################
+# Folder: E:/ceshi2/robot/weld/x64-Debug/build/Laser
+
+build Laser\all: phony ..\..\build\bin\LaserLib.dll
+
+# =============================================================================
+
+#############################################
+# Folder: E:/ceshi2/robot/weld/x64-Debug/build/ui
+
+build ui\all: phony ..\..\build\bin\UILib.dll
+
+# =============================================================================
+
+#############################################
 # Folder: E:/ceshi2/robot/weld/x64-Debug/build/userManager
 
 build userManager\all: phony
@@ -872,20 +1256,27 @@ build userManager\all: phony
 build utility\all: phony ..\..\build\bin\Utility.dll
 
 # =============================================================================
+
+#############################################
+# Folder: E:/ceshi2/robot/weld/x64-Debug/build/utility2
+
+build utility2\all: phony ..\..\build\bin\Utility_2.dll
+
+# =============================================================================
 # Built-in targets
 
 
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | ..\..\3DCalib\CMakeLists.txt ..\..\CMakeLists.txt ..\..\EGMServer\CMakeLists.txt ..\..\EGMServer\test\CMakeLists.txt ..\..\userManager\CMakeLists.txt ..\..\utility\CMakeLists.txt C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Concurrent\Qt5ConcurrentConfig.cmake C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Concurrent\Qt5ConcurrentConfigVersion.cmake C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Core\Qt5CoreConfig.cmake C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Core\Qt5CoreMacros.cmake C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QSvgIconPlugin.cmake C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QSvgPlugin.cmake C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QTuioTouchPlugin.cmake C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QXdgDesktopPortalThemePlugin.cmake C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Network\Qt5NetworkConfig.cmake C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Network\Qt5NetworkConfigVersion.cmake C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Network\Qt5Network_QGenericEnginePlugin.cmake C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5SerialPort\Qt5SerialPortConfig.cmake C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5SerialPort\Qt5SerialPortConfigVersion.cmake C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Sql\Qt5SqlConfig.cmake C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Sql\Qt5SqlConfigVersion.cmake C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Sql\Qt5Sql_QODBCDriverPlugin.cmake C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Sql\Qt5Sql_QPSQLDriverPlugin.cmake C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Sql\Qt5Sql_QSQLiteDriverPlugin.cmake C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Widgets\Qt5Widgets_QWindowsVistaStylePlugin.cmake C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Xml\Qt5XmlConfig.cmake C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Xml\Qt5XmlConfigVersion.cmake CMakeCache.txt CMakeFiles\3.20.21032501-MSVC_2\CMakeCCompiler.cmake CMakeFiles\3.20.21032501-MSVC_2\CMakeCXXCompiler.cmake CMakeFiles\3.20.21032501-MSVC_2\CMakeRCCompiler.cmake CMakeFiles\3.20.21032501-MSVC_2\CMakeSystem.cmake E$:\VS2019IDE\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeCInformation.cmake E$:\VS2019IDE\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeCXXInformation.cmake E$:\VS2019IDE\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeCommonLanguageInclude.cmake E$:\VS2019IDE\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeGenericSystem.cmake E$:\VS2019IDE\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeInitializeConfigs.cmake E$:\VS2019IDE\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeLanguageInformation.cmake E$:\VS2019IDE\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeParseArguments.cmake E$:\VS2019IDE\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeRCInformation.cmake E$:\VS2019IDE\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeSystemSpecificInformation.cmake E$:\VS2019IDE\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeSystemSpecificInitialize.cmake E$:\VS2019IDE\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Compiler\CMakeCommonCompilerMacros.cmake E$:\VS2019IDE\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Compiler\MSVC-C.cmake E$:\VS2019IDE\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Compiler\MSVC-CXX.cmake E$:\VS2019IDE\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\FindPackageHandleStandardArgs.cmake E$:\VS2019IDE\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\FindPackageMessage.cmake E$:\VS2019IDE\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\FindSQLite3.cmake E$:\VS2019IDE\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Platform\Windows-MSVC-C.cmake E$:\VS2019IDE\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Platform\Windows-MSVC-CXX.cmake E$:\VS2019IDE\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Platform\Windows-MSVC.cmake E$:\VS2019IDE\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Platform\Windows.cmake E$:\VS2019IDE\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Platform\WindowsPaths.cmake
+build build.ninja: RERUN_CMAKE | ..\..\3DCalib\CMakeLists.txt ..\..\CMakeLists.txt ..\..\EGMServer\CMakeLists.txt ..\..\EGMServer\test\CMakeLists.txt ..\..\Laser\CMakeLists.txt ..\..\cmake\Findmodbus.cmake ..\..\ui\CMakeLists.txt ..\..\userManager\CMakeLists.txt ..\..\utility2\CMakeLists.txt ..\..\utility\CMakeLists.txt C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Concurrent\Qt5ConcurrentConfig.cmake C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Concurrent\Qt5ConcurrentConfigVersion.cmake C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Core\Qt5CoreConfig.cmake C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Core\Qt5CoreMacros.cmake C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QSvgIconPlugin.cmake C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QSvgPlugin.cmake C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QTuioTouchPlugin.cmake C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QXdgDesktopPortalThemePlugin.cmake C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Network\Qt5NetworkConfig.cmake C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Network\Qt5NetworkConfigVersion.cmake C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Network\Qt5Network_QGenericEnginePlugin.cmake C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5SerialPort\Qt5SerialPortConfig.cmake C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5SerialPort\Qt5SerialPortConfigVersion.cmake C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Sql\Qt5SqlConfig.cmake C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Sql\Qt5SqlConfigVersion.cmake C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Sql\Qt5Sql_QODBCDriverPlugin.cmake C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Sql\Qt5Sql_QPSQLDriverPlugin.cmake C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Sql\Qt5Sql_QSQLiteDriverPlugin.cmake C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Widgets\Qt5Widgets_QWindowsVistaStylePlugin.cmake C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Xml\Qt5XmlConfig.cmake C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Xml\Qt5XmlConfigVersion.cmake CMakeCache.txt CMakeFiles\3.20.21032501-MSVC_2\CMakeCCompiler.cmake CMakeFiles\3.20.21032501-MSVC_2\CMakeCXXCompiler.cmake CMakeFiles\3.20.21032501-MSVC_2\CMakeRCCompiler.cmake CMakeFiles\3.20.21032501-MSVC_2\CMakeSystem.cmake E$:\VS2019IDE\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeCInformation.cmake E$:\VS2019IDE\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeCXXInformation.cmake E$:\VS2019IDE\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeCommonLanguageInclude.cmake E$:\VS2019IDE\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeGenericSystem.cmake E$:\VS2019IDE\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeInitializeConfigs.cmake E$:\VS2019IDE\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeLanguageInformation.cmake E$:\VS2019IDE\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeParseArguments.cmake E$:\VS2019IDE\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeRCInformation.cmake E$:\VS2019IDE\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeSystemSpecificInformation.cmake E$:\VS2019IDE\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeSystemSpecificInitialize.cmake E$:\VS2019IDE\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Compiler\CMakeCommonCompilerMacros.cmake E$:\VS2019IDE\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Compiler\MSVC-C.cmake E$:\VS2019IDE\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Compiler\MSVC-CXX.cmake E$:\VS2019IDE\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\FindPackageHandleStandardArgs.cmake E$:\VS2019IDE\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\FindPackageMessage.cmake E$:\VS2019IDE\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\FindSQLite3.cmake E$:\VS2019IDE\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Platform\Windows-MSVC-C.cmake E$:\VS2019IDE\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Platform\Windows-MSVC-CXX.cmake E$:\VS2019IDE\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Platform\Windows-MSVC.cmake E$:\VS2019IDE\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Platform\Windows.cmake E$:\VS2019IDE\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Platform\WindowsPaths.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build ..\..\3DCalib\CMakeLists.txt ..\..\CMakeLists.txt ..\..\EGMServer\CMakeLists.txt ..\..\EGMServer\test\CMakeLists.txt ..\..\userManager\CMakeLists.txt ..\..\utility\CMakeLists.txt C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Concurrent\Qt5ConcurrentConfig.cmake C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Concurrent\Qt5ConcurrentConfigVersion.cmake C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Core\Qt5CoreConfig.cmake C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Core\Qt5CoreMacros.cmake C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QSvgIconPlugin.cmake C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QSvgPlugin.cmake C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QTuioTouchPlugin.cmake C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QXdgDesktopPortalThemePlugin.cmake C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Network\Qt5NetworkConfig.cmake C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Network\Qt5NetworkConfigVersion.cmake C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Network\Qt5Network_QGenericEnginePlugin.cmake C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5SerialPort\Qt5SerialPortConfig.cmake C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5SerialPort\Qt5SerialPortConfigVersion.cmake C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Sql\Qt5SqlConfig.cmake C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Sql\Qt5SqlConfigVersion.cmake C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Sql\Qt5Sql_QODBCDriverPlugin.cmake C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Sql\Qt5Sql_QPSQLDriverPlugin.cmake C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Sql\Qt5Sql_QSQLiteDriverPlugin.cmake C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Widgets\Qt5Widgets_QWindowsVistaStylePlugin.cmake C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Xml\Qt5XmlConfig.cmake C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Xml\Qt5XmlConfigVersion.cmake CMakeCache.txt CMakeFiles\3.20.21032501-MSVC_2\CMakeCCompiler.cmake CMakeFiles\3.20.21032501-MSVC_2\CMakeCXXCompiler.cmake CMakeFiles\3.20.21032501-MSVC_2\CMakeRCCompiler.cmake CMakeFiles\3.20.21032501-MSVC_2\CMakeSystem.cmake E$:\VS2019IDE\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeCInformation.cmake E$:\VS2019IDE\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeCXXInformation.cmake E$:\VS2019IDE\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeCommonLanguageInclude.cmake E$:\VS2019IDE\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeGenericSystem.cmake E$:\VS2019IDE\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeInitializeConfigs.cmake E$:\VS2019IDE\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeLanguageInformation.cmake E$:\VS2019IDE\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeParseArguments.cmake E$:\VS2019IDE\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeRCInformation.cmake E$:\VS2019IDE\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeSystemSpecificInformation.cmake E$:\VS2019IDE\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeSystemSpecificInitialize.cmake E$:\VS2019IDE\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Compiler\CMakeCommonCompilerMacros.cmake E$:\VS2019IDE\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Compiler\MSVC-C.cmake E$:\VS2019IDE\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Compiler\MSVC-CXX.cmake E$:\VS2019IDE\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\FindPackageHandleStandardArgs.cmake E$:\VS2019IDE\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\FindPackageMessage.cmake E$:\VS2019IDE\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\FindSQLite3.cmake E$:\VS2019IDE\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Platform\Windows-MSVC-C.cmake E$:\VS2019IDE\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Platform\Windows-MSVC-CXX.cmake E$:\VS2019IDE\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Platform\Windows-MSVC.cmake E$:\VS2019IDE\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Platform\Windows.cmake E$:\VS2019IDE\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Platform\WindowsPaths.cmake: phony
+build ..\..\3DCalib\CMakeLists.txt ..\..\CMakeLists.txt ..\..\EGMServer\CMakeLists.txt ..\..\EGMServer\test\CMakeLists.txt ..\..\Laser\CMakeLists.txt ..\..\cmake\Findmodbus.cmake ..\..\ui\CMakeLists.txt ..\..\userManager\CMakeLists.txt ..\..\utility2\CMakeLists.txt ..\..\utility\CMakeLists.txt C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Concurrent\Qt5ConcurrentConfig.cmake C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Concurrent\Qt5ConcurrentConfigVersion.cmake C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Core\Qt5CoreConfig.cmake C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Core\Qt5CoreMacros.cmake C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QSvgIconPlugin.cmake C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QSvgPlugin.cmake C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QTuioTouchPlugin.cmake C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QXdgDesktopPortalThemePlugin.cmake C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Network\Qt5NetworkConfig.cmake C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Network\Qt5NetworkConfigVersion.cmake C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Network\Qt5Network_QGenericEnginePlugin.cmake C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5SerialPort\Qt5SerialPortConfig.cmake C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5SerialPort\Qt5SerialPortConfigVersion.cmake C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Sql\Qt5SqlConfig.cmake C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Sql\Qt5SqlConfigVersion.cmake C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Sql\Qt5Sql_QODBCDriverPlugin.cmake C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Sql\Qt5Sql_QPSQLDriverPlugin.cmake C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Sql\Qt5Sql_QSQLiteDriverPlugin.cmake C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Widgets\Qt5Widgets_QWindowsVistaStylePlugin.cmake C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Xml\Qt5XmlConfig.cmake C$:\Qt5\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Xml\Qt5XmlConfigVersion.cmake CMakeCache.txt CMakeFiles\3.20.21032501-MSVC_2\CMakeCCompiler.cmake CMakeFiles\3.20.21032501-MSVC_2\CMakeCXXCompiler.cmake CMakeFiles\3.20.21032501-MSVC_2\CMakeRCCompiler.cmake CMakeFiles\3.20.21032501-MSVC_2\CMakeSystem.cmake E$:\VS2019IDE\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeCInformation.cmake E$:\VS2019IDE\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeCXXInformation.cmake E$:\VS2019IDE\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeCommonLanguageInclude.cmake E$:\VS2019IDE\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeGenericSystem.cmake E$:\VS2019IDE\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeInitializeConfigs.cmake E$:\VS2019IDE\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeLanguageInformation.cmake E$:\VS2019IDE\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeParseArguments.cmake E$:\VS2019IDE\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeRCInformation.cmake E$:\VS2019IDE\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeSystemSpecificInformation.cmake E$:\VS2019IDE\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeSystemSpecificInitialize.cmake E$:\VS2019IDE\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Compiler\CMakeCommonCompilerMacros.cmake E$:\VS2019IDE\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Compiler\MSVC-C.cmake E$:\VS2019IDE\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Compiler\MSVC-CXX.cmake E$:\VS2019IDE\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\FindPackageHandleStandardArgs.cmake E$:\VS2019IDE\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\FindPackageMessage.cmake E$:\VS2019IDE\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\FindSQLite3.cmake E$:\VS2019IDE\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Platform\Windows-MSVC-C.cmake E$:\VS2019IDE\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Platform\Windows-MSVC-CXX.cmake E$:\VS2019IDE\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Platform\Windows-MSVC.cmake E$:\VS2019IDE\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Platform\Windows.cmake E$:\VS2019IDE\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Platform\WindowsPaths.cmake: phony
 
 
 #############################################

@@ -3,7 +3,7 @@
 #include <QString>
 
 //#include <QDir>
-class CommonPath
+class __declspec(dllexport) CommonPath
 {
 public:
     //为什么在这里声明为静态的，核心原因是 让函数直接属于类（而非对象实例）

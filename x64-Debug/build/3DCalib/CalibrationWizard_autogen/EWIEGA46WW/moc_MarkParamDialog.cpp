@@ -33,11 +33,11 @@ struct qt_meta_stringdata_MarkParamDialog_t {
 static const qt_meta_stringdata_MarkParamDialog_t qt_meta_stringdata_MarkParamDialog = {
     {
 QT_MOC_LITERAL(0, 0, 15), // "MarkParamDialog"
-QT_MOC_LITERAL(1, 16, 18), // "onOpenMarkParamSet"
+QT_MOC_LITERAL(1, 16, 18), // "onSaveMarkParamSet"
 QT_MOC_LITERAL(2, 35, 0) // ""
 
     },
-    "MarkParamDialog\0onOpenMarkParamSet\0"
+    "MarkParamDialog\0onSaveMarkParamSet\0"
 };
 #undef QT_MOC_LITERAL
 
@@ -69,7 +69,7 @@ void MarkParamDialog::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int 
         auto *_t = static_cast<MarkParamDialog *>(_o);
         Q_UNUSED(_t)
         switch (_id) {
-        case 0: _t->onOpenMarkParamSet(); break;
+        case 0: _t->onSaveMarkParamSet(); break;
         default: ;
         }
     }

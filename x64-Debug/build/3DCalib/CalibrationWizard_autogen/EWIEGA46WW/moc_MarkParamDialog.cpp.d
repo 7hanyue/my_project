@@ -1,5 +1,4 @@
 E:/ceshi2/robot/weld/x64-Debug/build/3DCalib/CalibrationWizard_autogen/EWIEGA46WW/moc_MarkParamDialog.cpp: E:/ceshi2/robot/weld/3DCalib/MarkParamDialog.h \
-  C:/Qt5/Qt/5.15.2/msvc2019_64/include/QtCore/QLibrary \
   C:/Qt5/Qt/5.15.2/msvc2019_64/include/QtCore/qalgorithms.h \
   C:/Qt5/Qt/5.15.2/msvc2019_64/include/QtCore/qarraydata.h \
   C:/Qt5/Qt/5.15.2/msvc2019_64/include/QtCore/qatomic.h \
@@ -19,7 +18,6 @@ E:/ceshi2/robot/weld/x64-Debug/build/3DCalib/CalibrationWizard_autogen/EWIEGA46W
   C:/Qt5/Qt/5.15.2/msvc2019_64/include/QtCore/qhashfunctions.h \
   C:/Qt5/Qt/5.15.2/msvc2019_64/include/QtCore/qiodevice.h \
   C:/Qt5/Qt/5.15.2/msvc2019_64/include/QtCore/qiterator.h \
-  C:/Qt5/Qt/5.15.2/msvc2019_64/include/QtCore/qlibrary.h \
   C:/Qt5/Qt/5.15.2/msvc2019_64/include/QtCore/qline.h \
   C:/Qt5/Qt/5.15.2/msvc2019_64/include/QtCore/qlist.h \
   C:/Qt5/Qt/5.15.2/msvc2019_64/include/QtCore/qlogging.h \
@@ -83,5 +81,4 @@ E:/ceshi2/robot/weld/x64-Debug/build/3DCalib/CalibrationWizard_autogen/EWIEGA46W
   C:/Qt5/Qt/5.15.2/msvc2019_64/include/QtWidgets/qsizepolicy.h \
   C:/Qt5/Qt/5.15.2/msvc2019_64/include/QtWidgets/qtwidgets-config.h \
   C:/Qt5/Qt/5.15.2/msvc2019_64/include/QtWidgets/qtwidgetsglobal.h \
-  C:/Qt5/Qt/5.15.2/msvc2019_64/include/QtWidgets/qwidget.h \
-  E:/ceshi2/robot/weld/3rdparty/Ezcad3/inculde/EzcadKernel.h
+  C:/Qt5/Qt/5.15.2/msvc2019_64/include/QtWidgets/qwidget.h

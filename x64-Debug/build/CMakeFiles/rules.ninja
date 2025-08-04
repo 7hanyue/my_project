@@ -46,6 +46,42 @@ rule CXX_SHARED_LIBRARY_LINKER__Utility_Debug
 #############################################
 # Rule for compiling CXX files.
 
+rule CXX_COMPILER__Utility_2_Debug
+  deps = msvc
+  command = E:\VS2019IDE\VC\Tools\MSVC\14.29.30133\bin\Hostx64\x64\cl.exe  /nologo /TP $DEFINES $INCLUDES $FLAGS /showIncludes /Fo$out /Fd$TARGET_COMPILE_PDB /FS -c $in
+  description = Building CXX object $out
+
+
+#############################################
+# Rule for linking CXX shared library.
+
+rule CXX_SHARED_LIBRARY_LINKER__Utility_2_Debug
+  command = cmd.exe /C "$PRE_LINK && E:\VS2019IDE\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe -E vs_link_dll --intdir=$OBJECT_DIR --rc="E:\Windows Kits\10\bin\10.0.26100.0\x64\rc.exe" --mt="E:\Windows Kits\10\bin\10.0.26100.0\x64\mt.exe" --manifests $MANIFESTS -- E:\VS2019IDE\VC\Tools\MSVC\14.29.30133\bin\Hostx64\x64\link.exe /nologo $in  /out:$TARGET_FILE /implib:$TARGET_IMPLIB /pdb:$TARGET_PDB /dll /version:0.0 $LINK_FLAGS $LINK_PATH $LINK_LIBRARIES  && $POST_BUILD"
+  description = Linking CXX shared library $TARGET_FILE
+  restat = $RESTAT
+
+
+#############################################
+# Rule for compiling CXX files.
+
+rule CXX_COMPILER__LaserLib_Debug
+  deps = msvc
+  command = E:\VS2019IDE\VC\Tools\MSVC\14.29.30133\bin\Hostx64\x64\cl.exe  /nologo /TP $DEFINES $INCLUDES $FLAGS /showIncludes /Fo$out /Fd$TARGET_COMPILE_PDB /FS -c $in
+  description = Building CXX object $out
+
+
+#############################################
+# Rule for linking CXX shared library.
+
+rule CXX_SHARED_LIBRARY_LINKER__LaserLib_Debug
+  command = cmd.exe /C "$PRE_LINK && E:\VS2019IDE\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe -E vs_link_dll --intdir=$OBJECT_DIR --rc="E:\Windows Kits\10\bin\10.0.26100.0\x64\rc.exe" --mt="E:\Windows Kits\10\bin\10.0.26100.0\x64\mt.exe" --manifests $MANIFESTS -- E:\VS2019IDE\VC\Tools\MSVC\14.29.30133\bin\Hostx64\x64\link.exe /nologo $in  /out:$TARGET_FILE /implib:$TARGET_IMPLIB /pdb:$TARGET_PDB /dll /version:0.0 $LINK_FLAGS $LINK_PATH $LINK_LIBRARIES  && $POST_BUILD"
+  description = Linking CXX shared library $TARGET_FILE
+  restat = $RESTAT
+
+
+#############################################
+# Rule for compiling CXX files.
+
 rule CXX_COMPILER__EGMServerSharedLibs_Debug
   deps = msvc
   command = E:\VS2019IDE\VC\Tools\MSVC\14.29.30133\bin\Hostx64\x64\cl.exe  /nologo /TP $DEFINES $INCLUDES $FLAGS /showIncludes /Fo$out /Fd$TARGET_COMPILE_PDB /FS -c $in
@@ -76,6 +112,24 @@ rule CXX_COMPILER__Test_EGMServer_Debug
 rule CXX_EXECUTABLE_LINKER__Test_EGMServer_Debug
   command = cmd.exe /C "$PRE_LINK && E:\VS2019IDE\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe -E vs_link_exe --intdir=$OBJECT_DIR --rc="E:\Windows Kits\10\bin\10.0.26100.0\x64\rc.exe" --mt="E:\Windows Kits\10\bin\10.0.26100.0\x64\mt.exe" --manifests $MANIFESTS -- E:\VS2019IDE\VC\Tools\MSVC\14.29.30133\bin\Hostx64\x64\link.exe /nologo $in  /out:$TARGET_FILE /implib:$TARGET_IMPLIB /pdb:$TARGET_PDB /version:0.0 $LINK_FLAGS $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking CXX executable $TARGET_FILE
+  restat = $RESTAT
+
+
+#############################################
+# Rule for compiling CXX files.
+
+rule CXX_COMPILER__UILib_Debug
+  deps = msvc
+  command = E:\VS2019IDE\VC\Tools\MSVC\14.29.30133\bin\Hostx64\x64\cl.exe  /nologo /TP $DEFINES $INCLUDES $FLAGS /showIncludes /Fo$out /Fd$TARGET_COMPILE_PDB /FS -c $in
+  description = Building CXX object $out
+
+
+#############################################
+# Rule for linking CXX shared library.
+
+rule CXX_SHARED_LIBRARY_LINKER__UILib_Debug
+  command = cmd.exe /C "$PRE_LINK && E:\VS2019IDE\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe -E vs_link_dll --intdir=$OBJECT_DIR --rc="E:\Windows Kits\10\bin\10.0.26100.0\x64\rc.exe" --mt="E:\Windows Kits\10\bin\10.0.26100.0\x64\mt.exe" --manifests $MANIFESTS -- E:\VS2019IDE\VC\Tools\MSVC\14.29.30133\bin\Hostx64\x64\link.exe /nologo $in  /out:$TARGET_FILE /implib:$TARGET_IMPLIB /pdb:$TARGET_PDB /dll /version:0.0 $LINK_FLAGS $LINK_PATH $LINK_LIBRARIES  && $POST_BUILD"
+  description = Linking CXX shared library $TARGET_FILE
   restat = $RESTAT
 
 
